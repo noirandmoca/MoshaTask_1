@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  background: #fff;
+  width: 100%;
+  height: auto;
+  color: #000;
+
+  .inner {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    float: left;
+  }
+
+  .footer-info {
+    display: flex;
+    float: left;
+    flex-direction: column; // 縦並び
+    align-items: flex-start; // 左寄せ
+  }
+
+  .logo {
+    margin-top: 30px;
+    margin-bottom: 10px; // ロゴと住所の間に余白
+    margin-left: 30px;
+  }
+
+
+  &-logo {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 100px;
+
+  }
+
+  &-nav {
+    float: right;
+    
+    ul {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 0, 0, 0.2);
+      height: auto;
+      margin-left: auto;
+
+      li {
+        text-align: center;
+        margin-right: 45px;
+        list-style: none;
+        font-weight: bold;
+        margin-top: 5px;
+
+        a {
+          color: black;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &-page-top {
+    float: right;
+    background: #000;
+    color: #fff;
+    font-size: 50px;
+  }
+}

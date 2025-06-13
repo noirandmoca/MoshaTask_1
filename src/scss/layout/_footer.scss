@@ -39,6 +39,7 @@
 
   &-nav {
     float: right;
+
     
     ul {
       display: flex;
@@ -64,8 +65,9 @@
 
   &-page-top {
     float: right;
-    background: #000;
+    background: blue;
     color: #fff;
-    font-size: 50px;
+    font-size: 5px;
+    width: 300px;
   }
 }

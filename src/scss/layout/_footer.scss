@@ -1,24 +1,24 @@
 .footer {
   display: flex;
+  justify-content: space-between;
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 9999;
   background: #fff;
   width: 100%;
-  height: auto;
+  height: 280px;
   color: #000;
 
+
   .inner {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
-    float: left;
   }
 
   .footer-info {
-    display: flex;
-    float: left;
     flex-direction: column; // 縦並び
     align-items: flex-start; // 左寄せ
   }
@@ -31,20 +31,17 @@
 
 
   &-logo {
-    display: flex;
+
     margin-top: 70px;
     margin-left: 100px;
 
   }
 
   &-nav {
-    float: right;
 
-    
     ul {
       display: flex;
       align-items: center;
-      background: rgba(255, 0, 0, 0.2);
       height: auto;
       margin-left: auto;
 
@@ -64,10 +61,23 @@
   }
 
   &-page-top {
-    float: right;
-    background: blue;
+    background: black;
     color: #fff;
-    font-size: 5px;
-    width: 300px;
+    font-size: 40px;
+    width: 280px;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    flex-direction: column;
   }
+  &-page-top::before {
+      content: "";
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      background: #fff;
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
 }

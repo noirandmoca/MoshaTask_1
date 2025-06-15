@@ -101,23 +101,41 @@ input, select {
 }
 
 .header {
-  background: red;
+  position: relative;
+  background: #D92B44;
   height: 2870px;
   color: #fff;
   font-size: 45px;
+  overflow: hidden;
+}
+
+.header-overlay {
+  background-color: #FBF9F3;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  right: 45px;
+  height: 2295px;
+  z-index: 1;
+}
+
+.header-logo {
+  height: 20px;
+  width: 228px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   z-index: 9999;
   background: #fff;
   width: 100%;
-  height: 280px;
+  height: 233px;
   color: #000;
+  border: 3px solid #000;
 }
 .footer .inner {
   display: flex;
@@ -130,21 +148,34 @@ input, select {
   align-items: flex-start;
 }
 .footer .logo {
+  height: 24px;
+  width: 267px;
   margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: 30px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.footer-logo {
-  margin-top: 70px;
-  margin-left: 100px;
+.footer .address {
+  font-size: 15px;
+  font-weight: 300;
+}
+.footer-nav {
+  position: absolute;
+  left: 530px;
+  right: 75px;
 }
 .footer-nav ul {
   display: flex;
   align-items: center;
   height: auto;
-  margin-left: auto;
+  width: 100%;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
 }
 .footer-nav ul li {
+  font-size: 15px;
+  white-space: nowrap;
   text-align: center;
   margin-right: 45px;
   list-style: none;
@@ -159,6 +190,8 @@ input, select {
   background: black;
   color: #fff;
   font-size: 40px;
+  left: 200px;
+  top: 60px;
   width: 280px;
   margin-left: auto;
   align-items: center;
@@ -179,6 +212,6 @@ input, select {
 
 main {
   background: yellow;
-  height: 2865px;
+  height: 65px;
   font-size: 45px;
 }/*# sourceMappingURL=main.css.map */

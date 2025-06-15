@@ -1,6 +1,23 @@
 .header {
-  background: red;
+  position: relative;
+  background: #D92B44;
   height: 2870px;
   color: #fff;
   font-size: 45px;
+  overflow: hidden;
+}
+
+.header-overlay {
+  background-color: #FBF9F3;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  right: 45px;
+  height: 2295px;
+  z-index: 1;
+}
+
+.header-logo {
+  height: 20px;
+  width: 228px;
 }

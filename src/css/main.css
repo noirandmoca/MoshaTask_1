@@ -108,7 +108,19 @@ input, select {
   font-size: 45px;
   overflow: hidden;
 }
-
+.header .deco-frame ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.header .deco-frame ul li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  list-style: none;
+  letter-spacing: 0.2em;
+}
 .header-overlay {
   background-color: #FBF9F3;
   position: absolute;
@@ -118,10 +130,26 @@ input, select {
   height: 2295px;
   z-index: 1;
 }
-
 .header-logo {
+  display: flex;
   height: 20px;
   width: 228px;
+  gap: 18px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.header-logo img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+}
+
+.font-en {
+  display: inline;
+  font-size: 13px;
+  color: #000;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
 }
 
 .footer {
@@ -137,19 +165,16 @@ input, select {
   color: #000;
   border: 3px solid #000;
 }
-
 .footer .inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 100px;
 }
-
 .footer .footer-info {
   flex-direction: column;
   align-items: flex-start;
 }
-
 .footer .logo {
   height: 24px;
   width: 267px;
@@ -158,18 +183,15 @@ input, select {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 .footer .address {
   font-size: 15px;
   font-weight: 300;
 }
-
 .footer-nav {
   position: absolute;
   left: 530px;
   right: 75px;
 }
-
 .footer-nav ul {
   display: flex;
   align-items: center;
@@ -179,7 +201,6 @@ input, select {
   margin: 0;
   padding: 0;
 }
-
 .footer-nav ul li {
   font-size: 15px;
   white-space: nowrap;
@@ -189,12 +210,10 @@ input, select {
   font-weight: bold;
   margin-top: 5px;
 }
-
 .footer-nav ul li a {
   color: black;
   text-decoration: underline;
 }
-
 .footer-page-top {
   background: black;
   color: #fff;
@@ -209,14 +228,12 @@ input, select {
   font-weight: 300;
   flex-direction: column;
 }
-
 .footer-page-top::before {
   content: "";
   display: block;
   width: 1rem;
   height: 1rem;
   background: #fff;
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
@@ -224,6 +241,6 @@ main {
   background: yellow;
   height: 65px;
   font-size: 45px;
-} 
+}
 
 /*# sourceMappingURL=main.css.map */

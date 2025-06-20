@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -104,11 +105,22 @@ input, select {
   position: relative;
   background: #D92B44;
   height: 2870px;
-  color: #fff;
   font-size: 45px;
   overflow: hidden;
 }
-
+.header .deco-frame ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.header .deco-frame ul li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  list-style: none;
+  letter-spacing: 0.2em;
+}
 .header-overlay {
   background-color: #FBF9F3;
   position: absolute;
@@ -118,10 +130,65 @@ input, select {
   height: 2295px;
   z-index: 1;
 }
-
 .header-logo {
+  display: flex;
   height: 20px;
   width: 228px;
+  gap: 18px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.header-logo img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+}
+
+.font-en {
+  display: inline;
+  font-size: 13px;
+  color: #000;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.logo-static {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* 画面いっぱい */
+  color: #D92B44;
+  z-index: 1;
+}
+
+.logo-static svg {
+  max-width: 80%;
+  height: auto;
+}
+
+/*.moji {
+  color: #000;
+  position: relative;
+  z-index: 2;
+} */
+.home_message-ttl {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 100px;
+}
+.home_message-ttl .home_message-ttl-line1,
+.home_message-ttl .home_message-ttl-line2,
+.home_message-ttl .home_message-ttl-line3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  display: inline-block;
+  border-bottom: 5px solid #000;
+  padding: 0.2em 0.5em;
+  background-color: #FFFEFE;
+  color: #000;
+  margin-bottom: 1em;
 }
 
 .footer {

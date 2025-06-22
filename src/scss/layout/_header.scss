@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  background: #D92B44;
+  background: #d92b44;
   height: 2870px;
   font-size: 45px;
   overflow: hidden;
@@ -19,13 +19,11 @@
         list-style: none;
         letter-spacing: 0.2em;
       }
-
     }
-
   }
 
   &-overlay {
-    background-color: #FBF9F3;
+    background-color: #fbf9f3;
     position: absolute;
     top: 45px;
     left: 45px;
@@ -64,7 +62,7 @@
   align-items: center;
   height: 100vh;
   /* 画面いっぱい */
-  color: #D92B44;
+  color: #d92b44;
   z-index: 1;
 }
 
@@ -73,55 +71,57 @@
   height: auto;
 }
 
-/*.moji {
+.moji {
   color: #000;
   position: relative;
   z-index: 2;
-} */
-
-/*.home_message-ttl {
+}
+.main-copy {
   position: relative;
   z-index: 2;
   text-align: center;
   margin-top: 100px;
 
-  .home_message-ttl-line1,
-  .home_message-ttl-line2,
-  .home_message-ttl-line3 {
+  .main-copy__line {
+    width: 300px;
+    margin-left: 200px;
     font-size: 2.5rem;
     font-weight: 600;
-    display: inline-block;
+    // display: inline-block;
     border-bottom: 3px solid #000;
     padding: 0.2em 0.5em;
-    background-color: #FFFEFE;
+    background-color: #fffefe;
+    color: #000;
+    margin-bottom: 0.5em;
+    text-align: left;
+  }
+
+  .main-copy__catch {
+    width: 500px;
+    margin-left: 200px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    // display: inline-block;
+    border-bottom: 3px solid #000;
+    padding: 0.2em 0.5em;
+    background-color: #fffefe;
     color: #000;
     margin-bottom: 1em;
+    text-align: left;
   }
-} */
 
-// .main-copy {
-//   background-color: #FBF9F3; // 背景色
-//   padding: 120px 20px;
-//   text-align: left;
+  .main-message--en-v {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+  }
 
-//   &__inner {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 20px;
-//   }
+  .bd-left {
+    border-left: 3px solid #d92b44;
+  }
+}
 
-//   &__line {
-//     font-size: 36px;
-//     font-weight: 700;
-//     border-left: 6px solid #000;
-//     padding-left: 20px;
-//     line-height: 1.6;
-//   }
-
-//   &__catch {
-//     font-size: 64px;
-//     font-weight: 900;
-//     letter-spacing: 0.1em;
-//     padding-left: 20px;
-//   }
-// }
+.txt-v {
+  writing-mode: vertical-rl;
+  // font-feature-settings: "pkna";
+}

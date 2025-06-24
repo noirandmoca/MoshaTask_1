@@ -5,9 +5,141 @@
 @use "settings/variables";
 
 main {
-  background: yellow;
-  height: 65px;
-  font-size: 45px;
+  background-color: #CCFFCC;
+  position: absolute;
+  top: 850px;
+  left: 45px;
+  right: 45px;
+  height: 1200px;
+  z-index: 1;
 }
 
+.wrapper {
+  position: relative;
+  z-index: 1;
+  top: 50px;
+  left: 120px;
 
+  .home_news {
+    height: 45px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #D92B44;
+    align-items: center;
+    border-radius: 200px;
+    letter-spacing: 0.3em;
+    z-index: 1;
+  }
+
+  .news_list {
+    position: absolute;
+    left: 60px;
+    height: 45px;
+    width: 400px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: #FFEDEF;
+    align-items: center;
+    border-radius: 200px;
+    letter-spacing: 0.3em;
+  }
+}
+
+.main-copy {
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  margin-top: 250px;
+
+  .main-copy__line {
+    display: block;
+    width: 360px;
+    margin-left: 120px;
+    margin-bottom: 1em;
+    padding: 0.1em 0.4em;
+    background-color: #fffefe;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+    border-bottom: 3px solid #000;
+  }
+
+  .chiiki_ugo_kinyuu {
+    font-size: 52px;
+    letter-spacing: 0.1em;
+  }
+
+  .keizai_kasu {
+    font-size: 38px;
+    letter-spacing: 0.1em;
+  }
+
+  .wo {
+    font-size: 28px;
+  }
+
+  .main-copy__catch {
+    display: inline-block;
+    width: 610px;
+    height: 70px;
+    margin-left: 120px;
+    margin-bottom: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 0.1em;
+    background-color: #fffefe;
+    text-align: left;
+    font-size: 72px;
+    color: #000;
+    border-bottom: 3px solid #000;
+  }
+
+  .main-message--en-v {
+    position: absolute;
+    top: 10px;
+    left: 650px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bd-left {
+    border-left: 1px solid #d92b44;
+    font-size: 15px;
+    font-weight: 600;
+    //letter-spacing: 0.1em;
+  }
+}
+
+.txt-v {
+  writing-mode: vertical-rl;
+  // font-feature-settings: "pkna";
+}
+
+.main-img {
+  position: relative;
+
+  .img_pen {
+    position: absolute;
+    top: 80px;
+    right: -15px;
+  }
+}
+
+.circle {
+  position: absolute;
+  top: 600px;
+  left: 750px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}

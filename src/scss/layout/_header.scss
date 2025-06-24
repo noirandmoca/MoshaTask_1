@@ -150,32 +150,38 @@
 
   .hero-image1 {
     position: absolute;
-    top: -600px;
+    top: -460px;
+    left: 50px;
   }
 
   .hero-image2 {
     position: absolute;
-    top: -600px;
+    top: -250px;
+    left: 220px;
   }
 
   .hero-image3 {
     position: absolute;
-    top: -600px;
+    top: -460px;
+    left: 380px;
   }
 
   .hero-image4 {
     position: absolute;
-    top: -600px;
+    top: -500px;
+    right: 660px;
   }
 
   .hero-image5 {
     position: absolute;
-    top: -600px;
+    top: -620px;
+    right: 420px;
   }
 
   .hero-image6 {
     position: absolute;
-    top: -600px;
+    top: -420px;
+    right: 240px;
   }
 }
 
@@ -203,80 +209,8 @@
   }
 }
 
-.main-copy {
-  position: absolute;
-  z-index: 2;
-  text-align: left;
-  margin-top: 100px;
-
-  .main-copy__line {
-    display: block;
-    width: 360px;
-    margin-left: 200px;
-    margin-bottom: 0.3em;
-    padding: 0.1em 0.4em;
-    background-color: #fffefe;
-    font-weight: 600;
-    text-align: left;
-    color: #000;
-    border-bottom: 3px solid #000;
-  }
-
-  .chiiki_ugo_kinyuu {
-    font-size: 52px;
-    letter-spacing: 0.1em;
-  }
-
-  .keizai_kasu {
-    font-size: 38px;
-    letter-spacing: 0.1em;
-  }
-
-  .wo {
-    font-size: 28px;
-  }
-
-  .main-copy__catch {
-    display: inline-block;
-    width: 610px;
-    height: 70px;
-    margin-left: 200px;
-    margin-bottom: 1em;
-    letter-spacing: 0.1em;
-    font-weight: 600;
-    padding: 0.1em;
-    background-color: #fffefe;
-    text-align: left;
-    font-size: 72px;
-    color: #000;
-    border-bottom: 3px solid #000;
-  }
-
-  .main-message--en-v {
-    position: absolute;
-    top: 10px;
-    left: 750px;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bd-left {
-    border-left: 1px solid #d92b44;
-    font-size: 15px;
-    font-weight: 600;
-    //letter-spacing: 0.1em;
-  }
-}
-
-.txt-v {
-  writing-mode: vertical-rl;
-  // font-feature-settings: "pkna";
-}
-
 .typesquare_option {
   position: fixed;
-
   color: #fff;
   font-size: 10px;
   flex-direction: column;

@@ -237,27 +237,33 @@ input, select {
 }
 .header_img-hero .hero-image1 {
   position: absolute;
-  top: -600px;
+  top: -460px;
+  left: 50px;
 }
 .header_img-hero .hero-image2 {
   position: absolute;
-  top: -600px;
+  top: -250px;
+  left: 220px;
 }
 .header_img-hero .hero-image3 {
   position: absolute;
-  top: -600px;
+  top: -460px;
+  left: 380px;
 }
 .header_img-hero .hero-image4 {
   position: absolute;
-  top: -600px;
+  top: -500px;
+  right: 660px;
 }
 .header_img-hero .hero-image5 {
   position: absolute;
-  top: -600px;
+  top: -620px;
+  right: 420px;
 }
 .header_img-hero .hero-image6 {
   position: absolute;
-  top: -600px;
+  top: -420px;
+  right: 240px;
 }
 
 .hero {
@@ -280,68 +286,6 @@ input, select {
   letter-spacing: 0.1em;
   top: -570px;
   right: 150px;
-}
-
-.main-copy {
-  position: absolute;
-  z-index: 2;
-  text-align: left;
-  margin-top: 100px;
-}
-.main-copy .main-copy__line {
-  display: block;
-  width: 360px;
-  margin-left: 200px;
-  margin-bottom: 0.3em;
-  padding: 0.1em 0.4em;
-  background-color: #fffefe;
-  font-weight: 600;
-  text-align: left;
-  color: #000;
-  border-bottom: 3px solid #000;
-}
-.main-copy .chiiki_ugo_kinyuu {
-  font-size: 52px;
-  letter-spacing: 0.1em;
-}
-.main-copy .keizai_kasu {
-  font-size: 38px;
-  letter-spacing: 0.1em;
-}
-.main-copy .wo {
-  font-size: 28px;
-}
-.main-copy .main-copy__catch {
-  display: inline-block;
-  width: 610px;
-  height: 70px;
-  margin-left: 200px;
-  margin-bottom: 1em;
-  letter-spacing: 0.1em;
-  font-weight: 600;
-  padding: 0.1em;
-  background-color: #fffefe;
-  text-align: left;
-  font-size: 72px;
-  color: #000;
-  border-bottom: 3px solid #000;
-}
-.main-copy .main-message--en-v {
-  position: absolute;
-  top: 10px;
-  left: 750px;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-}
-.main-copy .bd-left {
-  border-left: 1px solid #d92b44;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.txt-v {
-  writing-mode: vertical-rl;
 }
 
 .typesquare_option {
@@ -443,9 +387,131 @@ input, select {
 }
 
 main {
-  background: yellow;
-  height: 65px;
-  font-size: 45px;
+  background-color: #CCFFCC;
+  position: absolute;
+  top: 850px;
+  left: 45px;
+  right: 45px;
+  height: 1200px;
+  z-index: 1;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+  top: 50px;
+  left: 120px;
+}
+.wrapper .home_news {
+  height: 45px;
+  width: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+  background-color: #D92B44;
+  align-items: center;
+  border-radius: 200px;
+  letter-spacing: 0.3em;
+  z-index: 1;
+}
+.wrapper .news_list {
+  position: absolute;
+  left: 60px;
+  height: 45px;
+  width: 400px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: #FFEDEF;
+  align-items: center;
+  border-radius: 200px;
+  letter-spacing: 0.3em;
+}
+
+.main-copy {
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  margin-top: 250px;
+}
+.main-copy .main-copy__line {
+  display: block;
+  width: 360px;
+  margin-left: 120px;
+  margin-bottom: 1em;
+  padding: 0.1em 0.4em;
+  background-color: #fffefe;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+.main-copy .chiiki_ugo_kinyuu {
+  font-size: 52px;
+  letter-spacing: 0.1em;
+}
+.main-copy .keizai_kasu {
+  font-size: 38px;
+  letter-spacing: 0.1em;
+}
+.main-copy .wo {
+  font-size: 28px;
+}
+.main-copy .main-copy__catch {
+  display: inline-block;
+  width: 610px;
+  height: 70px;
+  margin-left: 120px;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  padding: 0.1em;
+  background-color: #fffefe;
+  text-align: left;
+  font-size: 72px;
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+.main-copy .main-message--en-v {
+  position: absolute;
+  top: 10px;
+  left: 650px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+.main-copy .bd-left {
+  border-left: 1px solid #d92b44;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.txt-v {
+  writing-mode: vertical-rl;
+}
+
+.main-img {
+  position: relative;
+}
+.main-img .img_pen {
+  position: absolute;
+  top: 80px;
+  right: -15px;
+}
+
+.circle {
+  position: absolute;
+  top: 600px;
+  left: 750px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */

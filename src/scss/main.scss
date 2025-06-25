@@ -143,3 +143,28 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.home-message {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 550;
+  z-index: 1;
+  
+  .paragraph {
+    writing-mode: vertical-rl;
+    line-height: 2.2;
+    letter-spacing: 0.05em;
+  }
+
+  .ratio {
+     text-orientation: upright;
+  }
+
+  .message-main {
+    color: #D92B44;
+   letter-spacing: normal;
+  }
+}

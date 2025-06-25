@@ -514,4 +514,26 @@ main {
   flex-direction: column;
 }
 
+.home-message {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 550;
+  z-index: 1;
+}
+.home-message .paragraph {
+  writing-mode: vertical-rl;
+  line-height: 2.2;
+  letter-spacing: 0.05em;
+}
+.home-message .ratio {
+  text-orientation: upright;
+}
+.home-message .message-main {
+  color: #D92B44;
+  letter-spacing: normal;
+}
+
 /*# sourceMappingURL=main.css.map */

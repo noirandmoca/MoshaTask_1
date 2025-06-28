@@ -101,6 +101,10 @@ input, select {
   vertical-align: middle;
 }
 
+body {
+  background-color: #d92b44;
+}
+
 .header {
   position: relative;
   background: #d92b44;
@@ -129,7 +133,7 @@ input, select {
   top: 45px;
   left: 45px;
   right: 45px;
-  height: 2295px;
+  height: 790px;
   z-index: 1;
 }
 .header-logo {
@@ -387,20 +391,19 @@ input, select {
 }
 
 main {
-  background-color: #CCFFCC;
+  background-color: #DDFFFF;
   position: absolute;
-  top: 850px;
+  top: 830px;
   left: 45px;
   right: 45px;
-  height: 1200px;
+  height: 1300px;
   z-index: 1;
 }
 
 .wrapper {
-  position: relative;
+  display: flex;
   z-index: 1;
-  top: 50px;
-  left: 120px;
+  margin: 50px 0 0 80px;
 }
 .wrapper .home_news {
   height: 45px;
@@ -418,8 +421,8 @@ main {
   z-index: 1;
 }
 .wrapper .news_list {
-  position: absolute;
-  left: 60px;
+  display: flex;
+  left: 140px;
   height: 45px;
   width: 400px;
   position: absolute;
@@ -504,6 +507,11 @@ main {
   top: 80px;
   right: -15px;
 }
+.main-img .img_akushu {
+  position: absolute;
+  top: 750px;
+  left: 40px;
+}
 
 .circle {
   position: absolute;
@@ -519,14 +527,14 @@ main {
   display: flex;
   gap: 16px;
   color: #000;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 550;
   z-index: 1;
 }
 .home-message .paragraph {
   writing-mode: vertical-rl;
   line-height: 2.2;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
 }
 .home-message .ratio {
   text-orientation: upright;
@@ -534,6 +542,48 @@ main {
 .home-message .message-main {
   color: #D92B44;
   letter-spacing: normal;
+}
+
+.home_people--heading {
+  position: relative;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  z-index: 1;
+}
+.home_people--heading .innner-lg {
+  position: relative;
+  color: #000;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  text-align: justify;
+}
+.home_people--heading .innner-lg .home_people--txt {
+  position: absolute;
+  color: #fff;
+  top: 1280px;
+  right: 100px;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+}
+.home_people--heading .innner-lg .home_people--ttl {
+  color: #fff;
+  position: absolute;
+  top: 1280px;
+}
+.home_people--heading .innner-lg .home_people--ttl .sub-message {
+  display: block;
+  font-size: 28px;
+  letter-spacing: 0.3em;
+  margin-left: 95px;
+}
+.home_people--heading .innner-lg .home_people--ttl .lg {
+  position: absolute;
+  font-size: 120px;
+  white-space: nowrap;
+  margin-top: -130px;
+  left: 380px;
 }
 
 /*# sourceMappingURL=main.css.map */

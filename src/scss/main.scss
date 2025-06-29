@@ -221,3 +221,52 @@ main {
     }
   }
 }
+
+.home_people--slide {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 3.5rem;
+  z-index: 1;
+  top: 1380px;
+
+ .merit-post {
+    display: flex;
+    flex-direction: column; // 上から下に縦並び
+  align-items: left;    // 中央寄せ（左寄せならflex-start）
+  }
+    .number {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 100;
+    }
+      .merit-list {
+        color: #000;
+        font-size: 15px;
+        background-color: #fff;
+        border-bottom: 2px solid #000;
+        display: block;
+        width: 280px;
+        height: 17px;
+        //letter-spacing: 0.1em;
+        font-weight: 600;
+        padding: 0.2em 0;
+        background-color: #fffefe;
+        text-align: center;
+        margin-bottom: 0.5em;
+  }
+
+  .merit-list2 {
+    color: #000;
+        font-size: 15px;
+        background-color: #fff;
+        border-bottom: 2px solid #000;
+        display: block;
+        width: 160px;
+        height: 17px;
+        //letter-spacing: 0.1em;
+        font-weight: 600;
+        padding: 0.2em 0;
+        background-color: #fffefe;
+        text-align: center;
+  }
+}

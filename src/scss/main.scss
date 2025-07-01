@@ -181,7 +181,7 @@ main {
   padding-bottom: 3.5rem;
   z-index: 1;
 
-  .innner-lg {
+  .inner-lg {
     position: relative;
     color: #000;
     display: flex;
@@ -228,45 +228,120 @@ main {
   padding-bottom: 3.5rem;
   z-index: 1;
   top: 1380px;
+  height: 350px;
+  width: 100vw;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: 0 auto;
 
- .merit-post {
+  .merit-post {
     display: flex;
     flex-direction: column; // 上から下に縦並び
-  align-items: left;    // 中央寄せ（左寄せならflex-start）
+    align-items: left; // 中央寄せ（左寄せならflex-start）
   }
-    .number {
-      color: #fff;
-      font-size: 50px;
-      font-weight: 100;
-    }
-      .merit-list {
-        color: #000;
-        font-size: 15px;
-        background-color: #fff;
-        border-bottom: 2px solid #000;
-        display: block;
-        width: 280px;
-        height: 17px;
-        //letter-spacing: 0.1em;
-        font-weight: 600;
-        padding: 0.2em 0;
-        background-color: #fffefe;
-        text-align: center;
-        margin-bottom: 0.5em;
+
+  .number {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 110px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+  }
+
+  .arrow-btn {
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 170px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .image-area {
+    position: absolute;
+    left: 110px;
+  }
+
+  .merit-list {
+    position: absolute;
+    gap: 18px;
+    top: 165px;
+    left: -90px;
+    color: #000;
+    font-size: 15px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 280px;
+    height: 17px;
+    //letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 0.2em 0;
+    background-color: #fffefe;
+    text-align: center;
+    margin-bottom: 1em;
   }
 
   .merit-list2 {
+    position: absolute;
+    top: 200px;
+    left: -90px;
     color: #000;
-        font-size: 15px;
-        background-color: #fff;
-        border-bottom: 2px solid #000;
-        display: block;
-        width: 160px;
-        height: 17px;
-        //letter-spacing: 0.1em;
-        font-weight: 600;
-        padding: 0.2em 0;
-        background-color: #fffefe;
-        text-align: center;
+    font-size: 15px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 160px;
+    height: 17px;
+    //letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 0.2em 0;
+    background-color: #fffefe;
+    text-align: center;
+  }
+
+  .profile {
+    position: absolute;
+    top: 330px;
+    left: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 1.4;
+  }
+
+  .btn-ctr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #D92B44;
+    font-size: 14px;
+    font-weight: 600;
+    border-color: #fff;
+    letter-spacing: 0.05em;
+    padding: 1.1em 1em;
+    width: 150px;
+    height: 18px;
+    border-radius: 0.2rem;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #fff;
+    text-decoration: none;
+    top: 385px;
+    left: 600px;
   }
 }

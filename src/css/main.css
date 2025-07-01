@@ -550,7 +550,7 @@ main {
   padding-bottom: 3.5rem;
   z-index: 1;
 }
-.home_people--heading .innner-lg {
+.home_people--heading .inner-lg {
   position: relative;
   color: #000;
   display: flex;
@@ -558,7 +558,7 @@ main {
   line-height: 1.5;
   text-align: justify;
 }
-.home_people--heading .innner-lg .home_people--txt {
+.home_people--heading .inner-lg .home_people--txt {
   position: absolute;
   color: #fff;
   top: 1280px;
@@ -567,18 +567,18 @@ main {
   letter-spacing: 0.1em;
   font-weight: 300;
 }
-.home_people--heading .innner-lg .home_people--ttl {
+.home_people--heading .inner-lg .home_people--ttl {
   color: #fff;
   position: absolute;
   top: 1280px;
 }
-.home_people--heading .innner-lg .home_people--ttl .sub-message {
+.home_people--heading .inner-lg .home_people--ttl .sub-message {
   display: block;
   font-size: 28px;
   letter-spacing: 0.3em;
   margin-left: 95px;
 }
-.home_people--heading .innner-lg .home_people--ttl .lg {
+.home_people--heading .inner-lg .home_people--ttl .lg {
   position: absolute;
   font-size: 120px;
   white-space: nowrap;
@@ -592,6 +592,11 @@ main {
   padding-bottom: 3.5rem;
   z-index: 1;
   top: 1380px;
+  height: 350px;
+  width: 100vw;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: 0 auto;
 }
 .home_people--slide .merit-post {
   display: flex;
@@ -599,11 +604,38 @@ main {
   align-items: left;
 }
 .home_people--slide .number {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 110px;
   color: #fff;
   font-size: 50px;
   font-weight: 100;
 }
+.home_people--slide .arrow-btn {
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  left: 170px;
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+}
+.home_people--slide .image-area {
+  position: absolute;
+  left: 110px;
+}
 .home_people--slide .merit-list {
+  position: absolute;
+  gap: 18px;
+  top: 165px;
+  left: -90px;
   color: #000;
   font-size: 15px;
   background-color: #fff;
@@ -615,9 +647,12 @@ main {
   padding: 0.2em 0;
   background-color: #fffefe;
   text-align: center;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 .home_people--slide .merit-list2 {
+  position: absolute;
+  top: 200px;
+  left: -90px;
   color: #000;
   font-size: 15px;
   background-color: #fff;
@@ -629,6 +664,39 @@ main {
   padding: 0.2em 0;
   background-color: #fffefe;
   text-align: center;
+}
+.home_people--slide .profile {
+  position: absolute;
+  top: 330px;
+  left: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 550;
+  line-height: 1.4;
+}
+.home_people--slide .btn-ctr {
+  margin-left: auto;
+  margin-right: auto;
+}
+.home_people--slide a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #D92B44;
+  font-size: 14px;
+  font-weight: 600;
+  border-color: #fff;
+  letter-spacing: 0.05em;
+  padding: 1.1em 1em;
+  width: 150px;
+  height: 18px;
+  border-radius: 0.2rem;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #fff;
+  text-decoration: none;
+  top: 385px;
+  left: 600px;
 }
 
 /*# sourceMappingURL=main.css.map */

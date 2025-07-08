@@ -5,13 +5,12 @@
 @use "settings/variables";
 @use "pages/interview";
 
-
 main {
   background-color: #DDFFFF;
-  position: absolute;
-  top: 830px;
-  left: 45px;
-  right: 45px;
+  //position: absolute;
+  // top: 830px;
+  // left: 45px;
+  // right: 45px;
   height: auto;
   z-index: 1;
   flex: 1;
@@ -26,7 +25,7 @@ main {
   .home_news {
     height: 45px;
     width: 100px;
-    position: absolute;
+    // position: absolute;
     display: flex;
     justify-content: center;
     color: #fff;
@@ -41,10 +40,10 @@ main {
 
   .news_list {
     display: flex;
-    left: 140px;
+    // left: 140px;
     height: 45px;
     width: 400px;
-    position: absolute;
+    // position: absolute;
     display: flex;
     justify-content: center;
     color: #000;
@@ -58,7 +57,7 @@ main {
 }
 
 .main-copy {
-  position: absolute;
+  // position: absolute;
   z-index: 2;
   text-align: left;
   margin-top: 250px;
@@ -107,9 +106,9 @@ main {
   }
 
   .main-message--en-v {
-    position: absolute;
-    top: 10px;
-    left: 650px;
+    // position: absolute;
+    // top: 10px;
+    // left: 650px;
     z-index: 10;
     display: flex;
     flex-direction: column;
@@ -129,32 +128,32 @@ main {
 }
 
 .main-img {
-  position: relative;
+  // position: relative;
 
   .img_pen {
-    position: absolute;
-    top: 80px;
-    right: -15px;
+    // position: absolute;
+    // top: 80px;
+    // right: -15px;
   }
 
   .img_akushu {
-    position: absolute;
-    top: 750px;
-    left: 40px;
+    // position: absolute;
+    // top: 750px;
+    // left: 40px;
   }
 }
 
 .circle {
-  position: absolute;
-  top: 600px;
-  left: 750px;
+  // position: absolute;
+  // top: 600px;
+  // left: 750px;
   z-index: 10;
   display: flex;
   flex-direction: column;
 }
 
 .home-message {
-  position: relative;
+  // position: relative;
   display: flex;
   gap: 16px;
   color: #000;
@@ -230,7 +229,7 @@ main {
   padding-top: 5rem;
   padding-bottom: 3.5rem;
   z-index: 1;
-  top: 1380px;
+  // top: 1380px;
   height: 350px;
   width: 100vw;
   border-top: 1px solid #fff;
@@ -313,9 +312,9 @@ main {
   }
 
   .profile {
-    position: absolute;
-    top: 330px;
-    left: 20px;
+    // position: absolute;
+    // top: 330px;
+    // left: 20px;
     color: #fff;
     font-size: 12px;
     font-weight: 550;
@@ -328,7 +327,7 @@ main {
   }
 
   a {
-    position: relative;
+    // position: relative;
     display: flex;
     justify-content: center;
     color: #D92B44;
@@ -344,15 +343,15 @@ main {
     overflow: hidden;
     background-color: #fff;
     text-decoration: none;
-    top: 385px;
-    left: 600px;
+    // top: 385px;
+    // left: 600px;
   }
 }
 
 .home-future {
-  position: relative;
+  // position: relative;
   background-color: green;
   height: 600px;
   width:1800px;
-  top: 1500px;
+  // top: 1500px;
 }

@@ -1,7 +1,7 @@
 .header {
   position: relative;
   background: #d92b44;
-  height: 2870px;
+  // height: 2870px;
   font-size: 45px;
   overflow: hidden;
 
@@ -11,8 +11,8 @@
       justify-content: center;
       align-items: center;
       padding: 0 0.5rem;
-      position: absolute;
-      top: 10px;
+      // position: absolute;
+      // top: 10px;
 
       li {
         color: #fff;
@@ -26,10 +26,10 @@
 
   &-overlay {
     background-color: #fbf9f3;
-    position: absolute;
-    top: 45px;
-    left: 45px;
-    right: 45px;
+    // position: absolute;
+    // top: 45px;
+    // left: 45px;
+    // right: 45px;
     height: 790px;
     z-index: 1;
   }
@@ -43,7 +43,7 @@
     margin-left: 40px;
 
     img {
-      position: fixed;
+      // position: fixed;
       height: auto;
       width: auto;
       max-height: 100%;
@@ -52,9 +52,9 @@
 }
 
 .font-en {
-  position: fixed;
+  // position: fixed;
   display: inline;
-  left: 400px;
+  // left: 400px;
   font-size: 13px;
   color: #000;
   letter-spacing: 0.05em;
@@ -77,12 +77,12 @@
 }
 
 .moji {
-  position: relative;
+  // position: relative;
   z-index: 1;
   color: #D92B44;
 
   span {
-    position: absolute;
+    // position: absolute;
     font-size: 200px;
     font-weight: 600;
   }
@@ -90,132 +90,132 @@
   .s1 {
     font-size: 200px;
     font-weight: 600;
-    top: -600px;
-    left: 100px;
+    // top: -600px;
+    // left: 100px;
   }
 
   .h1 {
     font-size: 200px;
     font-weight: 600;
-    top: -500px;
-    left: 290px;
+    // top: -500px;
+    // left: 290px;
   }
 
   .o {
     font-size: 200px;
     font-weight: 600;
-    top: -570px;
-    left: 500px;
+    // top: -570px;
+    // left: 500px;
   }
 
   .s2 {
     font-size: 200px;
     font-weight: 600;
-    top: -350px;
-    right: 680px;
+    // top: -350px;
+    // right: 680px;
   }
 
   .h2 {
     font-size: 200px;
     font-weight: 600;
-    top: -250px;
-    right: 460px;
+    // top: -250px;
+    // right: 460px;
   }
 
   .i {
     font-size: 200px;
     font-weight: 600;
-    top: -300px;
-    right: 330px;
+    // top: -300px;
+    // right: 330px;
   }
 
   .n {
     font-size: 200px;
     font-weight: 600;
-    top: -380px;
-    right: 120px;
+    // top: -380px;
+    // right: 120px;
   }
 }
 
 .header_img-hero {
-  position: relative;
+  // position: relative;
   z-index: 1;
 
   .header_img {
-    position: absolute;
+    // position: absolute;
     display: block;
-    top: -550px;
-    left: 180px;
+    // top: -550px;
+    // left: 180px;
   }
 
   .hero-image1 {
-    position: absolute;
-    top: -460px;
-    left: 50px;
+    // position: absolute;
+    // top: -460px;
+    // left: 50px;
   }
 
   .hero-image2 {
-    position: absolute;
-    top: -250px;
-    left: 220px;
+    // position: absolute;
+    // top: -250px;
+    // left: 220px;
   }
 
   .hero-image3 {
-    position: absolute;
-    top: -460px;
-    left: 380px;
+    // position: absolute;
+    // top: -460px;
+    // left: 380px;
   }
 
   .hero-image4 {
-    position: absolute;
-    top: -500px;
-    right: 660px;
+    // position: absolute;
+    // top: -500px;
+    // right: 660px;
   }
 
   .hero-image5 {
-    position: absolute;
-    top: -620px;
-    right: 420px;
+    // position: absolute;
+    // top: -620px;
+    // right: 420px;
   }
 
   .hero-image6 {
-    position: absolute;
-    top: -420px;
-    right: 240px;
+    // position: absolute;
+    // top: -420px;
+    // right: 240px;
   }
 }
 
 .hero {
-  position: relative;
+  // position: relative;
   color: #000;
   z-index: 1;
 
   .txt {
-    position: absolute;
+    // position: absolute;
     font-size: 15px;
     font-weight: 900;
     letter-spacing: 0.1em;
-    top: -600px;
-    right: 160px;
+    // top: -600px;
+    // right: 160px;
   }
 
   .hero--recruitment {
-    position: absolute;
+    // position: absolute;
     font-weight: 100;
     font-size: 35px;
     letter-spacing: 0.1em;
-    top: -570px;
-    right: 150px;
+    // top: -570px;
+    // right: 150px;
   }
 }
 
 .typesquare_option {
-  position: fixed;
+  // position: fixed;
   color: #fff;
   font-size: 10px;
   flex-direction: column;
-  top: 350px;
-  left: 15px;
+  // top: 350px;
+  // left: 15px;
   z-index: 1;
   writing-mode: vertical-rl;
   font-weight: 600;

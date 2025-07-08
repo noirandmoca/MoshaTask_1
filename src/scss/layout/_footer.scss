@@ -1,9 +1,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  position: relative;
-  bottom: 0;
-  left: 0;
+  // position: relative;
+  // bottom: 0;
+  // left: 0;
   z-index: 9999;
   background: #fff;
   width: 100%;
@@ -38,9 +38,9 @@
   }
 
   &-nav {
-    position: absolute;
-    left: 530px;
-    right: 75px;
+    // position: absolute;
+    // left: 530px;
+    // right: 75px;
 
     ul {
       display: flex;
@@ -72,8 +72,8 @@
     background: black;
     color: #fff;
     font-size: 40px;
-    left: 200px; // ← 200px 左に空けて固定配置
-    top: 60px;
+    // left: 200px; 
+    // top: 60px;
     width: 280px;
     margin-left: auto;
     align-items: center;

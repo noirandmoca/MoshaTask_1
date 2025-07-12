@@ -76,13 +76,16 @@ main {
     z-index: 10;
     display: flex;
     flex-direction: column;
+    margin-top: -300px;
+    margin-left: 680px;
   }
 
   .bd-left {
     border-left: 1px solid #d92b44;
     font-size: 15px;
     font-weight: 600;
-    //letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
+    line-height: 1.8;
   }
 }
 
@@ -93,8 +96,11 @@ main {
 
 .main-img {
   // position: relative;
+  display: flex;
 
   .img_pen {
+    margin-top: -200px;
+    margin-left: 1050px;
     // position: absolute;
     // top: 80px;
     // right: -15px;
@@ -108,12 +114,12 @@ main {
 }
 
 .circle {
+  margin-top: ;
   // position: absolute;
   // top: 600px;
   // left: 750px;
   z-index: 10;
-  display: flex;
-  flex-direction: column;
+  // flex-direction: column;
 }
 
 .home-message {
@@ -211,7 +217,7 @@ main {
     position: absolute;
     left: 20px;
     top: 110px;
-    color: #fff;
+    color: #000;
     font-size: 50px;
     font-weight: 100;
   }
@@ -279,7 +285,7 @@ main {
     // position: absolute;
     // top: 330px;
     // left: 20px;
-    color: #fff;
+    color: #000;
     font-size: 12px;
     font-weight: 550;
     line-height: 1.4;

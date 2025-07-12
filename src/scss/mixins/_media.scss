@@ -1,0 +1,12 @@
+// scss/mixins/_media.scss
+@mixin sp {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media (max-width: 768px) {
+    @content;
+  }
+}

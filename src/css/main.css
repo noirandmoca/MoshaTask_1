@@ -108,7 +108,7 @@ body {
 .header {
   position: relative;
   background: #d92b44;
-  height: 2870px;
+  height: auto;
   font-size: 45px;
   overflow: hidden;
 }

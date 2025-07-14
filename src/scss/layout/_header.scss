@@ -4,6 +4,7 @@
   height: auto;
   font-size: 45px;
   overflow: hidden;
+  padding-bottom: 200px;
 
   .deco-frame {
     ul {
@@ -28,10 +29,11 @@
     background-color: #fbf9f3;
     position: absolute;
     top: 45px;
-    left: 45px;
-    right: 45px;
-    height: 790px;
+    left: 40px;
+    right: 40px;
+    height: 800px;
     z-index: 1;
+    padding-bottom: 200px;
   }
 
   &-logo {
@@ -220,4 +222,46 @@
   writing-mode: vertical-rl;
   font-weight: 600;
   letter-spacing: 0.1em;
+}
+
+.wrapper-news {
+  display: flex;
+  position: relative;
+  z-index: 1;
+
+  .home_news {
+    height: 45px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #D92B44;
+    align-items: center;
+    border-radius: 200px;
+    letter-spacing: 0.2em;
+    z-index: 1;
+    top: 100px;
+    left: 150px;
+  }
+
+  .news_list {
+    display: flex;
+    top: 100px;
+    left: 200px;
+    height: 45px;
+    width: 400px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 12px;
+    font-weight: 800;
+    background-color: #FFEDEF;
+    align-items: center;
+    border-radius: 200px;
+    letter-spacing: 0.3em;
+  }
 }

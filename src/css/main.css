@@ -452,7 +452,7 @@ main {
   margin: 0 auto;
   padding: 45px;
   position: relative;
-  padding-bottom: 100px;
+  height: 1050px;
   overflow: hidden;
 }
 
@@ -568,7 +568,7 @@ main {
 
 .circle {
   position: absolute;
-  top: 1250px;
+  top: 220px;
   left: 600px;
   z-index: 10;
   display: flex;
@@ -619,10 +619,7 @@ main {
 }
 
 .home_people--heading {
-  position: relative;
-  padding-top: 1000px;
-  padding-bottom: 3.5rem;
-  z-index: 1;
+  z-index: 30;
 }
 .home_people--heading .inner-lg {
   position: relative;
@@ -642,6 +639,10 @@ main {
 }
 .home_people--heading .inner-lg .home_people--ttl {
   color: #fff;
+  position: relative;
+  margin-top: 100px;
+  top: auto;
+  left: auto;
 }
 .home_people--heading .inner-lg .home_people--ttl .sub-message {
   display: block;
@@ -658,9 +659,9 @@ main {
 
 .home_people--slide {
   position: relative;
-  padding-top: 5rem;
+  padding-top: 1000px;
   padding-bottom: 3.5rem;
-  z-index: 1;
+  z-index: 60;
   margin-top: 1380px;
   height: 350px;
   width: 100vw;

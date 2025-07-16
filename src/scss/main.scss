@@ -9,23 +9,31 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #d92b44;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  
 }
 
 main {
-  display: flex;
   background-color: #DDFFFF;
-  width: 1255px;
-  margin: 0 auto;
-  padding: 45px;
-  position: relative;
+  // display: flex;
+  // width: 1255px;
+  // margin: 0 auto;
+  // padding: 45px;
   height: 1050px;
-  overflow: hidden;
+  // overflow: hidden;
+
+    position: relative;
+    // top: 1000px;
+    // left: 40px;
+    // right: 40px;
+    z-index: 1;
+    padding-bottom: 200px;
 }
 
 .main-copy {
@@ -143,16 +151,15 @@ main {
 
   .img_akushu {
     position: absolute;
-    top: 500px;
-    left: -520px;
+    top: 495px;
+    left: -550px;
     z-index: 30;
   }
 
   .akushu-bg {
     position: absolute;
-    top: 500px;
-    left: -520px;
-    z-index: 1;
+    top: 495px;
+    left: -575px;
   }
 }
 
@@ -215,15 +222,16 @@ main {
 }
 
 .home_people--heading {
-  // position: relative;
+  position: relative;
   // top: 850px;
-  // padding-top: 1150px;
-  // padding-bottom: 3.5rem;
-  z-index: 30;
+  padding-top: 1150px;
+  padding-bottom: 3.5rem;
+  // margin-left: 100%;
+  // margin-right: 100%;
 
   .inner-lg {
     position: relative;
-    color: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     line-height: 1.5;

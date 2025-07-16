@@ -101,8 +101,18 @@ input, select {
   vertical-align: middle;
 }
 
-body {
-  background-color: #d92b44;
+.deco-frame ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.deco-frame ul li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  list-style: none;
+  letter-spacing: 0.2em;
 }
 
 .header {
@@ -112,28 +122,12 @@ body {
   font-size: 45px;
   overflow: hidden;
   padding-bottom: 200px;
-}
-.header .deco-frame ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 0.5rem;
-  position: absolute;
-  top: 10px;
-}
-.header .deco-frame ul li {
-  color: #fff;
-  font-size: 15px;
-  font-weight: 400;
-  list-style: none;
-  letter-spacing: 0.2em;
+  width: 100%;
+  max-width: 100%;
+  margin: 45px 40px;
 }
 .header-overlay {
   background-color: #fbf9f3;
-  position: absolute;
-  top: 45px;
-  left: 40px;
-  right: 40px;
   height: 800px;
   z-index: 1;
   padding-bottom: 200px;
@@ -143,7 +137,6 @@ body {
   height: 20px;
   width: 228px;
   gap: 18px;
-  margin-top: 35px;
   margin-left: 40px;
 }
 .header-logo img {
@@ -191,7 +184,7 @@ body {
 .moji .s1 {
   font-size: 200px;
   font-weight: 600;
-  top: -600px;
+  top: 600px;
   left: 100px;
 }
 .moji .h1 {
@@ -437,6 +430,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #d92b44;
 }
 
 .wrapper {
@@ -446,14 +440,11 @@ body {
 }
 
 main {
-  display: flex;
   background-color: #DDFFFF;
-  width: 1255px;
-  margin: 0 auto;
-  padding: 45px;
-  position: relative;
   height: 1050px;
-  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 200px;
 }
 
 .main-copy {
@@ -555,15 +546,14 @@ main {
 }
 .main-img .img_akushu {
   position: absolute;
-  top: 500px;
-  left: -520px;
+  top: 495px;
+  left: -550px;
   z-index: 30;
 }
 .main-img .akushu-bg {
   position: absolute;
-  top: 500px;
-  left: -520px;
-  z-index: 1;
+  top: 495px;
+  left: -575px;
 }
 
 .circle {
@@ -619,11 +609,13 @@ main {
 }
 
 .home_people--heading {
-  z-index: 30;
+  position: relative;
+  padding-top: 1150px;
+  padding-bottom: 3.5rem;
 }
 .home_people--heading .inner-lg {
   position: relative;
-  color: #000;
+  color: #fff;
   display: flex;
   align-items: center;
   line-height: 1.5;

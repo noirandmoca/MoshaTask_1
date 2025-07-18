@@ -10,30 +10,33 @@ body {
   margin: 0;
   padding: 0;
   background-color: #d92b44;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
 }
 
 main {
-  background-color: #DDFFFF;
+  background-color: #ddffff;
   // display: flex;
   // width: 1255px;
   // margin: 0 auto;
   // padding: 45px;
   height: 1050px;
+  margin-left: 45px;
+  margin-right: 45px;
   // overflow: hidden;
 
-    position: relative;
-    // top: 1000px;
-    // left: 40px;
-    // right: 40px;
-    z-index: 1;
-    padding-bottom: 200px;
+  position: relative;
+  // top: 1000px;
+  // left: 40px;
+  // right: 40px;
+  z-index: 1;
+  padding-bottom: 200px;
 }
 
 .main-copy {
@@ -124,7 +127,7 @@ main {
     //letter-spacing: 0.1em;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -198,7 +201,7 @@ main {
   .horizontal-line {
     width: 220px;
     height: 1px;
-    background-color: #D92B44;
+    background-color: #d92b44;
     margin-left: 10px;
   }
 
@@ -216,7 +219,7 @@ main {
   }
 
   .message-main {
-    color: #D92B44;
+    color: #d92b44;
     letter-spacing: normal;
   }
 }
@@ -254,7 +257,6 @@ main {
       top: auto;
       left: auto;
 
-
       .sub-message {
         display: block;
         font-size: 28px;
@@ -280,7 +282,8 @@ main {
   z-index: 60;
   margin-top: 1380px;
   height: 350px;
-  width: 100vw;
+  // width: 100vw;
+  width: 100%;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   margin: 0 auto;
@@ -379,7 +382,7 @@ main {
     position: relative;
     display: flex;
     justify-content: center;
-    color: #D92B44;
+    color: #d92b44;
     font-size: 14px;
     font-weight: 600;
     border-color: #fff;

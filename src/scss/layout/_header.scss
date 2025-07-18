@@ -27,15 +27,15 @@
   width: 100%;
   max-width: 100%;
   margin: 45px 40px;
+  z-index: 1;
 
   &-overlay {
     background-color: #fbf9f3;
-    // position: absolute;
+    // position: relative;
     // top: 45px;
     // left: 40px;
     // right: 40px;
     height: 800px;
-    z-index: 1;
     padding-bottom: 200px;
   }
 
@@ -73,7 +73,7 @@
   height: 100vh;
   /* 画面いっぱい */
   color: #d92b44;
-  z-index: 1;
+   z-index:10;
 }
 
 .logo-static svg {
@@ -83,7 +83,7 @@
 
 .moji {
   position: relative;
-  z-index: 1;
+  z-index: 10;
   color: #D92B44;
 
   span {
@@ -144,18 +144,17 @@
 
 .header_img-hero {
   position: relative;
-  z-index: 1;
 
   .header_img {
     position: absolute;
     display: block;
-    top: -550px;
+    top: -5000px;
     left: 180px;
   }
 
   .hero-image1 {
     position: absolute;
-    top: -460px;
+    top: 46px;
     left: 50px;
   }
 
@@ -193,7 +192,7 @@
 .hero {
   position: relative;
   color: #000;
-  z-index: 1;
+  z-index: 10;
 
   .txt {
     position: absolute;
@@ -221,7 +220,7 @@
   flex-direction: column;
   top: 350px;
   left: 15px;
-  z-index: 1;
+  z-index: 10;
   writing-mode: vertical-rl;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -230,7 +229,7 @@
 .wrapper-news {
   display: flex;
   position: relative;
-  z-index: 1;
+  z-index: 10;
 
   .home_news {
     height: 45px;
@@ -245,7 +244,7 @@
     align-items: center;
     border-radius: 200px;
     letter-spacing: 0.2em;
-    z-index: 1;
+    z-index: 10;
     top: 100px;
     left: 150px;
   }

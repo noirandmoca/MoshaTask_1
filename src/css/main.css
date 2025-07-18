@@ -125,11 +125,11 @@ input, select {
   width: 100%;
   max-width: 100%;
   margin: 45px 40px;
+  z-index: 1;
 }
 .header-overlay {
   background-color: #fbf9f3;
   height: 800px;
-  z-index: 1;
   padding-bottom: 200px;
 }
 .header-logo {
@@ -163,7 +163,7 @@ input, select {
   height: 100vh;
   /* 画面いっぱい */
   color: #d92b44;
-  z-index: 1;
+  z-index: 10;
 }
 
 .logo-static svg {
@@ -173,7 +173,7 @@ input, select {
 
 .moji {
   position: relative;
-  z-index: 1;
+  z-index: 10;
   color: #D92B44;
 }
 .moji span {
@@ -226,17 +226,16 @@ input, select {
 
 .header_img-hero {
   position: relative;
-  z-index: 1;
 }
 .header_img-hero .header_img {
   position: absolute;
   display: block;
-  top: -550px;
+  top: -5000px;
   left: 180px;
 }
 .header_img-hero .hero-image1 {
   position: absolute;
-  top: -460px;
+  top: 46px;
   left: 50px;
 }
 .header_img-hero .hero-image2 {
@@ -268,7 +267,7 @@ input, select {
 .hero {
   position: relative;
   color: #000;
-  z-index: 1;
+  z-index: 10;
 }
 .hero .txt {
   position: absolute;
@@ -294,7 +293,7 @@ input, select {
   flex-direction: column;
   top: 350px;
   left: 15px;
-  z-index: 1;
+  z-index: 10;
   writing-mode: vertical-rl;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -303,7 +302,7 @@ input, select {
 .wrapper-news {
   display: flex;
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 .wrapper-news .home_news {
   height: 45px;
@@ -318,7 +317,7 @@ input, select {
   align-items: center;
   border-radius: 200px;
   letter-spacing: 0.2em;
-  z-index: 1;
+  z-index: 10;
   top: 100px;
   left: 150px;
 }

@@ -9,9 +9,56 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #d92b44;
+  // background-color: #d92b44;
   width: 100%;
   overflow-x: hidden;
+}
+.fz-18 {
+  font-size: 1.125rem; // = 18px
+}
+.deco-frame {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 3.125rem;
+  left: 0;
+  right: 17px;
+  overflow: hidden; // 要素からはみ出した部分を隠す これが無いと最上部のヘッダーがスクロールバーの上に表示されてしまう
+  background-color: #d92b44;
+  z-index: 10;
+  align-items: center;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      color: #fff;
+      list-style: none;
+      // letter-spacing: 0.2em;
+      letter-spacing: 8.6px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      padding: 0 0.5rem;
+      display: inline-block;
+      white-space: nowrap;
+      animation: marquee-left 64s linear infinite; // 64秒で左から右へスクロール
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// 左から右へスクロール
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+    // opacity: 1; // 初期状態 不透明
+  }
+  100% {
+    transform: translateX(-100vw);
+    // opacity: 0; // 最終状態 透明
+  }
 }
 
 .wrapper {
@@ -19,7 +66,18 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+.main-overlay {
+  background-color: #d92b44;
+}
 
+.transparent-zone {
+  height: 100vh;
+  background-color: transparent;
+}
+
+.home_people--heading {
+  background-color: #d92b44;
+}
 .main-overlay {
   position: relative;
   margin-left: 40px;

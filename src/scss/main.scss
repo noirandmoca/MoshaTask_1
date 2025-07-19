@@ -20,207 +20,201 @@ body {
   min-height: 100vh;
 }
 
-main {
-  background-color: #ddffff;
-  // display: flex;
-  // width: 1255px;
-  // margin: 0 auto;
-  // padding: 45px;
-  height: 1050px;
-  margin-left: 45px;
-  margin-right: 45px;
-  // overflow: hidden;
-
+.main-overlay {
   position: relative;
-  // top: 1000px;
-  // left: 40px;
-  // right: 40px;
-  z-index: 1;
-  padding-bottom: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 1800px;
+  background-color: #ddffff;
 }
 
-.main-copy {
-  z-index: 2;
-  text-align: left;
-  margin-top: 80px;
-  transform: scale(1.2); // 👈 1.2倍に拡大
-  // background-color: rgba(255, 0, 0, 0.2);
-  position: relative;
-  left: 70px;
-  height: 235px;
+main {
 
-  .main-copy__inner {
-    padding: 0;
-    margin-left: -120px;
-    margin-bottom: -80px;
-    margin-right: 60px;
-    width: 590px;
-  }
 
-  .main-copy__line {
-    display: block;
-    width: 320px;
-    margin-left: 120px;
-    margin-bottom: 1em;
-    padding: 0.1em 0.4em;
-    background-color: #fffefe;
-    font-weight: 600;
+
+  .main-copy {
+    z-index: 2;
     text-align: left;
-    color: #000;
-    border-bottom: 3px solid #000;
-    white-space: nowrap;
-  }
-
-  .chiiki_ugo_kinyuu {
-    font-size: 52px;
-    letter-spacing: 0.1em;
-  }
-
-  .keizai_kasu {
-    font-size: 38px;
-    letter-spacing: 0.1em;
-  }
-
-  .wo {
-    font-size: 28px;
-  }
-
-  .main-copy__catch {
-    display: inline-block;
-    width: 515px;
-    height: 70px;
-    margin-left: 120px;
-    margin-bottom: 1em;
-    letter-spacing: 0.1em;
-    font-weight: 600;
-    padding: 0.1em;
-    background-color: #fffefe;
-    text-align: left;
-    font-size: 72px;
-    color: #000;
-    border-bottom: 3px solid #000;
-    white-space: nowrap;
-  }
-
-  .main-message--en-v {
-    margin-top: 2.5rem;
-    margin-left: -6rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.3333333333em;
-    font-weight: 600;
-    position: absolute;
-    top: -20px;
-    left: 550px;
-    // z-index: 10;
-    // display: flex;
-    // flex-direction: column;
-  }
-
-  .bd-left {
+    margin-top: 80px;
+    transform: scale(1.2); // 👈 1.2倍に拡大
+    // background-color: rgba(255, 0, 0, 0.2);
     position: relative;
-    padding-left: 8px; // 線との余白
-    font-size: 15px;
-    font-weight: 600;
-    white-space: nowrap;
-    //letter-spacing: 0.1em;
+    left: 70px;
+    height: 235px;
 
-    &::before {
-      content: "";
+    .main-copy__inner {
+      padding: 0;
+      margin-left: -120px;
+      margin-bottom: -80px;
+      margin-right: 60px;
+      width: 590px;
+    }
+
+    .main-copy__line {
+      display: block;
+      width: 320px;
+      margin-left: 120px;
+      margin-bottom: 1em;
+      padding: 0.1em 0.4em;
+      background-color: #fffefe;
+      font-weight: 600;
+      text-align: left;
+      color: #000;
+      border-bottom: 3px solid #000;
+      white-space: nowrap;
+    }
+
+    .chiiki_ugo_kinyuu {
+      font-size: 52px;
+      letter-spacing: 0.1em;
+    }
+
+    .keizai_kasu {
+      font-size: 38px;
+      letter-spacing: 0.1em;
+    }
+
+    .wo {
+      font-size: 28px;
+    }
+
+    .main-copy__catch {
+      display: inline-block;
+      width: 515px;
+      height: 70px;
+      margin-left: 120px;
+      margin-bottom: 1em;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.1em;
+      background-color: #fffefe;
+      text-align: left;
+      font-size: 72px;
+      color: #000;
+      border-bottom: 3px solid #000;
+      white-space: nowrap;
+    }
+
+    .main-message--en-v {
+      margin-top: 2.5rem;
+      margin-left: -6rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.3333333333em;
+      font-weight: 600;
       position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 1px;
-      background-color: #d92b44;
+      top: -20px;
+      left: 550px;
+      // z-index: 10;
+      // display: flex;
+      // flex-direction: column;
+    }
+
+    .bd-left {
+      position: relative;
+      padding-left: 8px; // 線との余白
+      font-size: 15px;
+      font-weight: 600;
+      white-space: nowrap;
+      //letter-spacing: 0.1em;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background-color: #d92b44;
+      }
     }
   }
-}
 
-.txt-v {
-  writing-mode: vertical-rl;
-  // font-feature-settings: "pkna";
-}
-
-.main-img {
-  position: relative;
-
-  .img_pen {
-    position: absolute;
-    top: -10px;
-    left: 450px;
-  }
-
-  .img_akushu {
-    position: absolute;
-    top: 495px;
-    left: -550px;
-    z-index: 30;
-  }
-
-  .akushu-bg {
-    position: absolute;
-    top: 495px;
-    left: -575px;
-  }
-}
-
-.circle {
-  position: absolute;
-  top: 220px;
-  left: 600px;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-}
-
-.home-message {
-  position: relative;
-  display: flex;
-  gap: 16px;
-  color: #000;
-  font-size: 13px;
-  font-weight: 550;
-  z-index: 1;
-  top: 500px;
-
-  .mg-img-wrap {
-    position: absolute;
-    top: -210px;
-    left: 150px;
-    display: flex;
-    align-items: center;
-  }
-
-  .mg-img {
-    display: flex;
-    align-items: center;
-  }
-
-  .horizontal-line {
-    width: 220px;
-    height: 1px;
-    background-color: #d92b44;
-    margin-left: 10px;
-  }
-
-  .paragraph {
+  .txt-v {
     writing-mode: vertical-rl;
-    line-height: 2.2;
-    letter-spacing: 0.3em;
+    // font-feature-settings: "pkna";
+  }
+
+  .main-img {
     position: relative;
-    top: -100px;
-    left: 130px;
+
+    .img_pen {
+      position: absolute;
+      top: -10px;
+      left: 450px;
+    }
+
+    .img_akushu {
+      position: absolute;
+      top: 495px;
+      left: -550px;
+      z-index: 30;
+    }
+
+    .akushu-bg {
+      position: absolute;
+      top: 495px;
+      left: -575px;
+    }
   }
 
-  .ratio {
-    text-orientation: upright;
+  .circle {
+    position: absolute;
+    top: 220px;
+    left: 600px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
   }
 
-  .message-main {
-    color: #d92b44;
-    letter-spacing: normal;
+  .home-message {
+    position: relative;
+    display: flex;
+    gap: 16px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 550;
+    z-index: 1;
+    top: 500px;
+
+    .mg-img-wrap {
+      position: absolute;
+      top: -210px;
+      left: 150px;
+      // display: flex;
+      align-items: center;
+    }
+
+    .mg-img {
+      display: flex;
+      align-items: center;
+    }
+
+    .horizontal-line {
+      width: 220px;
+      height: 1px;
+      background-color: #d92b44;
+      margin-left: 10px;
+    }
+
+    .paragraph {
+      writing-mode: vertical-rl;
+      line-height: 2.2;
+      letter-spacing: 0.3em;
+      position: relative;
+      top: -100px;
+      left: 130px;
+    }
+
+    .ratio {
+      text-orientation: upright;
+    }
+
+    .message-main {
+      color: #d92b44;
+      letter-spacing: normal;
+    }
   }
 }
 

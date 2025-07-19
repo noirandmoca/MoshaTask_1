@@ -18,7 +18,7 @@
 }
 
 .header {
-  position: relative;
+  // position: relative;
   background: #d92b44;
   height: auto;
   font-size: 45px;
@@ -29,29 +29,86 @@
   z-index: 1;
 
   &-overlay {
-    margin-left: 45px;
-    margin-right: 45px;
-    background-color: #fbf9f3;
-    // position: relative;
-    // top: 45px;
-    // left: 40px;
-    // right: 40px;
-    height: 1200px;
-    // padding-bottom: 200px;
-  }
-
-  &-logo {
-    height: 20px;
-    width: 228px;
-    margin-top: 35px;
+    position: relative;
     margin-left: 40px;
-    position: fixed;
+    margin-right: 40px;
+    background-color: #fbf9f3;
+    height: 1200px;
 
-    img {
+    &-logo {
+      height: 20px;
+      width: 228px;
+      margin-top: 35px;
+      margin-left: 40px;
       position: fixed;
-      height: auto;
-      width: auto;
-      max-height: 100%;
+
+      img {
+        position: fixed;
+        height: auto;
+        width: auto;
+        max-height: 100%;
+      }
+    }
+
+    .moji {
+      // position: relative;
+      z-index: 10;
+      color: #D92B44;
+
+      span {
+        position: absolute;
+        font-size: 200px;
+        font-weight: 600;
+      }
+
+      .s1 {
+        font-size: 200px;
+        font-weight: 600;
+        top: 100px;
+        left: 150px;
+      }
+
+      .h1 {
+        font-size: 200px;
+        font-weight: 600;
+        top: 200px;
+        left: 340px;
+      }
+
+      .o {
+        font-size: 200px;
+        font-weight: 600;
+        top: 110px;
+        left: 550px;
+      }
+
+      .s2 {
+        font-size: 200px;
+        font-weight: 600;
+        top: 440px;
+        right: 680px;
+      }
+
+      .h2 {
+        font-size: 200px;
+        font-weight: 600;
+        top: 500px;
+        right: 460px;
+      }
+
+      .i {
+        font-size: 200px;
+        font-weight: 600;
+        top: 470px;
+        right: 350px;
+      }
+
+      .n {
+        font-size: 200px;
+        font-weight: 600;
+        top: 400px;
+        right: 110px;
+      }
     }
   }
 }
@@ -82,66 +139,7 @@
   height: auto;
 }
 
-.moji {
-  // position: relative;
-  z-index: 10;
-  color: #000;
 
-  span {
-    position: absolute;
-    font-size: 200px;
-    font-weight: 600;
-  }
-
-  .s1 {
-    font-size: 200px;
-    font-weight: 600;
-    top: 100px;
-    left: 100px;
-  }
-
-  .h1 {
-    font-size: 200px;
-    font-weight: 600;
-    top: 400px;
-    left: 290px;
-  }
-
-  .o {
-    font-size: 200px;
-    font-weight: 600;
-    top: 570px;
-    left: 500px;
-  }
-
-  .s2 {
-    font-size: 200px;
-    font-weight: 600;
-    top: 350px;
-    right: 680px;
-  }
-
-  .h2 {
-    font-size: 200px;
-    font-weight: 600;
-    top: 250px;
-    right: 460px;
-  }
-
-  .i {
-    font-size: 200px;
-    font-weight: 600;
-    top: 300px;
-    right: 330px;
-  }
-
-  .n {
-    font-size: 200px;
-    font-weight: 600;
-    top: 380px;
-    right: 120px;
-  }
-}
 
 .header_img-hero {
   // position: relative;
@@ -149,43 +147,43 @@
   .header_img {
     position: absolute;
     display: block;
-    top: 500px;
-    left: 180px;
+    top: 150px;
+    left: 228px;
   }
 
   .hero-image1 {
     position: absolute;
-    top: 460px;
-    left: 50px;
+    top: 250px;
+    left: 70px;
   }
 
   .hero-image2 {
     position: absolute;
-    top: 250px;
-    left: 220px;
+    top: 500px;
+    left: 250px;
   }
 
   .hero-image3 {
     position: absolute;
-    top: 460px;
-    left: 380px;
+    top: 240px;
+    left: 430px;
   }
 
   .hero-image4 {
     position: absolute;
-    top: 500px;
+    top: 280px;
     right: 660px;
   }
 
   .hero-image5 {
     position: absolute;
-    top: 620px;
+    top: 120px;
     right: 420px;
   }
 
   .hero-image6 {
     position: absolute;
-    top: 420px;
+    top: 340px;
     right: 240px;
   }
 }
@@ -193,14 +191,15 @@
 .hero {
   color: #000;
   z-index: 10;
+  // position: relative;
 
   .txt {
     position: absolute;
+    top: 100px;
+    right: 200px;
     font-size: 15px;
     font-weight: 900;
     letter-spacing: 0.1em;
-    top: 600px;
-    right: 160px;
   }
 
   .hero--recruitment {
@@ -208,8 +207,9 @@
     font-weight: 100;
     font-size: 35px;
     letter-spacing: 0.1em;
-    top: 570px;
-    right: 150px;
+    top: 120px;
+    right: 200px;
+    // right: 150px;
   }
 }
 
@@ -228,13 +228,13 @@
 
 .wrapper-news {
   display: flex;
-  // position: relative;
-  z-index: 10;
+  position: relative;
+  // z-index: 10;
 
   .home_news {
     height: 45px;
     width: 100px;
-    position: absolute;
+    // position: absolute;
     display: flex;
     justify-content: center;
     color: #fff;
@@ -245,18 +245,17 @@
     border-radius: 200px;
     letter-spacing: 0.2em;
     z-index: 10;
-    top: 1000px;
+    top: 100px;
     left: 150px;
   }
 
   .news_list {
     display: flex;
-    top: 1000px;
+    top: 100px;
     left: 200px;
     height: 45px;
     width: 400px;
-    position: absolute;
-    display: flex;
+    // position: absolute;
     justify-content: center;
     color: #000;
     font-size: 12px;

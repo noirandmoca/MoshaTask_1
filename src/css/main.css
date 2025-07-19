@@ -116,7 +116,6 @@ input, select {
 }
 
 .header {
-  position: relative;
   background: #d92b44;
   height: auto;
   font-size: 45px;
@@ -127,23 +126,75 @@ input, select {
   z-index: 1;
 }
 .header-overlay {
-  margin-left: 45px;
-  margin-right: 45px;
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
   background-color: #fbf9f3;
   height: 1200px;
 }
-.header-logo {
+.header-overlay-logo {
   height: 20px;
   width: 228px;
   margin-top: 35px;
   margin-left: 40px;
   position: fixed;
 }
-.header-logo img {
+.header-overlay-logo img {
   position: fixed;
   height: auto;
   width: auto;
   max-height: 100%;
+}
+.header-overlay .moji {
+  z-index: 10;
+  color: #D92B44;
+}
+.header-overlay .moji span {
+  position: absolute;
+  font-size: 200px;
+  font-weight: 600;
+}
+.header-overlay .moji .s1 {
+  font-size: 200px;
+  font-weight: 600;
+  top: 100px;
+  left: 150px;
+}
+.header-overlay .moji .h1 {
+  font-size: 200px;
+  font-weight: 600;
+  top: 200px;
+  left: 340px;
+}
+.header-overlay .moji .o {
+  font-size: 200px;
+  font-weight: 600;
+  top: 110px;
+  left: 550px;
+}
+.header-overlay .moji .s2 {
+  font-size: 200px;
+  font-weight: 600;
+  top: 440px;
+  right: 680px;
+}
+.header-overlay .moji .h2 {
+  font-size: 200px;
+  font-weight: 600;
+  top: 500px;
+  right: 460px;
+}
+.header-overlay .moji .i {
+  font-size: 200px;
+  font-weight: 600;
+  top: 470px;
+  right: 350px;
+}
+.header-overlay .moji .n {
+  font-size: 200px;
+  font-weight: 600;
+  top: 400px;
+  right: 110px;
 }
 
 .font-en {
@@ -172,92 +223,40 @@ input, select {
   height: auto;
 }
 
-.moji {
-  z-index: 10;
-  color: #000;
-}
-.moji span {
-  position: absolute;
-  font-size: 200px;
-  font-weight: 600;
-}
-.moji .s1 {
-  font-size: 200px;
-  font-weight: 600;
-  top: 100px;
-  left: 100px;
-}
-.moji .h1 {
-  font-size: 200px;
-  font-weight: 600;
-  top: 400px;
-  left: 290px;
-}
-.moji .o {
-  font-size: 200px;
-  font-weight: 600;
-  top: 570px;
-  left: 500px;
-}
-.moji .s2 {
-  font-size: 200px;
-  font-weight: 600;
-  top: 350px;
-  right: 680px;
-}
-.moji .h2 {
-  font-size: 200px;
-  font-weight: 600;
-  top: 250px;
-  right: 460px;
-}
-.moji .i {
-  font-size: 200px;
-  font-weight: 600;
-  top: 300px;
-  right: 330px;
-}
-.moji .n {
-  font-size: 200px;
-  font-weight: 600;
-  top: 380px;
-  right: 120px;
-}
-
 .header_img-hero .header_img {
   position: absolute;
   display: block;
-  top: 500px;
-  left: 180px;
+  top: 150px;
+  left: 228px;
 }
 .header_img-hero .hero-image1 {
   position: absolute;
-  top: 460px;
-  left: 50px;
+  top: 250px;
+  left: 70px;
 }
 .header_img-hero .hero-image2 {
   position: absolute;
-  top: 250px;
-  left: 220px;
+  top: 500px;
+  left: 250px;
 }
 .header_img-hero .hero-image3 {
   position: absolute;
-  top: 460px;
-  left: 380px;
+  top: 240px;
+  left: 430px;
 }
 .header_img-hero .hero-image4 {
   position: absolute;
-  top: 500px;
+  top: 280px;
   right: 660px;
 }
 .header_img-hero .hero-image5 {
   position: absolute;
-  top: 620px;
+  top: 120px;
   right: 420px;
 }
 .header_img-hero .hero-image6 {
   position: absolute;
-  top: 420px;
+  top: 340px;
   right: 240px;
 }
 
@@ -267,19 +266,19 @@ input, select {
 }
 .hero .txt {
   position: absolute;
+  top: 100px;
+  right: 200px;
   font-size: 15px;
   font-weight: 900;
   letter-spacing: 0.1em;
-  top: 600px;
-  right: 160px;
 }
 .hero .hero--recruitment {
   position: absolute;
   font-weight: 100;
   font-size: 35px;
   letter-spacing: 0.1em;
-  top: 570px;
-  right: 150px;
+  top: 120px;
+  right: 200px;
 }
 
 .typesquare_option {
@@ -297,12 +296,11 @@ input, select {
 
 .wrapper-news {
   display: flex;
-  z-index: 10;
+  position: relative;
 }
 .wrapper-news .home_news {
   height: 45px;
   width: 100px;
-  position: absolute;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -313,17 +311,15 @@ input, select {
   border-radius: 200px;
   letter-spacing: 0.2em;
   z-index: 10;
-  top: 1000px;
+  top: 100px;
   left: 150px;
 }
 .wrapper-news .news_list {
   display: flex;
-  top: 1000px;
+  top: 100px;
   left: 200px;
   height: 45px;
   width: 400px;
-  position: absolute;
-  display: flex;
   justify-content: center;
   color: #000;
   font-size: 12px;
@@ -435,17 +431,15 @@ body {
   min-height: 100vh;
 }
 
-main {
-  background-color: #ddffff;
-  height: 1050px;
-  margin-left: 45px;
-  margin-right: 45px;
+.main-overlay {
   position: relative;
-  z-index: 1;
-  padding-bottom: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 1800px;
+  background-color: #ddffff;
 }
 
-.main-copy {
+main .main-copy {
   z-index: 2;
   text-align: left;
   margin-top: 80px;
@@ -454,14 +448,14 @@ main {
   left: 70px;
   height: 235px;
 }
-.main-copy .main-copy__inner {
+main .main-copy .main-copy__inner {
   padding: 0;
   margin-left: -120px;
   margin-bottom: -80px;
   margin-right: 60px;
   width: 590px;
 }
-.main-copy .main-copy__line {
+main .main-copy .main-copy__line {
   display: block;
   width: 320px;
   margin-left: 120px;
@@ -474,18 +468,18 @@ main {
   border-bottom: 3px solid #000;
   white-space: nowrap;
 }
-.main-copy .chiiki_ugo_kinyuu {
+main .main-copy .chiiki_ugo_kinyuu {
   font-size: 52px;
   letter-spacing: 0.1em;
 }
-.main-copy .keizai_kasu {
+main .main-copy .keizai_kasu {
   font-size: 38px;
   letter-spacing: 0.1em;
 }
-.main-copy .wo {
+main .main-copy .wo {
   font-size: 28px;
 }
-.main-copy .main-copy__catch {
+main .main-copy .main-copy__catch {
   display: inline-block;
   width: 515px;
   height: 70px;
@@ -501,7 +495,7 @@ main {
   border-bottom: 3px solid #000;
   white-space: nowrap;
 }
-.main-copy .main-message--en-v {
+main .main-copy .main-message--en-v {
   margin-top: 2.5rem;
   margin-left: -6rem;
   display: flex;
@@ -513,14 +507,14 @@ main {
   top: -20px;
   left: 550px;
 }
-.main-copy .bd-left {
+main .main-copy .bd-left {
   position: relative;
   padding-left: 8px;
   font-size: 15px;
   font-weight: 600;
   white-space: nowrap;
 }
-.main-copy .bd-left::before {
+main .main-copy .bd-left::before {
   content: "";
   position: absolute;
   left: 0;
@@ -529,32 +523,29 @@ main {
   width: 1px;
   background-color: #d92b44;
 }
-
-.txt-v {
+main .txt-v {
   writing-mode: vertical-rl;
 }
-
-.main-img {
+main .main-img {
   position: relative;
 }
-.main-img .img_pen {
+main .main-img .img_pen {
   position: absolute;
   top: -10px;
   left: 450px;
 }
-.main-img .img_akushu {
+main .main-img .img_akushu {
   position: absolute;
   top: 495px;
   left: -550px;
   z-index: 30;
 }
-.main-img .akushu-bg {
+main .main-img .akushu-bg {
   position: absolute;
   top: 495px;
   left: -575px;
 }
-
-.circle {
+main .circle {
   position: absolute;
   top: 220px;
   left: 600px;
@@ -562,8 +553,7 @@ main {
   display: flex;
   flex-direction: column;
 }
-
-.home-message {
+main .home-message {
   position: relative;
   display: flex;
   gap: 16px;
@@ -573,24 +563,23 @@ main {
   z-index: 1;
   top: 500px;
 }
-.home-message .mg-img-wrap {
+main .home-message .mg-img-wrap {
   position: absolute;
   top: -210px;
   left: 150px;
+  align-items: center;
+}
+main .home-message .mg-img {
   display: flex;
   align-items: center;
 }
-.home-message .mg-img {
-  display: flex;
-  align-items: center;
-}
-.home-message .horizontal-line {
+main .home-message .horizontal-line {
   width: 220px;
   height: 1px;
   background-color: #d92b44;
   margin-left: 10px;
 }
-.home-message .paragraph {
+main .home-message .paragraph {
   writing-mode: vertical-rl;
   line-height: 2.2;
   letter-spacing: 0.3em;
@@ -598,10 +587,10 @@ main {
   top: -100px;
   left: 130px;
 }
-.home-message .ratio {
+main .home-message .ratio {
   text-orientation: upright;
 }
-.home-message .message-main {
+main .home-message .message-main {
   color: #d92b44;
   letter-spacing: normal;
 }

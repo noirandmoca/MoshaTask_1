@@ -17,13 +17,30 @@
   }
 }
 
+.header-logo {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  z-index: 10;
+}
+.future-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background-image: url('/images/future-bg.jpg');
+  // background-size: cover;
+  // background-position: center;
+  z-index: -1; // Ensure it stays behind other elements
+}
 .header {
-  // position: relative;
+  position: relative;
   background: #d92b44;
   height: auto;
   font-size: 45px;
   overflow: hidden;
-  padding-bottom: 200px;
+  // padding-bottom: 200px;
   width: 100%;
   max-width: 100%;
   z-index: 1;
@@ -35,25 +52,10 @@
     background-color: #fbf9f3;
     height: 1200px;
 
-    &-logo {
-      height: 20px;
-      width: 228px;
-      margin-top: 35px;
-      margin-left: 40px;
-      position: fixed;
-
-      img {
-        position: fixed;
-        height: auto;
-        width: auto;
-        max-height: 100%;
-      }
-    }
-
     .moji {
       // position: relative;
       z-index: 10;
-      color: #D92B44;
+      color: #d92b44;
 
       span {
         position: absolute;
@@ -114,14 +116,18 @@
 }
 
 .font-en {
+  // position: fixed;
+  // display: inline;
+  // left: 400px;
+  // font-size: 13px;
+  // color: #000;
+  // letter-spacing: 0.05em;
+  // white-space: nowrap;
+  // margin-top: 35px;
   position: fixed;
-  display: inline;
+  top: 100px;
   left: 400px;
-  font-size: 13px;
-  color: #000;
-  letter-spacing: 0.05em;
-  white-space: nowrap;
-  margin-top: 35px;
+  z-index: 10;
 }
 
 .logo-static {
@@ -138,8 +144,6 @@
   max-width: 80%;
   height: auto;
 }
-
-
 
 .header_img-hero {
   // position: relative;

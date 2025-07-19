@@ -115,12 +115,28 @@ input, select {
   letter-spacing: 0.2em;
 }
 
+.header-logo {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  z-index: 10;
+}
+
+.future-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 .header {
+  position: relative;
   background: #d92b44;
   height: auto;
   font-size: 45px;
   overflow: hidden;
-  padding-bottom: 200px;
   width: 100%;
   max-width: 100%;
   z-index: 1;
@@ -132,22 +148,9 @@ input, select {
   background-color: #fbf9f3;
   height: 1200px;
 }
-.header-overlay-logo {
-  height: 20px;
-  width: 228px;
-  margin-top: 35px;
-  margin-left: 40px;
-  position: fixed;
-}
-.header-overlay-logo img {
-  position: fixed;
-  height: auto;
-  width: auto;
-  max-height: 100%;
-}
 .header-overlay .moji {
   z-index: 10;
-  color: #D92B44;
+  color: #d92b44;
 }
 .header-overlay .moji span {
   position: absolute;
@@ -199,13 +202,9 @@ input, select {
 
 .font-en {
   position: fixed;
-  display: inline;
+  top: 100px;
   left: 400px;
-  font-size: 13px;
-  color: #000;
-  letter-spacing: 0.05em;
-  white-space: nowrap;
-  margin-top: 35px;
+  z-index: 10;
 }
 
 .logo-static {
@@ -450,7 +449,6 @@ main .main-copy {
 }
 main .main-copy .main-copy__inner {
   padding: 0;
-  margin-left: -120px;
   margin-bottom: -80px;
   margin-right: 60px;
   width: 590px;
@@ -593,6 +591,12 @@ main .home-message .ratio {
 main .home-message .message-main {
   color: #d92b44;
   letter-spacing: normal;
+}
+main .blank {
+  position: fixed;
+  top: 0;
+  height: 500px;
+  width: 100%;
 }
 
 .home_people--heading {

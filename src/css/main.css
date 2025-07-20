@@ -101,22 +101,6 @@ input, select {
   vertical-align: middle;
 }
 
-.header-logo {
-  position: fixed;
-  top: 100px;
-  left: 100px;
-  z-index: 10;
-}
-
-.future-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-}
-
 .header {
   position: relative;
   background: #d92b44;
@@ -129,14 +113,15 @@ input, select {
 }
 .header-overlay {
   position: relative;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 55px;
+  margin-right: 55px;
   background-color: #fbf9f3;
-  height: 1200px;
+  height: 1100px;
 }
 .header-overlay .moji {
   z-index: 10;
   color: #d92b44;
+  font-family: "Montserrat", sans-serif;
 }
 .header-overlay .moji span {
   position: absolute;
@@ -144,52 +129,73 @@ input, select {
   font-weight: 600;
 }
 .header-overlay .moji .s1 {
-  font-size: 200px;
+  font-size: 330px;
   font-weight: 600;
-  top: 100px;
-  left: 150px;
+  top: 150px;
+  left: 180px;
 }
 .header-overlay .moji .h1 {
-  font-size: 200px;
+  font-size: 320px;
   font-weight: 600;
-  top: 200px;
-  left: 340px;
+  top: 280px;
+  left: 430px;
 }
 .header-overlay .moji .o {
-  font-size: 200px;
+  font-size: 320px;
   font-weight: 600;
-  top: 110px;
-  left: 550px;
+  top: 170px;
+  left: 740px;
 }
 .header-overlay .moji .s2 {
-  font-size: 200px;
+  font-size: 330px;
   font-weight: 600;
-  top: 440px;
-  right: 680px;
+  top: 550px;
+  left: 840px;
 }
 .header-overlay .moji .h2 {
-  font-size: 200px;
+  font-size: 330px;
   font-weight: 600;
-  top: 500px;
-  right: 460px;
+  top: 700px;
+  right: 620px;
 }
 .header-overlay .moji .i {
-  font-size: 200px;
+  font-size: 330px;
   font-weight: 600;
-  top: 470px;
-  right: 350px;
+  top: 580px;
+  right: 470px;
 }
 .header-overlay .moji .n {
-  font-size: 200px;
+  font-size: 330px;
   font-weight: 600;
-  top: 400px;
-  right: 110px;
+  top: 480px;
+  right: 95px;
+}
+
+.header-logo {
+  position: fixed;
+  top: -40px;
+  left: 100px;
+  z-index: 10;
+  margin-right: 10px;
+}
+
+.future-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
 }
 
 .font-en {
+  font-size: 18px;
+  font-weight: 1000;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
   position: fixed;
   top: 100px;
-  left: 400px;
+  left: 440px;
   z-index: 10;
 }
 
@@ -211,38 +217,44 @@ input, select {
 .header_img-hero .header_img {
   position: absolute;
   display: block;
-  top: 150px;
-  left: 228px;
+  top: 220px;
+  left: 290px;
+}
+.header_img-hero .header_img_clip {
+  position: absolute;
+  display: block;
+  top: 920px;
+  right: 430px;
 }
 .header_img-hero .hero-image1 {
   position: absolute;
-  top: 250px;
-  left: 70px;
+  top: 380px;
+  left: 110px;
 }
 .header_img-hero .hero-image2 {
   position: absolute;
-  top: 500px;
-  left: 250px;
+  top: 580px;
+  left: 360px;
 }
 .header_img-hero .hero-image3 {
   position: absolute;
-  top: 240px;
-  left: 430px;
+  top: 390px;
+  left: 580px;
 }
 .header_img-hero .hero-image4 {
   position: absolute;
-  top: 280px;
-  right: 660px;
+  top: 380px;
+  right: 950px;
 }
 .header_img-hero .hero-image5 {
   position: absolute;
-  top: 120px;
-  right: 420px;
+  top: 170px;
+  right: 570px;
 }
 .header_img-hero .hero-image6 {
   position: absolute;
-  top: 340px;
-  right: 240px;
+  top: 410px;
+  right: 320px;
 }
 
 .hero {
@@ -251,7 +263,7 @@ input, select {
 }
 .hero .txt {
   position: absolute;
-  top: 100px;
+  top: 250px;
   right: 200px;
   font-size: 15px;
   font-weight: 900;
@@ -262,8 +274,8 @@ input, select {
   font-weight: 100;
   font-size: 35px;
   letter-spacing: 0.1em;
-  top: 120px;
-  right: 200px;
+  top: 280px;
+  right: 190px;
 }
 
 .typesquare_option {
@@ -281,30 +293,28 @@ input, select {
 
 .wrapper-news {
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 980px;
+  left: 160px;
 }
 .wrapper-news .home_news {
-  height: 45px;
-  width: 100px;
+  height: 50px;
+  width: 130px;
   display: flex;
   justify-content: center;
   color: #fff;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 800;
   background-color: #d92b44;
   align-items: center;
   border-radius: 200px;
   letter-spacing: 0.2em;
   z-index: 10;
-  top: 100px;
-  left: 150px;
 }
 .wrapper-news .news_list {
   display: flex;
-  top: 100px;
-  left: 200px;
-  height: 45px;
-  width: 400px;
+  height: 50px;
+  width: 600px;
   justify-content: center;
   color: #000;
   font-size: 12px;
@@ -457,10 +467,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-.main-overlay {
-  background-color: #d92b44;
+  background: #d92b44;
 }
 
 .transparent-zone {
@@ -468,22 +475,17 @@ body {
   background-color: transparent;
 }
 
-.home_people--heading {
-  background-color: #d92b44;
-}
-
 .main-overlay {
   position: relative;
-  margin-left: 40px;
-  margin-right: 40px;
-  height: 1800px;
+  margin-left: 55px;
+  margin-right: 55px;
+  height: 1330px;
   background-color: #ddffff;
 }
 
 main .main-copy {
   z-index: 2;
   text-align: left;
-  margin-top: 80px;
   transform: scale(1.2);
   position: relative;
   left: 70px;
@@ -491,15 +493,16 @@ main .main-copy {
 }
 main .main-copy .main-copy__inner {
   padding: 0;
-  margin-bottom: -80px;
-  margin-right: 60px;
-  width: 590px;
+  width: 530px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
 }
 main .main-copy .main-copy__line {
   display: block;
-  width: 320px;
-  margin-left: 120px;
-  margin-bottom: 1em;
+  width: 480px;
+  height: 80px;
+  margin-bottom: 1.5em;
   padding: 0.1em 0.4em;
   background-color: #fffefe;
   font-weight: 600;
@@ -521,10 +524,8 @@ main .main-copy .wo {
 }
 main .main-copy .main-copy__catch {
   display: inline-block;
-  width: 515px;
-  height: 70px;
-  margin-left: 120px;
-  margin-bottom: 1em;
+  width: 700px;
+  height: 85px;
   letter-spacing: 0.1em;
   font-weight: 600;
   padding: 0.1em;
@@ -544,15 +545,16 @@ main .main-copy .main-message--en-v {
   gap: 0.3333333333em;
   font-weight: 600;
   position: absolute;
-  top: -20px;
-  left: 550px;
+  top: 85px;
+  left: 980px;
 }
 main .main-copy .bd-left {
   position: relative;
   padding-left: 8px;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 600;
   white-space: nowrap;
+  letter-spacing: 0.1em;
 }
 main .main-copy .bd-left::before {
   content: "";
@@ -571,24 +573,24 @@ main .main-img {
 }
 main .main-img .img_pen {
   position: absolute;
-  top: -10px;
-  left: 450px;
+  top: 5px;
+  right: 0;
 }
 main .main-img .img_akushu {
   position: absolute;
   top: 495px;
-  left: -550px;
+  left: 10px;
   z-index: 30;
 }
 main .main-img .akushu-bg {
   position: absolute;
   top: 495px;
-  left: -575px;
+  left: 0;
 }
 main .circle {
   position: absolute;
   top: 220px;
-  left: 600px;
+  right: 65px;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -605,8 +607,8 @@ main .home-message {
 }
 main .home-message .mg-img-wrap {
   position: absolute;
-  top: -210px;
-  left: 150px;
+  top: 5px;
+  right: 80px;
   align-items: center;
 }
 main .home-message .mg-img {
@@ -614,7 +616,7 @@ main .home-message .mg-img {
   align-items: center;
 }
 main .home-message .horizontal-line {
-  width: 220px;
+  width: 380px;
   height: 1px;
   background-color: #d92b44;
   margin-left: 10px;
@@ -624,8 +626,9 @@ main .home-message .paragraph {
   line-height: 2.2;
   letter-spacing: 0.3em;
   position: relative;
-  top: -100px;
-  left: 130px;
+  top: 30px;
+  left: 900px;
+  font-size: 18px;
 }
 main .home-message .ratio {
   text-orientation: upright;

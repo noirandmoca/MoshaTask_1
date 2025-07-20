@@ -13,9 +13,11 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
 .fz-18 {
   font-size: 1.125rem; // = 18px
 }
+
 .deco-frame {
   display: flex;
   position: fixed;
@@ -27,10 +29,12 @@ body {
   background-color: #d92b44;
   z-index: 10;
   align-items: center;
+
   ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
     li {
       color: #fff;
       list-style: none;
@@ -42,6 +46,7 @@ body {
       display: inline-block;
       white-space: nowrap;
       animation: marquee-left 64s linear infinite; // 64秒で左から右へスクロール
+
       span {
         font-weight: 600;
       }
@@ -55,6 +60,7 @@ body {
     transform: translateX(0);
     // opacity: 1; // 初期状態 不透明
   }
+
   100% {
     transform: translateX(-100vw);
     // opacity: 0; // 最終状態 透明
@@ -65,10 +71,12 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: #d92b44;
 }
-.main-overlay {
-  background-color: #d92b44;
-}
+
+// .main-overlay {
+//   background-color: #d92b44;
+// }
 
 .transparent-zone {
   height: 100vh;
@@ -76,13 +84,14 @@ body {
 }
 
 .home_people--heading {
-  background-color: #d92b44;
+  // background-color: #d92b44;
 }
+
 .main-overlay {
   position: relative;
-  margin-left: 40px;
-  margin-right: 40px;
-  height: 1800px;
+  margin-left: 55px;
+  margin-right: 55px;
+  height: 1330px;
   background-color: #ddffff;
 }
 
@@ -90,7 +99,6 @@ main {
   .main-copy {
     z-index: 2;
     text-align: left;
-    margin-top: 80px;
     transform: scale(1.2); // 👈 1.2倍に拡大
     // background-color: rgba(255, 0, 0, 0.2);
     position: relative;
@@ -100,16 +108,20 @@ main {
     .main-copy__inner {
       padding: 0;
       // margin-left: -120px;
-      margin-bottom: -80px;
-      margin-right: 60px;
-      width: 590px;
+      // margin-bottom: -80px;
+      // margin-right: 60
+      width: 530px;
+      position: absolute;
+      top: 100px;
+      left: 250px;
     }
 
     .main-copy__line {
       display: block;
-      width: 320px;
-      margin-left: 120px;
-      margin-bottom: 1em;
+      width: 480px;
+      height: 80px;
+      // margin-left: 120px;
+      margin-bottom: 1.5em;
       padding: 0.1em 0.4em;
       background-color: #fffefe;
       font-weight: 600;
@@ -135,10 +147,10 @@ main {
 
     .main-copy__catch {
       display: inline-block;
-      width: 515px;
-      height: 70px;
-      margin-left: 120px;
-      margin-bottom: 1em;
+      width: 700px;
+      height: 85px;
+      // margin-left: 120px;
+      // margin-bottom: 1em;
       letter-spacing: 0.1em;
       font-weight: 600;
       padding: 0.1em;
@@ -159,20 +171,17 @@ main {
       gap: 0.3333333333em;
       font-weight: 600;
       position: absolute;
-      top: -20px;
-      left: 550px;
-      // z-index: 10;
-      // display: flex;
-      // flex-direction: column;
+      top: 85px;
+      left: 980px;
     }
 
     .bd-left {
       position: relative;
       padding-left: 8px; // 線との余白
-      font-size: 15px;
+      font-size: 19px;
       font-weight: 600;
       white-space: nowrap;
-      //letter-spacing: 0.1em;
+      letter-spacing: 0.1em;
 
       &::before {
         content: "";
@@ -196,28 +205,28 @@ main {
 
     .img_pen {
       position: absolute;
-      top: -10px;
-      left: 450px;
+      top: 5px;
+      right: 0;
     }
 
     .img_akushu {
       position: absolute;
       top: 495px;
-      left: -550px;
+      left: 10px;
       z-index: 30;
     }
 
     .akushu-bg {
       position: absolute;
       top: 495px;
-      left: -575px;
+      left: 0;
     }
   }
 
   .circle {
     position: absolute;
     top: 220px;
-    left: 600px;
+    right: 65px;
     z-index: 10;
     display: flex;
     flex-direction: column;
@@ -235,8 +244,8 @@ main {
 
     .mg-img-wrap {
       position: absolute;
-      top: -210px;
-      left: 150px;
+      top: 5px;
+      right: 80px;
       // display: flex;
       align-items: center;
     }
@@ -247,7 +256,7 @@ main {
     }
 
     .horizontal-line {
-      width: 220px;
+      width: 380px;
       height: 1px;
       background-color: #d92b44;
       margin-left: 10px;
@@ -258,8 +267,9 @@ main {
       line-height: 2.2;
       letter-spacing: 0.3em;
       position: relative;
-      top: -100px;
-      left: 130px;
+      top: 30px;
+      left: 900px;
+      font-size: 18px;
     }
 
     .ratio {

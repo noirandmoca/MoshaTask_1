@@ -87,256 +87,268 @@ body {
   // background-color: #d92b44;
 }
 
-.main-overlay {
-  position: relative;
-  margin-left: 55px;
-  margin-right: 55px;
-  height: 1330px;
-  background-color: #ddffff;
-}
-
 main {
-  .main-copy {
-    z-index: 2;
-    text-align: left;
-    transform: scale(1.2); // 👈 1.2倍に拡大
-    // background-color: rgba(255, 0, 0, 0.2);
+
+  .main-overlay {
     position: relative;
-    left: 70px;
-    height: 235px;
+    margin-left: 55px;
+    margin-right: 55px;
+    height: 1550px;
+    background-color: #ddffff;
 
-    .main-copy__inner {
-      padding: 0;
-      // margin-left: -120px;
-      // margin-bottom: -80px;
-      // margin-right: 60
-      width: 530px;
+    .main-copy {
+      z-index: 2;
+      text-align: left;
+      transform: scale(1.2); // 👈 1.2倍に拡大
+      // background-color: rgba(255, 0, 0, 0.2);
+      // position: relative;
+      left: 70px;
+      height: 235px;
+
+      .main-copy__inner {
+        padding: 0;
+        // margin-left: -120px;
+        // margin-bottom: -80px;
+        // margin-right: 60
+        width: 530px;
+        position: absolute;
+        top: 100px;
+        left: 250px;
+      }
+
+      .main-copy__line {
+        display: block;
+        width: 480px;
+        height: 90px;
+        line-height: 90px;
+        padding-top: 0.2em;
+        margin-bottom: 1.5em;
+        padding: 0.1em 0.4em;
+        background-color: #fffefe;
+        font-weight: 600;
+        text-align: left;
+        color: #000;
+        border-bottom: 3px solid #000;
+        white-space: nowrap;
+      }
+
+      .chiiki_ugo_kinyuu {
+        font-size: 80px;
+        letter-spacing: 0.1em;
+      }
+
+      .keizai_kasu {
+        font-size: 65px;
+        letter-spacing: 0.1em;
+      }
+
+      .wo {
+        font-size: 35px;
+      }
+
+      .main-copy__catch {
+        display: inline-block;
+        width: 700px;
+        height: 100px;
+        line-height: 100px;
+        padding-top: 0.2em;
+        letter-spacing: 0.1em;
+        font-weight: 600;
+        padding: 0.1em;
+        background-color: #fffefe;
+        text-align: left;
+        font-size: 100px;
+        color: #000;
+        border-bottom: 3px solid #000;
+        white-space: nowrap;
+      }
+
+      .main-message--en-v {
+        margin-top: 2.5rem;
+        margin-left: -6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3333333333em;
+        font-weight: 600;
+        position: absolute;
+        top: 85px;
+        left: 980px;
+      }
+
+      .bd-left {
+        // position: relative;
+        padding-left: 8px; // 線との余白
+        font-size: 19px;
+        font-weight: 600;
+        white-space: nowrap;
+        letter-spacing: 0.1em;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 1px;
+          background-color: #d92b44;
+        }
+      }
+    }
+
+    .txt-v {
+      writing-mode: vertical-rl;
+      // font-feature-settings: "pkna";
+    }
+
+    .main-img {
+      // position: relative;
+
+      .img_pen {
+        position: absolute;
+        top: 20px;
+        right: 0;
+      }
+
+      .img_akushu {
+        position: absolute;
+        top: 650px;
+        left: 10px;
+        z-index: 30;
+      }
+
+      .akushu-bg {
+        position: absolute;
+        top: 650px;
+        left: -2px;
+      }
+    }
+
+    .circle {
       position: absolute;
-      top: 100px;
-      left: 250px;
-    }
-
-    .main-copy__line {
-      display: block;
-      width: 480px;
-      height: 80px;
-      // margin-left: 120px;
-      margin-bottom: 1.5em;
-      padding: 0.1em 0.4em;
-      background-color: #fffefe;
-      font-weight: 600;
-      text-align: left;
-      color: #000;
-      border-bottom: 3px solid #000;
-      white-space: nowrap;
-    }
-
-    .chiiki_ugo_kinyuu {
-      font-size: 52px;
-      letter-spacing: 0.1em;
-    }
-
-    .keizai_kasu {
-      font-size: 38px;
-      letter-spacing: 0.1em;
-    }
-
-    .wo {
-      font-size: 28px;
-    }
-
-    .main-copy__catch {
-      display: inline-block;
-      width: 700px;
-      height: 85px;
-      // margin-left: 120px;
-      // margin-bottom: 1em;
-      letter-spacing: 0.1em;
-      font-weight: 600;
-      padding: 0.1em;
-      background-color: #fffefe;
-      text-align: left;
-      font-size: 72px;
-      color: #000;
-      border-bottom: 3px solid #000;
-      white-space: nowrap;
-    }
-
-    .main-message--en-v {
-      margin-top: 2.5rem;
-      margin-left: -6rem;
+      top: 220px;
+      right: 65px;
+      z-index: 10;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      gap: 0.3333333333em;
-      font-weight: 600;
-      position: absolute;
-      top: 85px;
-      left: 980px;
     }
 
-    .bd-left {
-      position: relative;
-      padding-left: 8px; // 線との余白
-      font-size: 19px;
-      font-weight: 600;
-      white-space: nowrap;
-      letter-spacing: 0.1em;
+    .home-message {
+      // position: relative;
+      display: flex;
+      gap: 16px;
+      color: #000;
+      font-size: 13px;
+      font-weight: 550;
+      z-index: 1;
+      top: 500px;
 
-      &::before {
-        content: "";
+      .mg-img-wrap {
         position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        width: 1px;
+        top: 5px;
+        right: 80px;
+        // display: flex;
+        align-items: center;
+      }
+
+      .mg-img {
+        display: flex;
+        align-items: center;
+      }
+
+      .horizontal-line {
+        width: 380px;
+        height: 1px;
         background-color: #d92b44;
+        margin-left: 10px;
+      }
+
+      .paragraph {
+        writing-mode: vertical-rl;
+        line-height: 2.2;
+        letter-spacing: 0.3em;
+        // position: relative;
+        top: 30px;
+        left: 900px;
+        font-size: 18px;
+      }
+
+      .ratio {
+        text-orientation: upright;
+      }
+
+      .message-main {
+        color: #d92b44;
+        letter-spacing: normal;
       }
     }
   }
 
-  .txt-v {
-    writing-mode: vertical-rl;
-    // font-feature-settings: "pkna";
-  }
-
-  .main-img {
-    position: relative;
-
-    .img_pen {
-      position: absolute;
-      top: 5px;
-      right: 0;
-    }
-
-    .img_akushu {
-      position: absolute;
-      top: 495px;
-      left: 10px;
-      z-index: 30;
-    }
-
-    .akushu-bg {
-      position: absolute;
-      top: 495px;
-      left: 0;
-    }
-  }
-
-  .circle {
-    position: absolute;
-    top: 220px;
-    right: 65px;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .home-message {
-    position: relative;
-    display: flex;
-    gap: 16px;
-    color: #000;
-    font-size: 13px;
-    font-weight: 550;
-    z-index: 1;
-    top: 500px;
-
-    .mg-img-wrap {
-      position: absolute;
-      top: 5px;
-      right: 80px;
-      // display: flex;
-      align-items: center;
-    }
-
-    .mg-img {
-      display: flex;
-      align-items: center;
-    }
-
-    .horizontal-line {
-      width: 380px;
-      height: 1px;
-      background-color: #d92b44;
-      margin-left: 10px;
-    }
-
-    .paragraph {
-      writing-mode: vertical-rl;
-      line-height: 2.2;
-      letter-spacing: 0.3em;
-      position: relative;
-      top: 30px;
-      left: 900px;
-      font-size: 18px;
-    }
-
-    .ratio {
-      text-orientation: upright;
-    }
-
-    .message-main {
-      color: #d92b44;
-      letter-spacing: normal;
-    }
-  }
-
-  .blank {
-    position: fixed;
-    top: 0;
-    height: 500px;
-    width: 100%;
-  }
+  //main-overlay
 }
 
 .home_people--heading {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
   // top: 850px;
-  padding-top: 1150px;
-  padding-bottom: 3.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   // margin-left: 100%;
   // margin-right: 100%;
 
   .inner-lg {
-    position: relative;
+    position: absolute;
+    top: 60px;
     color: #fff;
-    display: flex;
     align-items: center;
     line-height: 1.5;
     text-align: justify;
+    display: flex;
+    
+    .home_people--ttl {
+      display: flex;
+      color: #fff;
+      // margin-top: 100px;
+      // left: 30px;
+    }
 
     .home_people--txt {
-      position: absolute;
       color: #fff;
-      // margin-top: 1280px;
-      right: 100px;
+      // right: 80px;
       font-size: 15px;
       letter-spacing: 0.1em;
       font-weight: 300;
     }
 
-    .home_people--ttl {
-      color: #fff;
-      position: relative;
-      margin-top: 100px;
-      top: auto;
-      left: auto;
+    .typesquare_option {
 
-      .sub-message {
+      .sub-message1 {
         display: block;
         font-size: 28px;
         letter-spacing: 0.3em;
-        margin-left: 95px;
+        left: 5px;
+        // margin-left: 95px;
       }
 
-      .lg {
-        // position: absolute;
-        font-size: 120px;
-        white-space: nowrap;
-        margin-top: -130px;
-        left: 380px;
+      .sub-message2 {
+        display: block;
+        font-size: 28px;
+        letter-spacing: 0.3em;
+        left: 5px;
+        // margin-left: 95px;
       }
+    }
+
+
+    .lg {
+      // position: absolute;
+      font-size: 120px;
+      white-space: nowrap;
+      // margin-top: -130px;
+      // left: 380px;
     }
   }
 }
@@ -347,12 +359,6 @@ main {
   padding-bottom: 3.5rem;
   z-index: 60;
   margin-top: 1380px;
-  height: 350px;
-  // width: 100vw;
-  width: 100%;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  margin: 0 auto;
 
   .merit-post {
     display: flex;

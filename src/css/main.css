@@ -278,15 +278,15 @@ input, select {
   right: 190px;
 }
 
-.typesquare_option {
+.copyright {
+  writing-mode: vertical-rl;
   position: fixed;
   color: #fff;
-  font-size: 10px;
+  font-size: 15px;
   flex-direction: column;
   top: 350px;
-  left: 15px;
+  left: 14px;
   z-index: 10;
-  writing-mode: vertical-rl;
   font-weight: 600;
   letter-spacing: 0.1em;
 }
@@ -475,33 +475,33 @@ body {
   background-color: transparent;
 }
 
-.main-overlay {
+main .main-overlay {
   position: relative;
   margin-left: 55px;
   margin-right: 55px;
-  height: 1330px;
+  height: 1550px;
   background-color: #ddffff;
 }
-
-main .main-copy {
+main .main-overlay .main-copy {
   z-index: 2;
   text-align: left;
   transform: scale(1.2);
-  position: relative;
   left: 70px;
   height: 235px;
 }
-main .main-copy .main-copy__inner {
+main .main-overlay .main-copy .main-copy__inner {
   padding: 0;
   width: 530px;
   position: absolute;
   top: 100px;
   left: 250px;
 }
-main .main-copy .main-copy__line {
+main .main-overlay .main-copy .main-copy__line {
   display: block;
   width: 480px;
-  height: 80px;
+  height: 90px;
+  line-height: 90px;
+  padding-top: 0.2em;
   margin-bottom: 1.5em;
   padding: 0.1em 0.4em;
   background-color: #fffefe;
@@ -511,32 +511,34 @@ main .main-copy .main-copy__line {
   border-bottom: 3px solid #000;
   white-space: nowrap;
 }
-main .main-copy .chiiki_ugo_kinyuu {
-  font-size: 52px;
+main .main-overlay .main-copy .chiiki_ugo_kinyuu {
+  font-size: 80px;
   letter-spacing: 0.1em;
 }
-main .main-copy .keizai_kasu {
-  font-size: 38px;
+main .main-overlay .main-copy .keizai_kasu {
+  font-size: 65px;
   letter-spacing: 0.1em;
 }
-main .main-copy .wo {
-  font-size: 28px;
+main .main-overlay .main-copy .wo {
+  font-size: 35px;
 }
-main .main-copy .main-copy__catch {
+main .main-overlay .main-copy .main-copy__catch {
   display: inline-block;
   width: 700px;
-  height: 85px;
+  height: 100px;
+  line-height: 100px;
+  padding-top: 0.2em;
   letter-spacing: 0.1em;
   font-weight: 600;
   padding: 0.1em;
   background-color: #fffefe;
   text-align: left;
-  font-size: 72px;
+  font-size: 100px;
   color: #000;
   border-bottom: 3px solid #000;
   white-space: nowrap;
 }
-main .main-copy .main-message--en-v {
+main .main-overlay .main-copy .main-message--en-v {
   margin-top: 2.5rem;
   margin-left: -6rem;
   display: flex;
@@ -548,15 +550,14 @@ main .main-copy .main-message--en-v {
   top: 85px;
   left: 980px;
 }
-main .main-copy .bd-left {
-  position: relative;
+main .main-overlay .main-copy .bd-left {
   padding-left: 8px;
   font-size: 19px;
   font-weight: 600;
   white-space: nowrap;
   letter-spacing: 0.1em;
 }
-main .main-copy .bd-left::before {
+main .main-overlay .main-copy .bd-left::before {
   content: "";
   position: absolute;
   left: 0;
@@ -565,29 +566,26 @@ main .main-copy .bd-left::before {
   width: 1px;
   background-color: #d92b44;
 }
-main .txt-v {
+main .main-overlay .txt-v {
   writing-mode: vertical-rl;
 }
-main .main-img {
-  position: relative;
-}
-main .main-img .img_pen {
+main .main-overlay .main-img .img_pen {
   position: absolute;
-  top: 5px;
+  top: 20px;
   right: 0;
 }
-main .main-img .img_akushu {
+main .main-overlay .main-img .img_akushu {
   position: absolute;
-  top: 495px;
+  top: 650px;
   left: 10px;
   z-index: 30;
 }
-main .main-img .akushu-bg {
+main .main-overlay .main-img .akushu-bg {
   position: absolute;
-  top: 495px;
-  left: 0;
+  top: 650px;
+  left: -2px;
 }
-main .circle {
+main .main-overlay .circle {
   position: absolute;
   top: 220px;
   right: 65px;
@@ -595,8 +593,7 @@ main .circle {
   display: flex;
   flex-direction: column;
 }
-main .home-message {
-  position: relative;
+main .main-overlay .home-message {
   display: flex;
   gap: 16px;
   color: #000;
@@ -605,84 +602,81 @@ main .home-message {
   z-index: 1;
   top: 500px;
 }
-main .home-message .mg-img-wrap {
+main .main-overlay .home-message .mg-img-wrap {
   position: absolute;
   top: 5px;
   right: 80px;
   align-items: center;
 }
-main .home-message .mg-img {
+main .main-overlay .home-message .mg-img {
   display: flex;
   align-items: center;
 }
-main .home-message .horizontal-line {
+main .main-overlay .home-message .horizontal-line {
   width: 380px;
   height: 1px;
   background-color: #d92b44;
   margin-left: 10px;
 }
-main .home-message .paragraph {
+main .main-overlay .home-message .paragraph {
   writing-mode: vertical-rl;
   line-height: 2.2;
   letter-spacing: 0.3em;
-  position: relative;
   top: 30px;
   left: 900px;
   font-size: 18px;
 }
-main .home-message .ratio {
+main .main-overlay .home-message .ratio {
   text-orientation: upright;
 }
-main .home-message .message-main {
+main .main-overlay .home-message .message-main {
   color: #d92b44;
   letter-spacing: normal;
-}
-main .blank {
-  position: fixed;
-  top: 0;
-  height: 500px;
-  width: 100%;
 }
 
 .home_people--heading {
   position: relative;
-  padding-top: 1150px;
-  padding-bottom: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .home_people--heading .inner-lg {
-  position: relative;
+  position: absolute;
+  top: 60px;
   color: #fff;
-  display: flex;
   align-items: center;
   line-height: 1.5;
   text-align: justify;
+  display: flex;
+}
+.home_people--heading .inner-lg .home_people--ttl {
+  display: flex;
+  color: #fff;
 }
 .home_people--heading .inner-lg .home_people--txt {
-  position: absolute;
   color: #fff;
-  right: 100px;
   font-size: 15px;
   letter-spacing: 0.1em;
   font-weight: 300;
 }
-.home_people--heading .inner-lg .home_people--ttl {
-  color: #fff;
-  position: relative;
-  margin-top: 100px;
-  top: auto;
-  left: auto;
-}
-.home_people--heading .inner-lg .home_people--ttl .sub-message {
+.home_people--heading .inner-lg .typesquare_option .sub-message1 {
   display: block;
   font-size: 28px;
   letter-spacing: 0.3em;
-  margin-left: 95px;
+  left: 5px;
 }
-.home_people--heading .inner-lg .home_people--ttl .lg {
+.home_people--heading .inner-lg .typesquare_option .sub-message2 {
+  display: block;
+  font-size: 28px;
+  letter-spacing: 0.3em;
+  left: 5px;
+}
+.home_people--heading .inner-lg .lg {
   font-size: 120px;
   white-space: nowrap;
-  margin-top: -130px;
-  left: 380px;
 }
 
 .home_people--slide {
@@ -691,11 +685,6 @@ main .blank {
   padding-bottom: 3.5rem;
   z-index: 60;
   margin-top: 1380px;
-  height: 350px;
-  width: 100%;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  margin: 0 auto;
 }
 .home_people--slide .merit-post {
   display: flex;

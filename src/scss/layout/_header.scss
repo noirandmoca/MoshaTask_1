@@ -208,15 +208,15 @@
   }
 }
 
-.typesquare_option {
+.copyright {
+  writing-mode: vertical-rl;
   position: fixed;
   color: #fff;
-  font-size: 10px;
+  font-size: 15px;
   flex-direction: column;
   top: 350px;
-  left: 15px;
+  left: 14px;
   z-index: 10;
-  writing-mode: vertical-rl;
   font-weight: 600;
   letter-spacing: 0.1em;
 }

@@ -365,8 +365,8 @@ main {
   height: 400px;
   justify-content: center;
   align-items: center;
-  padding-top: 5.8rem;
-  padding-bottom: 5.8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   color: #fff;
 border-bottom: 2px solid #fff;
 
@@ -407,23 +407,24 @@ border-bottom: 2px solid #fff;
 
   .btn {
     position: absolute;
-    top: 270px;
-    left: 190px;
+    top: 350px;
+    left: 250px;
+
   }
 
   .merit-text {
     position: absolute;
-    top: 200px;
+    top: 260px;
     left: -90px;
 
     .merit-list1-1 {
       gap: 18px;
       color: #000;
-      font-size: 17px;
+      font-size: 20px;
       background-color: #fff;
       border-bottom: 2px solid #000;
       display: block;
-      width: 300px;
+      width: 350px;
       height: 30px;
       //letter-spacing: 0.1em;
       font-weight: 600;
@@ -436,11 +437,11 @@ border-bottom: 2px solid #fff;
 
     .merit-list1-2 {
       color: #000;
-      font-size: 17px;
+      font-size: 20px;
       background-color: #fff;
       border-bottom: 2px solid #000;
       display: block;
-      width: 160px;
+      width: 200px;
       height: 30px;
       //letter-spacing: 0.1em;
       font-weight: 600;
@@ -451,12 +452,12 @@ border-bottom: 2px solid #fff;
     }
   }
 
-  .profile {
+  .profile1 {
     position: relative;
-    top: 350px;
+    top: 390px;
     left: 20px;
     color: #fff;
-    font-size: 100px;
+    font-size: 15px;
     font-weight: 550;
     line-height: 1.4;
 
@@ -496,16 +497,10 @@ border-bottom: 2px solid #fff;
     left: 110px;
   }
 
-  .btn {
-    position: absolute;
-    top: 270px;
-    left: 190px;
-  }
-
-  .merit-text {
-    position: absolute;
-    top: 200px;
-    left: -90px;
+  // .merit-text {
+  //   position: absolute;
+  //   top: 200px;
+  //   left: -90px;
 
     .merit-list2-1 {
       gap: 18px;
@@ -587,16 +582,10 @@ border-bottom: 2px solid #fff;
     left: 110px;
   }
 
-  .btn {
-    position: absolute;
-    top: 270px;
-    left: 190px;
-  }
-
-  .merit-text {
-    position: absolute;
-    top: 200px;
-    left: -90px;
+  // .merit-text {
+  //   position: absolute;
+  //   top: 200px;
+  //   left: -90px;
 
     .merit-list3-1 {
       gap: 18px;
@@ -631,7 +620,6 @@ border-bottom: 2px solid #fff;
       text-align: center;
       white-space: nowrap;
     }
-  }
 
   .profile {
     position: relative;
@@ -679,4 +667,3 @@ border-bottom: 2px solid #fff;
     text-decoration: none;
     // left: 600px;
   }
-}

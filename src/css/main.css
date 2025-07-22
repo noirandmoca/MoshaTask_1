@@ -701,8 +701,8 @@ main .main-overlay .home-message .message-main {
   height: 400px;
   justify-content: center;
   align-items: center;
-  padding-top: 5.8rem;
-  padding-bottom: 5.8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   color: #fff;
   border-bottom: 2px solid #fff;
 }
@@ -739,22 +739,22 @@ main .main-overlay .home-message .message-main {
 }
 .home_people--slide .btn {
   position: absolute;
-  top: 270px;
-  left: 190px;
+  top: 350px;
+  left: 250px;
 }
 .home_people--slide .merit-text {
   position: absolute;
-  top: 200px;
+  top: 260px;
   left: -90px;
 }
 .home_people--slide .merit-text .merit-list1-1 {
   gap: 18px;
   color: #000;
-  font-size: 17px;
+  font-size: 20px;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 300px;
+  width: 350px;
   height: 30px;
   font-weight: 600;
   padding: 0.2em 0;
@@ -765,11 +765,11 @@ main .main-overlay .home-message .message-main {
 }
 .home_people--slide .merit-text .merit-list1-2 {
   color: #000;
-  font-size: 17px;
+  font-size: 20px;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 160px;
+  width: 200px;
   height: 30px;
   font-weight: 600;
   padding: 0.2em 0;
@@ -777,20 +777,20 @@ main .main-overlay .home-message .message-main {
   text-align: center;
   white-space: nowrap;
 }
-.home_people--slide .profile {
+.home_people--slide .profile1 {
   position: relative;
-  top: 350px;
+  top: 390px;
   left: 20px;
   color: #fff;
-  font-size: 100px;
+  font-size: 15px;
   font-weight: 550;
   line-height: 1.4;
 }
-.home_people--slide .profile .initial {
+.home_people--slide .profile1 .initial {
   position: absolute;
   top: -8px;
 }
-.home_people--slide .profile .typesquare_option {
+.home_people--slide .profile1 .typesquare_option {
   position: absolute;
   top: 10px;
 }
@@ -816,17 +816,7 @@ main .main-overlay .home-message .message-main {
   position: absolute;
   left: 110px;
 }
-.home_people--slide .btn {
-  position: absolute;
-  top: 270px;
-  left: 190px;
-}
-.home_people--slide .merit-text {
-  position: absolute;
-  top: 200px;
-  left: -90px;
-}
-.home_people--slide .merit-text .merit-list2-1 {
+.home_people--slide .merit-list2-1 {
   gap: 18px;
   color: #000;
   font-size: 17px;
@@ -842,7 +832,7 @@ main .main-overlay .home-message .message-main {
   white-space: nowrap;
   margin-bottom: 1em;
 }
-.home_people--slide .merit-text .merit-list2-2 {
+.home_people--slide .merit-list2-2 {
   color: #000;
   font-size: 17px;
   background-color: #fff;
@@ -856,7 +846,8 @@ main .main-overlay .home-message .message-main {
   text-align: center;
   white-space: nowrap;
 }
-.home_people--slide .profile {
+
+.profile {
   position: relative;
   top: 295px;
   left: 20px;
@@ -865,15 +856,16 @@ main .main-overlay .home-message .message-main {
   font-weight: 550;
   line-height: 1.4;
 }
-.home_people--slide .profile .initial {
+.profile .initial {
   position: absolute;
   top: -8px;
 }
-.home_people--slide .profile .typesquare_option {
+.profile .typesquare_option {
   position: absolute;
   top: 10px;
 }
-.home_people--slide .merit-post3 {
+
+.merit-post3 {
   position: absolute;
   left: 895px;
   display: block;
@@ -882,7 +874,8 @@ main .main-overlay .home-message .message-main {
   height: 400px;
   width: 350px;
 }
-.home_people--slide .number {
+
+.number {
   display: block;
   position: absolute;
   left: 20px;
@@ -891,21 +884,13 @@ main .main-overlay .home-message .message-main {
   font-size: 60px;
   font-weight: 100;
 }
-.home_people--slide .image-area {
+
+.image-area {
   position: absolute;
   left: 110px;
 }
-.home_people--slide .btn {
-  position: absolute;
-  top: 270px;
-  left: 190px;
-}
-.home_people--slide .merit-text {
-  position: absolute;
-  top: 200px;
-  left: -90px;
-}
-.home_people--slide .merit-text .merit-list3-1 {
+
+.merit-list3-1 {
   gap: 18px;
   color: #000;
   font-size: 17px;
@@ -921,7 +906,8 @@ main .main-overlay .home-message .message-main {
   white-space: nowrap;
   margin-bottom: 1em;
 }
-.home_people--slide .merit-text .merit-list3-2 {
+
+.merit-list3-2 {
   color: #000;
   font-size: 17px;
   background-color: #fff;
@@ -935,7 +921,8 @@ main .main-overlay .home-message .message-main {
   text-align: center;
   white-space: nowrap;
 }
-.home_people--slide .profile {
+
+.profile {
   position: relative;
   top: 295px;
   left: 20px;
@@ -944,22 +931,24 @@ main .main-overlay .home-message .message-main {
   font-weight: 550;
   line-height: 1.4;
 }
-.home_people--slide .profile .initial {
+.profile .initial {
   position: absolute;
   top: -8px;
 }
-.home_people--slide .profile .typesquare_option {
+.profile .typesquare_option {
   position: absolute;
   top: 10px;
 }
-.home_people--slide .btn-ctr {
+
+.btn-ctr {
   position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
   top: 290px;
 }
-.home_people--slide .btn-ctr a {
+
+.btn-ctr a {
   display: flex;
   justify-content: center;
   color: #d92b44;

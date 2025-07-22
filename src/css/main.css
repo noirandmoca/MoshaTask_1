@@ -494,7 +494,7 @@ main .main-overlay .main-copy .main-copy__inner {
   width: 530px;
   position: absolute;
   top: 100px;
-  left: 250px;
+  left: 300px;
 }
 main .main-overlay .main-copy .main-copy__line {
   display: block;
@@ -571,8 +571,8 @@ main .main-overlay .txt-v {
 }
 main .main-overlay .main-img .img_pen {
   position: absolute;
-  top: 20px;
-  right: 0;
+  top: 10px;
+  right: -40px;
 }
 main .main-overlay .main-img .img_akushu {
   position: absolute;
@@ -587,8 +587,8 @@ main .main-overlay .main-img .akushu-bg {
 }
 main .main-overlay .circle {
   position: absolute;
-  top: 220px;
-  right: 65px;
+  top: 270px;
+  right: 130px;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -604,8 +604,8 @@ main .main-overlay .home-message {
 }
 main .main-overlay .home-message .mg-img-wrap {
   position: absolute;
-  top: 5px;
-  right: 80px;
+  top: 500px;
+  right: 380px;
   align-items: center;
 }
 main .main-overlay .home-message .mg-img {
@@ -613,18 +613,18 @@ main .main-overlay .home-message .mg-img {
   align-items: center;
 }
 main .main-overlay .home-message .horizontal-line {
-  width: 380px;
+  width: 320px;
   height: 1px;
   background-color: #d92b44;
   margin-left: 10px;
 }
 main .main-overlay .home-message .paragraph {
+  top: 500px;
+  right: 600px;
+  font-size: 18px;
   writing-mode: vertical-rl;
   line-height: 2.2;
   letter-spacing: 0.3em;
-  top: 30px;
-  left: 900px;
-  font-size: 18px;
 }
 main .main-overlay .home-message .ratio {
   text-orientation: upright;

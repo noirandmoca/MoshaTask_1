@@ -94,7 +94,7 @@ main {
     margin-left: 55px;
     margin-right: 55px;
     height: 1550px;
-    background-color: #ddffff;
+    background-color: #fbf9f3;
 
     .main-copy {
       z-index: 2;
@@ -177,7 +177,7 @@ main {
       }
 
       .bd-left {
-        // position: relative;
+        position: relative;
         padding-left: 8px; // 線との余白
         font-size: 19px;
         font-weight: 600;
@@ -190,7 +190,7 @@ main {
           left: 0;
           top: 0;
           bottom: 0;
-          width: 1px;
+          width: 0.8px;
           background-color: #d92b44;
         }
       }
@@ -265,9 +265,9 @@ main {
       }
 
       .paragraph {
-        // position: absolute;
-        top: 500px;
-        right: 600px;
+        position: relative;
+        top: 400px;
+        right: 5px;
         font-size: 18px;
         writing-mode: vertical-rl;
         line-height: 2.2;
@@ -291,24 +291,23 @@ main {
 .home_people--heading {
   position: relative;
   display: flex;
+  height: 250px;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  // top: 850px;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  // margin-left: 100%;
-  // margin-right: 100%;
+  border-bottom: 2px solid #fff;
 
   .inner-lg {
     position: absolute;
     top: 60px;
+    height: 180px;
     color: #fff;
     align-items: center;
     line-height: 1.5;
     text-align: justify;
     display: flex;
-    
+
     .home_people--ttl {
       display: flex;
       color: #fff;
@@ -317,27 +316,32 @@ main {
     }
 
     .home_people--txt {
+      position: relative;
+      top: 20px;
+      right: 10px;
       color: #fff;
-      // right: 80px;
-      font-size: 15px;
+      font-size: 16px;
       letter-spacing: 0.1em;
       font-weight: 300;
     }
 
     .typesquare_option {
+      position: relative;
+      top: 70px;
+      left: 100px;
 
       .sub-message1 {
         display: block;
-        font-size: 28px;
-        letter-spacing: 0.3em;
+        font-size: 45px;
+        letter-spacing: 0.1em;
         left: 5px;
         // margin-left: 95px;
       }
 
       .sub-message2 {
         display: block;
-        font-size: 28px;
-        letter-spacing: 0.3em;
+        font-size: 45px;
+        letter-spacing: 0.1em;
         left: 5px;
         // margin-left: 95px;
       }
@@ -345,11 +349,12 @@ main {
 
 
     .lg {
-      // position: absolute;
-      font-size: 120px;
+      position: relative;
+      top: 40px;
+      left: 30px;
+      font-size: 158px;
       white-space: nowrap;
-      // margin-top: -130px;
-      // left: 380px;
+      letter-spacing: 0.2em;
     }
   }
 }

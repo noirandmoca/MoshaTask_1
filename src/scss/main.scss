@@ -380,9 +380,9 @@ border-bottom: 2px solid #fff;
     display: flex;
   }
 
-  .merit-post {
+  .merit-post1 {
     position: absolute;
-    left: 540px;
+    left: 40px;
     display: block;
     margin: 0 3rem;
     width: 25rem;
@@ -416,7 +416,189 @@ border-bottom: 2px solid #fff;
     top: 200px;
     left: -90px;
 
-    .merit-list {
+    .merit-list1-1 {
+      gap: 18px;
+      color: #000;
+      font-size: 17px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 300px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+      margin-bottom: 1em;
+    }
+
+    .merit-list1-2 {
+      color: #000;
+      font-size: 17px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 160px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .profile {
+    position: relative;
+    top: 350px;
+    left: 20px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 550;
+    line-height: 1.4;
+
+    .initial {
+      position: absolute;
+      top: -8px;
+    }
+
+    .typesquare_option {
+      position: absolute;
+      top: 10px;
+    }
+  }
+
+  .merit-post2 {
+    position: absolute;
+    left: 465px;
+    display: block;
+    margin: 0 3rem;
+    width: 25rem;
+    height: 400px;
+    width: 350px;
+  }
+
+  .number {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+  }
+
+  .image-area {
+    position: absolute;
+    left: 110px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 270px;
+    left: 190px;
+  }
+
+  .merit-text {
+    position: absolute;
+    top: 200px;
+    left: -90px;
+
+    .merit-list2-1 {
+      gap: 18px;
+      color: #000;
+      font-size: 17px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 120px;
+      height: 18px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+      margin-bottom: 1em;
+    }
+
+    .merit-list2-2 {
+      color: #000;
+      font-size: 17px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 260px;
+      height: 18px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .profile {
+    position: relative;
+    top: 295px;
+    left: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 550;
+    line-height: 1.4;
+
+    .initial {
+      position: absolute;
+      top: -8px;
+    }
+
+    .typesquare_option {
+      position: absolute;
+      top: 10px;
+    }
+  }
+
+  .merit-post3 {
+    position: absolute;
+    left: 895px;
+    display: block;
+    margin: 0 3rem;
+    width: 25rem;
+    height: 400px;
+    width: 350px;
+  }
+
+  .number {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+  }
+
+  .image-area {
+    position: absolute;
+    left: 110px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 270px;
+    left: 190px;
+  }
+
+  .merit-text {
+    position: absolute;
+    top: 200px;
+    left: -90px;
+
+    .merit-list3-1 {
       gap: 18px;
       color: #000;
       font-size: 17px;
@@ -434,7 +616,7 @@ border-bottom: 2px solid #fff;
       margin-bottom: 1em;
     }
 
-    .merit-list2 {
+    .merit-list3-2 {
       color: #000;
       font-size: 17px;
       background-color: #fff;
@@ -473,14 +655,14 @@ border-bottom: 2px solid #fff;
 
   .btn-ctr {
    position: relative;
-   top: -70px;
    display: flex;
   justify-content: center;
    width: 100%;
+   top: 290px;
   }
 
-  a {
-    position: relative;
+  .btn-ctr a {
+    // position: relative;
     display: flex;
     justify-content: center;
     color: #d92b44;
@@ -492,11 +674,9 @@ border-bottom: 2px solid #fff;
     width: 150px;
     height: 18px;
     border-radius: 0.2rem;
-    z-index: 1;
     overflow: hidden;
     background-color: #fff;
     text-decoration: none;
-    top: 385px;
-    left: 600px;
+    // left: 600px;
   }
 }

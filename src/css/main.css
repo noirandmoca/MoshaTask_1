@@ -715,9 +715,9 @@ main .main-overlay .home-message .message-main {
   text-align: justify;
   display: flex;
 }
-.home_people--slide .merit-post {
+.home_people--slide .merit-post1 {
   position: absolute;
-  left: 540px;
+  left: 40px;
   display: block;
   margin: 0 3rem;
   width: 25rem;
@@ -747,7 +747,165 @@ main .main-overlay .home-message .message-main {
   top: 200px;
   left: -90px;
 }
-.home_people--slide .merit-text .merit-list {
+.home_people--slide .merit-text .merit-list1-1 {
+  gap: 18px;
+  color: #000;
+  font-size: 17px;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  display: block;
+  width: 300px;
+  height: 30px;
+  font-weight: 600;
+  padding: 0.2em 0;
+  background-color: #fffefe;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 1em;
+}
+.home_people--slide .merit-text .merit-list1-2 {
+  color: #000;
+  font-size: 17px;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  display: block;
+  width: 160px;
+  height: 30px;
+  font-weight: 600;
+  padding: 0.2em 0;
+  background-color: #fffefe;
+  text-align: center;
+  white-space: nowrap;
+}
+.home_people--slide .profile {
+  position: relative;
+  top: 350px;
+  left: 20px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 550;
+  line-height: 1.4;
+}
+.home_people--slide .profile .initial {
+  position: absolute;
+  top: -8px;
+}
+.home_people--slide .profile .typesquare_option {
+  position: absolute;
+  top: 10px;
+}
+.home_people--slide .merit-post2 {
+  position: absolute;
+  left: 465px;
+  display: block;
+  margin: 0 3rem;
+  width: 25rem;
+  height: 400px;
+  width: 350px;
+}
+.home_people--slide .number {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+}
+.home_people--slide .image-area {
+  position: absolute;
+  left: 110px;
+}
+.home_people--slide .btn {
+  position: absolute;
+  top: 270px;
+  left: 190px;
+}
+.home_people--slide .merit-text {
+  position: absolute;
+  top: 200px;
+  left: -90px;
+}
+.home_people--slide .merit-text .merit-list2-1 {
+  gap: 18px;
+  color: #000;
+  font-size: 17px;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  display: block;
+  width: 120px;
+  height: 18px;
+  font-weight: 600;
+  padding: 0.2em 0;
+  background-color: #fffefe;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 1em;
+}
+.home_people--slide .merit-text .merit-list2-2 {
+  color: #000;
+  font-size: 17px;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  display: block;
+  width: 260px;
+  height: 18px;
+  font-weight: 600;
+  padding: 0.2em 0;
+  background-color: #fffefe;
+  text-align: center;
+  white-space: nowrap;
+}
+.home_people--slide .profile {
+  position: relative;
+  top: 295px;
+  left: 20px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 1.4;
+}
+.home_people--slide .profile .initial {
+  position: absolute;
+  top: -8px;
+}
+.home_people--slide .profile .typesquare_option {
+  position: absolute;
+  top: 10px;
+}
+.home_people--slide .merit-post3 {
+  position: absolute;
+  left: 895px;
+  display: block;
+  margin: 0 3rem;
+  width: 25rem;
+  height: 400px;
+  width: 350px;
+}
+.home_people--slide .number {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+}
+.home_people--slide .image-area {
+  position: absolute;
+  left: 110px;
+}
+.home_people--slide .btn {
+  position: absolute;
+  top: 270px;
+  left: 190px;
+}
+.home_people--slide .merit-text {
+  position: absolute;
+  top: 200px;
+  left: -90px;
+}
+.home_people--slide .merit-text .merit-list3-1 {
   gap: 18px;
   color: #000;
   font-size: 17px;
@@ -763,7 +921,7 @@ main .main-overlay .home-message .message-main {
   white-space: nowrap;
   margin-bottom: 1em;
 }
-.home_people--slide .merit-text .merit-list2 {
+.home_people--slide .merit-text .merit-list3-2 {
   color: #000;
   font-size: 17px;
   background-color: #fff;
@@ -796,13 +954,12 @@ main .main-overlay .home-message .message-main {
 }
 .home_people--slide .btn-ctr {
   position: relative;
-  top: -70px;
   display: flex;
   justify-content: center;
   width: 100%;
+  top: 290px;
 }
-.home_people--slide a {
-  position: relative;
+.home_people--slide .btn-ctr a {
   display: flex;
   justify-content: center;
   color: #d92b44;
@@ -814,12 +971,9 @@ main .main-overlay .home-message .message-main {
   width: 150px;
   height: 18px;
   border-radius: 0.2rem;
-  z-index: 1;
   overflow: hidden;
   background-color: #fff;
   text-decoration: none;
-  top: 385px;
-  left: 600px;
 }
 
 /*# sourceMappingURL=main.css.map */

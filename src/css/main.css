@@ -697,90 +697,109 @@ main .main-overlay .home-message .message-main {
 
 .home_people--slide {
   position: relative;
-  padding-top: 1000px;
-  padding-bottom: 3.5rem;
-  z-index: 60;
-  margin-top: 1380px;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5.8rem;
+  padding-bottom: 5.8rem;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.home_people--slide .slick-track {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  line-height: 1.5;
+  text-align: justify;
+  display: flex;
 }
 .home_people--slide .merit-post {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+  position: absolute;
+  left: 540px;
+  display: block;
+  margin: 0 3rem;
+  width: 25rem;
+  height: 400px;
+  width: 350px;
 }
 .home_people--slide .number {
   display: block;
   position: absolute;
   left: 20px;
-  top: 110px;
+  top: 10px;
   color: #fff;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 100;
-}
-.home_people--slide .arrow-btn {
-  display: inline-block;
-  position: absolute;
-  top: 250px;
-  left: 170px;
-  color: #000;
-  font-size: 30px;
-  font-weight: 600;
-  background-color: #fff;
-  border-radius: 50%;
-  height: 45px;
-  width: 45px;
-  text-align: center;
-  line-height: 45px;
 }
 .home_people--slide .image-area {
   position: absolute;
   left: 110px;
 }
-.home_people--slide .merit-list {
+.home_people--slide .btn {
   position: absolute;
-  gap: 18px;
-  top: 165px;
+  top: 270px;
+  left: 190px;
+}
+.home_people--slide .merit-text {
+  position: absolute;
+  top: 200px;
   left: -90px;
+}
+.home_people--slide .merit-text .merit-list {
+  gap: 18px;
   color: #000;
-  font-size: 15px;
+  font-size: 17px;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 280px;
-  height: 17px;
+  width: 300px;
+  height: 18px;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
   text-align: center;
+  white-space: nowrap;
   margin-bottom: 1em;
 }
-.home_people--slide .merit-list2 {
-  position: absolute;
-  top: 200px;
-  left: -90px;
+.home_people--slide .merit-text .merit-list2 {
   color: #000;
-  font-size: 15px;
+  font-size: 17px;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
   width: 160px;
-  height: 17px;
+  height: 18px;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
   text-align: center;
+  white-space: nowrap;
 }
 .home_people--slide .profile {
-  position: absolute;
-  top: 330px;
+  position: relative;
+  top: 295px;
   left: 20px;
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 550;
   line-height: 1.4;
 }
+.home_people--slide .profile .initial {
+  position: absolute;
+  top: -8px;
+}
+.home_people--slide .profile .typesquare_option {
+  position: absolute;
+  top: 10px;
+}
 .home_people--slide .btn-ctr {
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  top: -70px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .home_people--slide a {
   position: relative;

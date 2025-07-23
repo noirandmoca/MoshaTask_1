@@ -79,6 +79,11 @@ body {
     top: 2570px;
   }
 
+  .eraser {
+    position: absolute;
+    top: 2500px;
+    right: 0;
+  }
   // .eraser {
 
   // }
@@ -251,10 +256,10 @@ main {
         font-size: 13px;
         font-weight: 550;
         z-index: 1;
-width: 500px;
-  height: 500px;
-  top: 300px;
-  left: 300px;
+        width: 500px;
+        height: 500px;
+        top: 350px;
+        left: 160px;
 
         .mg-img-wrap {
           position: absolute;
@@ -267,6 +272,9 @@ width: 500px;
         .mg-img {
           display: flex;
           align-items: center;
+          position: absolute;
+          top: -100px;
+          left: -500px;
         }
 
         .horizontal-line {
@@ -283,7 +291,7 @@ width: 500px;
         .paragraph {
           // position: re;
           top: 300px;
-          right: 5px;
+          right: 500px;
           font-size: 18px;
           writing-mode: vertical-rl;
           line-height: 2.2;
@@ -524,48 +532,48 @@ width: 500px;
   //   left: -90px;
 
   .merit-list2-1 {
-    gap: 18px;
-    color: #000;
-    font-size: 17px;
-    background-color: #fff;
-    border-bottom: 2px solid #000;
-    display: block;
-    width: 120px;
-    height: 18px;
-    //letter-spacing: 0.1em;
-    font-weight: 600;
-    padding: 0.2em 0;
-    background-color: #fffefe;
-    text-align: center;
-    white-space: nowrap;
-    margin-bottom: 1em;
+   gap: 18px;
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 150px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+      margin-bottom: 1em;
   }
 
   .merit-list2-2 {
-    color: #000;
-    font-size: 17px;
-    background-color: #fff;
-    border-bottom: 2px solid #000;
-    display: block;
-    width: 260px;
-    height: 18px;
-    //letter-spacing: 0.1em;
-    font-weight: 600;
-    padding: 0.2em 0;
-    background-color: #fffefe;
-    text-align: center;
-    white-space: nowrap;
+     color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 350px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
   }
 }
 
-.profile {
-  position: relative;
-  top: 295px;
-  left: 20px;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 550;
-  line-height: 1.4;
+.profile2 {
+position: relative;
+    top: 390px;
+    left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 1.4;
 
   .initial {
     position: absolute;
@@ -580,7 +588,7 @@ width: 500px;
 
 .merit-post3 {
   position: absolute;
-  left: 895px;
+  left: 1080px;
   display: block;
   margin: 0 3rem;
   width: 25rem;
@@ -609,47 +617,47 @@ width: 500px;
 //   left: -90px;
 
 .merit-list3-1 {
-  gap: 18px;
-  color: #000;
-  font-size: 17px;
-  background-color: #fff;
-  border-bottom: 2px solid #000;
-  display: block;
-  width: 300px;
-  height: 18px;
-  //letter-spacing: 0.1em;
-  font-weight: 600;
-  padding: 0.2em 0;
-  background-color: #fffefe;
-  text-align: center;
-  white-space: nowrap;
-  margin-bottom: 1em;
+      gap: 18px;
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 280px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+      margin-bottom: 1em;
 }
 
 .merit-list3-2 {
-  color: #000;
-  font-size: 17px;
-  background-color: #fff;
-  border-bottom: 2px solid #000;
-  display: block;
-  width: 160px;
-  height: 18px;
-  //letter-spacing: 0.1em;
-  font-weight: 600;
-  padding: 0.2em 0;
-  background-color: #fffefe;
-  text-align: center;
-  white-space: nowrap;
+   color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 230px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
 }
 
-.profile {
+.profile3 {
   position: relative;
-  top: 295px;
-  left: 20px;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 550;
-  line-height: 1.4;
+    top: 390px;
+    left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 1.4;
 
   .initial {
     position: absolute;
@@ -661,6 +669,279 @@ width: 500px;
     top: 10px;
   }
 }
+
+.merit-post4 {
+    position: absolute;
+    left: 1040px;
+    display: block;
+    margin: 0 3rem;
+    width: 25rem;
+    height: 400px;
+    width: 350px;
+  }
+
+  .number {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+  }
+
+  .image-area {
+    position: absolute;
+    left: 110px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+  }
+
+  .merit-text {
+    position: absolute;
+    top: 260px;
+    left: -90px;
+
+    .merit-list4-1 {
+      gap: 18px;
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 150px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+      margin-bottom: 1em;
+    }
+
+    .merit-list4-2 {
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 330px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .profile4 {
+    position: relative;
+    top: 390px;
+    left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 1.4;
+
+    .initial {
+      position: absolute;
+      top: -8px;
+    }
+
+    .typesquare_option {
+      position: absolute;
+      top: 10px;
+    }
+  }
+
+.merit-post5 {
+    position: absolute;
+    left: 1540px;
+    display: block;
+    margin: 0 3rem;
+    width: 25rem;
+    height: 400px;
+    width: 350px;
+  }
+
+  .number {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+  }
+
+  .image-area {
+    position: absolute;
+    left: 110px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+  }
+
+  .merit-text {
+    position: absolute;
+    top: 260px;
+    left: -90px;
+
+    .merit-list5-1 {
+      gap: 18px;
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 250px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+      margin-bottom: 1em;
+    }
+
+    .merit-list5-2 {
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 350px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .profile5 {
+    position: relative;
+    top: 390px;
+    left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 1.4;
+
+    .initial {
+      position: absolute;
+      top: -8px;
+    }
+
+    .typesquare_option {
+      position: absolute;
+      top: 10px;
+    }
+  }
+
+.merit-post6 {
+    position: absolute;
+    left: 1650px;
+    display: block;
+    margin: 0 3rem;
+    width: 25rem;
+    height: 400px;
+    width: 350px;
+  }
+
+  .number {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+  }
+
+  .image-area {
+    position: absolute;
+    left: 110px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+  }
+
+  .merit-text {
+    position: absolute;
+    top: 260px;
+    left: -90px;
+
+    .merit-list6-1 {
+      gap: 18px;
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 330px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+      margin-bottom: 1em;
+    }
+
+    .merit-list6-2 {
+      color: #000;
+      font-size: 20px;
+      background-color: #fff;
+      border-bottom: 2px solid #000;
+      display: block;
+      width: 230px;
+      height: 30px;
+      //letter-spacing: 0.1em;
+      font-weight: 600;
+      padding: 0.2em 0;
+      background-color: #fffefe;
+      text-align: center;
+      white-space: nowrap;
+    }
+  }
+
+  .profile6 {
+    position: relative;
+    top: 390px;
+    left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 1.4;
+
+    .initial {
+      position: absolute;
+      top: -8px;
+    }
+
+    .typesquare_option {
+      position: absolute;
+      top: 10px;
+    }
+  }
 
 .btn-ctr {
   position: relative;

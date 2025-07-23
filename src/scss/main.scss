@@ -84,22 +84,12 @@ body {
     top: 2500px;
     right: 0;
   }
-  // .eraser {
-
-  // }
 }
 
-// .main-overlay {
-//   background-color: #d92b44;
-// }
 
 .transparent-zone {
   height: 100vh;
   background-color: transparent;
-}
-
-.home_people--heading {
-  // background-color: #d92b44;
 }
 
 main {
@@ -309,6 +299,10 @@ main {
   }
 
   //main-overlay
+}
+
+.home_people bg-main fit {
+  //home_people--headingとhome_people--slideをひとつのまとまりにしてpadding-bottom: 5.75rem;
 }
 
 .home_people--heading {

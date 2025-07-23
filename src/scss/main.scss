@@ -72,6 +72,16 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background: #d92b44;
+  position: relative;
+
+  .bg-clip {
+    position: absolute;
+    top: 2570px;
+  }
+
+  // .eraser {
+
+  // }
 }
 
 // .main-overlay {
@@ -231,58 +241,63 @@ main {
       z-index: 10;
       display: flex;
       flex-direction: column;
-    }
 
-    .home-message {
-      // position: relative;
-      display: flex;
-      // flex-direction: column;
-      gap: 16px;
-      color: #000;
-      font-size: 13px;
-      font-weight: 550;
-      z-index: 1;
-      top: 500px;
-
-      .mg-img-wrap {
+      .home-message {
         position: absolute;
-        top: 500px;
-        right: 380px;
-        // display: flex;
-        align-items: center;
-      }
-
-      .mg-img {
         display: flex;
-        align-items: center;
-      }
+        // flex-direction: column;
+        gap: 16px;
+        color: #000;
+        font-size: 13px;
+        font-weight: 550;
+        z-index: 1;
+width: 500px;
+  height: 500px;
+  top: 300px;
+  left: 300px;
 
-      .horizontal-line {
-        width: 320px;
-        height: 1px;
-        background-color: #d92b44;
-        margin-left: 10px;
-      }
+        .mg-img-wrap {
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          // display: flex;
+          align-items: center;
+        }
 
-      .paragraph {
-        position: relative;
-        top: 400px;
-        right: 5px;
-        font-size: 18px;
-        writing-mode: vertical-rl;
-        line-height: 2.2;
-        letter-spacing: 0.3em;
-      }
+        .mg-img {
+          display: flex;
+          align-items: center;
+        }
 
-      .ratio {
-        text-orientation: upright;
-      }
+        .horizontal-line {
+          width: 320px;
+          height: 1px;
+          background-color: #d92b44;
+          margin-left: 10px;
+        }
 
-      .message-main {
-        color: #d92b44;
-        letter-spacing: normal;
+        .ratio {
+          text-orientation: upright;
+        }
+
+        .paragraph {
+          // position: re;
+          top: 300px;
+          right: 5px;
+          font-size: 18px;
+          writing-mode: vertical-rl;
+          line-height: 2.2;
+          letter-spacing: 0.3em;
+
+          .message-main {
+            color: #d92b44;
+            letter-spacing: normal;
+          }
+        }
       }
     }
+
+
   }
 
   //main-overlay
@@ -355,6 +370,7 @@ main {
       font-size: 158px;
       white-space: nowrap;
       letter-spacing: 0.2em;
+      font-family: 'Noto Sans JP', sans-serif;
     }
   }
 }
@@ -368,7 +384,7 @@ main {
   padding-top: 6rem;
   padding-bottom: 6rem;
   color: #fff;
-border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 
   .slick-track {
     position: absolute;
@@ -396,7 +412,7 @@ border-bottom: 2px solid #fff;
     left: 20px;
     top: 10px;
     color: #fff;
-    font-size: 60px;
+    font-size: 65px;
     font-weight: 100;
   }
 
@@ -409,7 +425,6 @@ border-bottom: 2px solid #fff;
     position: absolute;
     top: 350px;
     left: 250px;
-
   }
 
   .merit-text {
@@ -474,7 +489,7 @@ border-bottom: 2px solid #fff;
 
   .merit-post2 {
     position: absolute;
-    left: 465px;
+    left: 550px;
     display: block;
     margin: 0 3rem;
     width: 25rem;
@@ -488,7 +503,7 @@ border-bottom: 2px solid #fff;
     left: 20px;
     top: 10px;
     color: #fff;
-    font-size: 60px;
+    font-size: 65px;
     font-weight: 100;
   }
 
@@ -497,89 +512,10 @@ border-bottom: 2px solid #fff;
     left: 110px;
   }
 
-  // .merit-text {
-  //   position: absolute;
-  //   top: 200px;
-  //   left: -90px;
-
-    .merit-list2-1 {
-      gap: 18px;
-      color: #000;
-      font-size: 17px;
-      background-color: #fff;
-      border-bottom: 2px solid #000;
-      display: block;
-      width: 120px;
-      height: 18px;
-      //letter-spacing: 0.1em;
-      font-weight: 600;
-      padding: 0.2em 0;
-      background-color: #fffefe;
-      text-align: center;
-      white-space: nowrap;
-      margin-bottom: 1em;
-    }
-
-    .merit-list2-2 {
-      color: #000;
-      font-size: 17px;
-      background-color: #fff;
-      border-bottom: 2px solid #000;
-      display: block;
-      width: 260px;
-      height: 18px;
-      //letter-spacing: 0.1em;
-      font-weight: 600;
-      padding: 0.2em 0;
-      background-color: #fffefe;
-      text-align: center;
-      white-space: nowrap;
-    }
-  }
-
-  .profile {
-    position: relative;
-    top: 295px;
-    left: 20px;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 550;
-    line-height: 1.4;
-
-    .initial {
-      position: absolute;
-      top: -8px;
-    }
-
-    .typesquare_option {
-      position: absolute;
-      top: 10px;
-    }
-  }
-
-  .merit-post3 {
+  .btn {
     position: absolute;
-    left: 895px;
-    display: block;
-    margin: 0 3rem;
-    width: 25rem;
-    height: 400px;
-    width: 350px;
-  }
-
-  .number {
-    display: block;
-    position: absolute;
-    left: 20px;
-    top: 10px;
-    color: #fff;
-    font-size: 60px;
-    font-weight: 100;
-  }
-
-  .image-area {
-    position: absolute;
-    left: 110px;
+    top: 350px;
+    left: 250px;
   }
 
   // .merit-text {
@@ -587,83 +523,168 @@ border-bottom: 2px solid #fff;
   //   top: 200px;
   //   left: -90px;
 
-    .merit-list3-1 {
-      gap: 18px;
-      color: #000;
-      font-size: 17px;
-      background-color: #fff;
-      border-bottom: 2px solid #000;
-      display: block;
-      width: 300px;
-      height: 18px;
-      //letter-spacing: 0.1em;
-      font-weight: 600;
-      padding: 0.2em 0;
-      background-color: #fffefe;
-      text-align: center;
-      white-space: nowrap;
-      margin-bottom: 1em;
-    }
-
-    .merit-list3-2 {
-      color: #000;
-      font-size: 17px;
-      background-color: #fff;
-      border-bottom: 2px solid #000;
-      display: block;
-      width: 160px;
-      height: 18px;
-      //letter-spacing: 0.1em;
-      font-weight: 600;
-      padding: 0.2em 0;
-      background-color: #fffefe;
-      text-align: center;
-      white-space: nowrap;
-    }
-
-  .profile {
-    position: relative;
-    top: 295px;
-    left: 20px;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 550;
-    line-height: 1.4;
-
-    .initial {
-      position: absolute;
-      top: -8px;
-    }
-
-    .typesquare_option {
-      position: absolute;
-      top: 10px;
-    }
-  }
-
-  .btn-ctr {
-   position: relative;
-   display: flex;
-  justify-content: center;
-   width: 100%;
-   top: 290px;
-  }
-
-  .btn-ctr a {
-    // position: relative;
-    display: flex;
-    justify-content: center;
-    color: #d92b44;
-    font-size: 14px;
-    font-weight: 600;
-    border-color: #fff;
-    letter-spacing: 0.05em;
-    padding: 1.1em 1em;
-    width: 150px;
-    height: 18px;
-    border-radius: 0.2rem;
-    overflow: hidden;
+  .merit-list2-1 {
+    gap: 18px;
+    color: #000;
+    font-size: 17px;
     background-color: #fff;
-    text-decoration: none;
-    // left: 600px;
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 120px;
+    height: 18px;
+    //letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 0.2em 0;
+    background-color: #fffefe;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 1em;
   }
+
+  .merit-list2-2 {
+    color: #000;
+    font-size: 17px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 260px;
+    height: 18px;
+    //letter-spacing: 0.1em;
+    font-weight: 600;
+    padding: 0.2em 0;
+    background-color: #fffefe;
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
+.profile {
+  position: relative;
+  top: 295px;
+  left: 20px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 1.4;
+
+  .initial {
+    position: absolute;
+    top: -8px;
+  }
+
+  .typesquare_option {
+    position: absolute;
+    top: 10px;
+  }
+}
+
+.merit-post3 {
+  position: absolute;
+  left: 895px;
+  display: block;
+  margin: 0 3rem;
+  width: 25rem;
+  height: 400px;
+  width: 350px;
+}
+
+.number {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: #fff;
+  font-size: 63px;
+  font-weight: 100;
+}
+
+.image-area {
+  position: absolute;
+  left: 110px;
+}
+
+// .merit-text {
+//   position: absolute;
+//   top: 200px;
+//   left: -90px;
+
+.merit-list3-1 {
+  gap: 18px;
+  color: #000;
+  font-size: 17px;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  display: block;
+  width: 300px;
+  height: 18px;
+  //letter-spacing: 0.1em;
+  font-weight: 600;
+  padding: 0.2em 0;
+  background-color: #fffefe;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 1em;
+}
+
+.merit-list3-2 {
+  color: #000;
+  font-size: 17px;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  display: block;
+  width: 160px;
+  height: 18px;
+  //letter-spacing: 0.1em;
+  font-weight: 600;
+  padding: 0.2em 0;
+  background-color: #fffefe;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.profile {
+  position: relative;
+  top: 295px;
+  left: 20px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 1.4;
+
+  .initial {
+    position: absolute;
+    top: -8px;
+  }
+
+  .typesquare_option {
+    position: absolute;
+    top: 10px;
+  }
+}
+
+.btn-ctr {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 290px;
+}
+
+.btn-ctr a {
+  // position: relative;
+  display: flex;
+  justify-content: center;
+  color: #d92b44;
+  font-size: 14px;
+  font-weight: 600;
+  border-color: #fff;
+  letter-spacing: 0.05em;
+  padding: 1.1em 1em;
+  width: 150px;
+  height: 18px;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  background-color: #fff;
+  text-decoration: none;
+  // left: 600px;
+}

@@ -310,6 +310,7 @@ input, select {
   border-radius: 200px;
   letter-spacing: 0.2em;
   z-index: 10;
+  margin-right: -50px;
 }
 .wrapper-news .news_list {
   display: flex;
@@ -323,6 +324,7 @@ input, select {
   align-items: center;
   border-radius: 200px;
   letter-spacing: 0.3em;
+  padding-left: 30px;
 }
 
 .footer {
@@ -468,6 +470,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background: #d92b44;
+  position: relative;
+}
+.wrapper .bg-clip {
+  position: absolute;
+  top: 2570px;
 }
 
 .transparent-zone {
@@ -594,44 +601,47 @@ main .main-overlay .circle {
   display: flex;
   flex-direction: column;
 }
-main .main-overlay .home-message {
+main .main-overlay .circle .home-message {
+  position: absolute;
   display: flex;
   gap: 16px;
   color: #000;
   font-size: 13px;
   font-weight: 550;
   z-index: 1;
-  top: 500px;
+  width: 500px;
+  height: 500px;
+  top: 300px;
+  left: 300px;
 }
-main .main-overlay .home-message .mg-img-wrap {
+main .main-overlay .circle .home-message .mg-img-wrap {
   position: absolute;
-  top: 500px;
-  right: 380px;
+  top: 0px;
+  right: 0px;
   align-items: center;
 }
-main .main-overlay .home-message .mg-img {
+main .main-overlay .circle .home-message .mg-img {
   display: flex;
   align-items: center;
 }
-main .main-overlay .home-message .horizontal-line {
+main .main-overlay .circle .home-message .horizontal-line {
   width: 320px;
   height: 1px;
   background-color: #d92b44;
   margin-left: 10px;
 }
-main .main-overlay .home-message .paragraph {
-  position: relative;
-  top: 400px;
+main .main-overlay .circle .home-message .ratio {
+  text-orientation: upright;
+}
+main .main-overlay .circle .home-message .paragraph {
+  top: 300px;
   right: 5px;
   font-size: 18px;
   writing-mode: vertical-rl;
   line-height: 2.2;
   letter-spacing: 0.3em;
 }
-main .main-overlay .home-message .ratio {
-  text-orientation: upright;
-}
-main .main-overlay .home-message .message-main {
+main .main-overlay .circle .home-message .paragraph .message-main {
   color: #d92b44;
   letter-spacing: normal;
 }
@@ -693,6 +703,7 @@ main .main-overlay .home-message .message-main {
   font-size: 158px;
   white-space: nowrap;
   letter-spacing: 0.2em;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .home_people--slide {
@@ -730,7 +741,7 @@ main .main-overlay .home-message .message-main {
   left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 100;
 }
 .home_people--slide .image-area {
@@ -796,7 +807,7 @@ main .main-overlay .home-message .message-main {
 }
 .home_people--slide .merit-post2 {
   position: absolute;
-  left: 465px;
+  left: 550px;
   display: block;
   margin: 0 3rem;
   width: 25rem;
@@ -809,12 +820,17 @@ main .main-overlay .home-message .message-main {
   left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 100;
 }
 .home_people--slide .image-area {
   position: absolute;
   left: 110px;
+}
+.home_people--slide .btn {
+  position: absolute;
+  top: 350px;
+  left: 250px;
 }
 .home_people--slide .merit-list2-1 {
   gap: 18px;
@@ -881,7 +897,7 @@ main .main-overlay .home-message .message-main {
   left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 60px;
+  font-size: 63px;
   font-weight: 100;
 }
 

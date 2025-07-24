@@ -757,11 +757,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .home_people--slide .number {
   display: block;
   position: absolute;
-  left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 .home_people--slide .image-area {
   position: absolute;
@@ -836,11 +837,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .home_people--slide .number {
   display: block;
   position: absolute;
-  left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 .home_people--slide .image-area {
   position: absolute;
@@ -913,11 +915,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .number {
   display: block;
   position: absolute;
-  left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 63px;
+  font-size: 80px;
   font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 
 .image-area {
@@ -988,11 +991,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .number {
   display: block;
   position: absolute;
-  left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 
 .image-area {
@@ -1073,11 +1077,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .number {
   display: block;
   position: absolute;
-  left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 
 .image-area {
@@ -1158,11 +1163,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .number {
   display: block;
   position: absolute;
-  left: 20px;
   top: 10px;
   color: #fff;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 
 .image-area {

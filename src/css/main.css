@@ -662,7 +662,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .home_people.bg-main.fit {
   width: 100%;
   height: 980px;
-  padding-bottom: 5.75rem;
+  padding-bottom: 12rem;
 }
 
 .home_people--heading {
@@ -732,7 +732,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   justify-content: center;
   align-items: center;
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 14rem;
   color: #fff;
   border-bottom: 2px solid #fff;
 }
@@ -1241,7 +1241,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   display: flex;
   justify-content: center;
   width: 100%;
-  top: 290px;
+  top: 420px;
 }
 
 .btn-ctr a {
@@ -1263,47 +1263,63 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .transparent-zone {
   position: relative;
-  top: 100px;
+  width: 100%;
 }
 .transparent-zone .inner.transparency {
-  width: 100%;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  top: 400px;
+  height: 180px;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
-.transparent-zone .sp-none-inline {
+.transparent-zone .inner.transparency .inner_t {
+  position: relative;
+  height: 180px;
+  color: #fff;
+  align-items: center;
+  line-height: 1.5;
+  text-align: justify;
+}
+.transparent-zone .inner.transparency .inner_t .sp-none-inline {
   position: relative;
   color: #fff;
   font-family: "M PLUS 1p", sans-serif;
   font-weight: 600;
 }
-.transparent-zone .sp-none-inline .de {
+.transparent-zone .inner.transparency .inner_t .de {
   position: absolute;
-  font-size: 60px;
-  top: 5px;
-  left: 40px;
+  font-size: 65px;
+  top: 160px;
+  left: 30px;
 }
-.transparent-zone .sp-none-inline .tiiki {
+.transparent-zone .inner.transparency .inner_t .tiiki {
   position: absolute;
-  left: 50px;
-  font-size: 120px;
+  top: 120px;
+  left: 120px;
+  font-size: 110px;
 }
-.transparent-zone .sp-none-inline .no {
+.transparent-zone .inner.transparency .inner_t .no {
+  position: absolute;
+  top: 160px;
+  left: 350px;
   font-size: 60px;
 }
-.transparent-zone .sp-none-inline .mirai {
+.transparent-zone .inner.transparency .inner_t .mirai {
   color: #DB4D44;
-  font-size: 140px;
+  font-size: 130px;
+  top: 20px;
+  right: 150px;
 }
-.transparent-zone .sp-none-inline .wo {
+.transparent-zone .inner.transparency .inner_t .wo {
   font-size: 60px;
 }
-.transparent-zone .sp-none-inline .ugo {
+.transparent-zone .inner.transparency .inner_t .ugo {
   position: absolute;
   right: 50px;
   font-size: 120px;
 }
-.transparent-zone .sp-none-inline .kasou {
+.transparent-zone .inner.transparency .inner_t .kasou {
   position: absolute;
   top: 30px;
   left: 100px;

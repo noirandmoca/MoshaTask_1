@@ -335,6 +335,7 @@ input, select {
 .footer {
   display: flex;
   justify-content: space-between;
+  position: relative;
   left: 0;
   z-index: 9999;
   background: #fff;
@@ -381,7 +382,7 @@ input, select {
   padding: 0;
 }
 .footer-nav ul li {
-  font-size: 15px;
+  font-size: 25px;
   white-space: nowrap;
   text-align: center;
   margin-right: 45px;
@@ -399,7 +400,7 @@ input, select {
   font-size: 40px;
   left: 200px;
   top: 60px;
-  width: 280px;
+  width: 380px;
   margin-left: auto;
   align-items: center;
   display: flex;
@@ -489,7 +490,7 @@ body {
 
 .transparent-zone {
   height: 100vh;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -669,6 +670,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 
 .home_people--heading {
+  background: #d92b44;
   position: relative;
   display: flex;
   height: 250px;

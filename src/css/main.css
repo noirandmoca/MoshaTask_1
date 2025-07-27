@@ -1269,6 +1269,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .transparent-zone {
   position: relative;
   width: 100%;
+  height: 820px;
 }
 .transparent-zone .inner.transparency {
   position: relative;

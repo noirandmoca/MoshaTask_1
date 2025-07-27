@@ -335,8 +335,6 @@ input, select {
 .footer {
   display: flex;
   justify-content: space-between;
-  position: relative;
-  bottom: 0;
   left: 0;
   z-index: 9999;
   background: #fff;
@@ -350,6 +348,7 @@ input, select {
   justify-content: space-between;
   align-items: center;
   padding: 20px 100px;
+  width: 100%;
 }
 .footer .footer-info {
   flex-direction: column;
@@ -476,6 +475,7 @@ body {
   min-height: 100vh;
   background: #d92b44;
   position: relative;
+  min-height: 100vh;
 }
 .wrapper .bg-clip {
   position: absolute;
@@ -492,6 +492,9 @@ body {
   background-color: transparent;
 }
 
+main {
+  flex: 1;
+}
 main .main-overlay {
   position: relative;
   margin-left: 55px;

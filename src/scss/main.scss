@@ -96,7 +96,7 @@ body {
 }
 
 main {
-flex: 1; // 💡 空きスペースを埋めて footer を下に追いやる
+  flex: 1; // 💡 空きスペースを埋めて footer を下に追いやる
 
   .main-overlay {
     position: relative;
@@ -979,16 +979,16 @@ flex: 1; // 💡 空きスペースを埋めて footer を下に追いやる
 }
 
 .transparent-zone {
-  position: relative;
+  // position: relative;
   width: 100%;
-  height: 820px;
+  height: 550px;
 
-  .inner.transparency {
+  .inner__transparency {
     position: relative;
     top: 400px;
-    // display: flex;
+    display: flex;
     height: 180px;
-    // justify-content: center;
+    justify-content: center;
     align-items: center;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1002,7 +1002,17 @@ flex: 1; // 💡 空きスペースを埋めて footer を下に追いやる
       line-height: 1.5;
       text-align: justify;
       // display: flex;
-      
+
+      .inner_t-logo {
+        position: absolute;
+        left: 500px;
+      }
+
+      // .isnow {
+      //   position: absolute;
+      //   left: 150px;
+      // }
+
       .sp-none-inline {
         position: relative;
         color: #fff;
@@ -1013,7 +1023,7 @@ flex: 1; // 💡 空きスペースを埋めて footer を下に追いやる
       .de {
         position: absolute;
         font-size: 65px;
-        top: 160px;
+        top: 6px;
         left: 30px;
       }
 

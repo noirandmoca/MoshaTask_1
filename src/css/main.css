@@ -511,6 +511,7 @@ main .main-overlay .main-copy .main-copy__inner {
   position: absolute;
   top: 100px;
   left: 300px;
+  z-index: 100;
 }
 main .main-overlay .main-copy .main-copy__line {
   display: block;
@@ -609,6 +610,19 @@ main .main-overlay .circle {
   z-index: 10;
   display: flex;
   flex-direction: column;
+}
+main .main-overlay .circle .circle-img {
+  position: relative;
+  animation: spin 40s linear infinite;
+  z-index: 5;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 main .main-overlay .circle .home-message {
   position: absolute;
@@ -1334,6 +1348,25 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .kasou {
   font-size: 75px;
   vertical-align: middle;
+}
+
+.requirements {
+  position: relative;
+  background: #d92b44;
+  height: auto;
+  font-size: 45px;
+  overflow: hidden;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1;
+}
+.requirements-overlay {
+  position: relative;
+  margin-left: 55px;
+  margin-right: 55px;
+  background-color: #fbf9f3;
+  height: 1100px;
 }
 
 /*# sourceMappingURL=main.css.map */

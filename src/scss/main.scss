@@ -239,80 +239,80 @@ main {
         position: relative;
         animation: spin 40s linear infinite;
         z-index: 5;
-    }
-
-    @keyframes spin {
-      from {
-        transform: rotate(0deg);
       }
 
-      to {
-        transform: rotate(360deg);
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
       }
-    }
 
-    .home-message {
-      position: absolute;
-      display: flex;
-      // flex-direction: column;
-      gap: 16px;
-      color: #000;
-      font-size: 13px;
-      font-weight: 550;
-      z-index: 1;
-      width: 500px;
-      height: 500px;
-      top: 350px;
-      left: 160px;
-
-      .mg-img-wrap {
+      .home-message {
         position: absolute;
-        top: 0px;
-        right: 0px;
-        // display: flex;
-        align-items: center;
-      }
-
-      .mg-img {
         display: flex;
-        align-items: center;
-        position: absolute;
-        top: -100px;
-        left: -500px;
-      }
+        // flex-direction: column;
+        gap: 16px;
+        color: #000;
+        font-size: 13px;
+        font-weight: 550;
+        z-index: 1;
+        width: 500px;
+        height: 500px;
+        top: 350px;
+        left: 160px;
 
-      .horizontal-line {
-        width: 320px;
-        height: 1px;
-        background-color: #d92b44;
-        margin-left: 10px;
-      }
+        .mg-img-wrap {
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          // display: flex;
+          align-items: center;
+        }
 
-      .ratio {
-        text-orientation: upright;
-      }
+        .mg-img {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          top: -100px;
+          left: -500px;
+        }
 
-      .paragraph {
-        // position: re;
-        top: 300px;
-        right: 500px;
-        font-size: 18px;
-        writing-mode: vertical-rl;
-        line-height: 2.2;
-        letter-spacing: 0.3em;
+        .horizontal-line {
+          width: 320px;
+          height: 1px;
+          background-color: #d92b44;
+          margin-left: 10px;
+        }
 
-        .message-main {
-          color: #d92b44;
-          letter-spacing: normal;
+        .ratio {
+          text-orientation: upright;
+        }
+
+        .paragraph {
+          // position: re;
+          top: 300px;
+          right: 500px;
+          font-size: 18px;
+          writing-mode: vertical-rl;
+          line-height: 2.2;
+          letter-spacing: 0.3em;
+
+          .message-main {
+            color: #d92b44;
+            letter-spacing: normal;
+          }
         }
       }
     }
+
+
   }
 
-
-}
-
-//main-overlay
+  //main-overlay
 }
 
 .home_people.bg-main.fit {
@@ -1112,12 +1112,11 @@ main {
   max-width: 100%;
   z-index: 1;
 
-    &-overlay {
+  &-overlay {
     position: relative;
     margin-left: 55px;
     margin-right: 55px;
     background-color: #fbf9f3;
     height: 1100px;
-
-}
+  }
 }

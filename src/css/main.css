@@ -1368,5 +1368,43 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   background-color: #fbf9f3;
   height: 1100px;
 }
+.requirements-overlay .inner_list {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+.requirements-overlay .inner_list .inner-lg2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  height: 400px;
+}
+.requirements-overlay .inner_list .inner-lg2 .offering_essential_point {
+  position: relative;
+  letter-spacing: 0.3em;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.requirements-overlay .inner_list .inner-lg2 .offering_essential_point::before, .requirements-overlay .inner_list .inner-lg2 .offering_essential_point::after {
+  content: "";
+  position: absolute;
+  width: 700px;
+  height: 1px;
+  background-color: #DD5B60;
+}
+.requirements-overlay .inner_list .inner-lg2 .offering_essential_point::before {
+  left: 0;
+  transform: translate(0, 50%);
+}
+.requirements-overlay .inner_list .inner-lg2 .offering_essential_point::after {
+  right: 0;
+  transform: translate(0, 50%);
+}
+.requirements-overlay .inner_list .requirements--list {
+  list-style: none;
+}
 
 /*# sourceMappingURL=main.css.map */

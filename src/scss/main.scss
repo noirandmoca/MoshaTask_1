@@ -39,7 +39,6 @@ body {
     li {
       color: #fff;
       list-style: none;
-      // letter-spacing: 0.2em;
       letter-spacing: 8.6px;
       font-family: "Montserrat", sans-serif;
       font-weight: 400;
@@ -1118,5 +1117,52 @@ main {
     margin-right: 55px;
     background-color: #fbf9f3;
     height: 1100px;
+
+    .inner_list {
+      padding-top: 9rem;
+      padding-bottom: 9rem;
+
+      .inner-lg2 {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+        height: 400px;
+        
+        .offering_essential_point {
+          position: relative;
+          letter-spacing: 0.3em;
+          font-size: 2.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center; 
+          padding-bottom: 100px;
+
+          &::before,
+          &::after {
+            content: "";
+            position: absolute;
+            // top: 50%;
+            width: 700px; // 線の長さ
+            height: 1px;
+            background-color: #DD5B60; // 線の色
+          }
+
+          &::before {
+            left: 0;
+            transform: translate(0, 50%); // 左側に配置
+          }
+
+          &::after {
+            right: 0;
+            transform: translate(0, 50%); // 右側に配置
+          }
+        }
+      }
+
+      .requirements--list {
+list-style: none;
+      }
+    }
   }
 }

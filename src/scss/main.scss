@@ -1127,7 +1127,7 @@ main {
         margin-right: auto;
         max-width: 90%;
         height: 400px;
-        
+
         .offering_essential_point {
           position: relative;
           letter-spacing: 0.3em;
@@ -1135,7 +1135,7 @@ main {
           display: flex;
           justify-content: center;
           align-items: center;
-          text-align: center; 
+          text-align: center;
           padding-bottom: 100px;
 
           &::before,
@@ -1161,7 +1161,53 @@ main {
       }
 
       .requirements--list {
-list-style: none;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+
+        .requirements--list li {
+          position: relative;
+          text-align: center;
+        }
+
+        .title-wrap {
+          display: inline-block; 
+           text-align: center;
+        }
+
+        .font_new-graduates,
+        .font-en_ng {
+          display: block;
+        }
+
+        .font_new-graduates {
+          font-family: 'Zen Kaku Gothic New', sans-serif;
+          font-weight: 600;
+          font-size: 65px;
+          letter-spacing: 0.3em;
+          width: fit-content;
+          border-bottom: 4px solid #000;
+          padding-bottom: 0.2em;
+        }
+        
+        .font_career {
+          font-family: 'Zen Kaku Gothic New', sans-serif;
+          font-weight: 600;
+          font-size: 65px;
+          letter-spacing: 0.3em;
+          width: fit-content;
+          border-bottom: 4px solid #000;
+          padding-bottom: 0.2em;
+        }
+
+        .font-en_ng {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 28px;
+          font-weight: 600;
+          padding-top: 0.2em;
+          // width: 250px;
+        }
       }
     }
   }

@@ -1366,7 +1366,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   margin-left: 55px;
   margin-right: 55px;
   background-color: #fbf9f3;
-  height: 1100px;
+  height: 1700px;
 }
 .requirements-overlay .inner_list {
   padding-top: 9rem;
@@ -1418,19 +1418,8 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   text-align: center;
 }
 .requirements-overlay .inner_list .requirements--list .font_new-graduates,
-.requirements-overlay .inner_list .requirements--list .font-en_ng {
-  display: block;
-}
-.requirements-overlay .inner_list .requirements--list .font_new-graduates {
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 600;
-  font-size: 65px;
-  letter-spacing: 0.3em;
-  width: fit-content;
-  border-bottom: 4px solid #000;
-  padding-bottom: 0.2em;
-}
 .requirements-overlay .inner_list .requirements--list .font_career {
+  display: block;
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 600;
   font-size: 65px;

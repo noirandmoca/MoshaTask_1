@@ -1116,7 +1116,7 @@ main {
     margin-left: 55px;
     margin-right: 55px;
     background-color: #fbf9f3;
-    height: 1100px;
+    height: 1700px;
 
     .inner_list {
       padding-top: 9rem;
@@ -1176,30 +1176,19 @@ main {
            text-align: center;
         }
 
-        .font_new-graduates,
-        .font-en_ng {
-          display: block;
+      
+      .font_new-graduates,
+      .font_career {
+           display: block;
+          font-family: 'Zen Kaku Gothic New', sans-serif;
+          font-weight: 600;
+          font-size: 65px;
+          letter-spacing: 0.3em;
+          width: fit-content;
+          border-bottom: 4px solid #000;
+          padding-bottom: 0.2em;
         }
 
-        .font_new-graduates {
-          font-family: 'Zen Kaku Gothic New', sans-serif;
-          font-weight: 600;
-          font-size: 65px;
-          letter-spacing: 0.3em;
-          width: fit-content;
-          border-bottom: 4px solid #000;
-          padding-bottom: 0.2em;
-        }
-        
-        .font_career {
-          font-family: 'Zen Kaku Gothic New', sans-serif;
-          font-weight: 600;
-          font-size: 65px;
-          letter-spacing: 0.3em;
-          width: fit-content;
-          border-bottom: 4px solid #000;
-          padding-bottom: 0.2em;
-        }
 
         .font-en_ng {
           font-family: 'Montserrat', sans-serif;

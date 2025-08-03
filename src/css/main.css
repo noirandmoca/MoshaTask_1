@@ -105,7 +105,6 @@ input, select {
   position: relative;
   background: #d92b44;
   height: auto;
-  font-size: 45px;
   overflow: hidden;
   width: 100%;
   max-width: 100%;
@@ -113,10 +112,10 @@ input, select {
 }
 .header-overlay {
   position: relative;
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 3.4375rem;
+  margin-right: 3.4375rem;
   background-color: #fbf9f3;
-  height: 1100px;
+  height: 68.75rem;
 }
 .header-overlay .moji {
   z-index: 10;
@@ -125,58 +124,58 @@ input, select {
 }
 .header-overlay .moji span {
   position: absolute;
-  font-size: 200px;
+  font-size: 12.5rem;
   font-weight: 600;
 }
 .header-overlay .moji .s1 {
-  font-size: 19.5rem;
+  font-size: 18.5rem;
   font-weight: 600;
   top: 10rem;
   left: 10rem;
 }
 .header-overlay .moji .h1 {
-  font-size: 19rem;
+  font-size: 18rem;
   font-weight: 600;
   top: 18rem;
   left: 26rem;
 }
 .header-overlay .moji .o {
-  font-size: 19rem;
+  font-size: 18rem;
   font-weight: 600;
   top: 10rem;
   left: 43rem;
 }
 .header-overlay .moji .s2 {
-  font-size: 19.5rem;
+  font-size: 18.5rem;
   font-weight: 600;
-  top: 550px;
-  left: 840px;
+  top: 34.375rem;
+  left: 50rem;
 }
 .header-overlay .moji .h2 {
-  font-size: 19.5rem;
+  font-size: 18rem;
   font-weight: 600;
-  top: 700px;
-  right: 620px;
+  top: 43.75rem;
+  right: 32.6rem;
 }
 .header-overlay .moji .i {
-  font-size: 19.5rem;
+  font-size: 18.5rem;
   font-weight: 600;
-  top: 580px;
-  right: 470px;
+  top: 36.25rem;
+  right: 25rem;
 }
 .header-overlay .moji .n {
-  font-size: 19.5rem;
+  font-size: 18rem;
   font-weight: 600;
-  top: 480px;
-  right: 95px;
+  top: 30rem;
+  right: 5.9375rem;
 }
 
 .header-logo {
   position: fixed;
-  top: -40px;
-  left: 100px;
+  top: -2.5rem;
+  left: 6.25rem;
   z-index: 10;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .future-bg {
@@ -194,13 +193,13 @@ input, select {
 }
 
 .font-en {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 1000;
   letter-spacing: 0.05em;
   white-space: nowrap;
   position: fixed;
-  top: 100px;
-  left: 440px;
+  top: 6.25rem;
+  left: 27.5rem;
   z-index: 10;
 }
 
@@ -222,24 +221,24 @@ input, select {
 .header_img-hero .header_img {
   position: absolute;
   display: block;
-  top: 220px;
-  left: 290px;
+  top: 13.75rem;
+  left: 16rem;
 }
 .header_img-hero .header_img_clip {
   position: absolute;
   display: block;
-  top: 920px;
-  right: 430px;
+  top: 57.5rem;
+  right: 22rem;
 }
 .header_img-hero .hero-image1 {
   position: absolute;
-  top: 380px;
-  left: 110px;
+  top: 23.75rem;
+  left: 6rem;
 }
 .header_img-hero .hero-image2 {
   position: absolute;
-  top: 580px;
-  left: 360px;
+  top: 36.25rem;
+  left: 22.5rem;
 }
 .header_img-hero .hero-image3 {
   position: absolute;
@@ -248,18 +247,18 @@ input, select {
 }
 .header_img-hero .hero-image4 {
   position: absolute;
-  top: 380px;
-  right: 730px;
+  top: 23.75rem;
+  right: 49rem;
 }
 .header_img-hero .hero-image5 {
   position: absolute;
-  top: 170px;
-  right: 570px;
+  top: 10.625rem;
+  right: 28.9rem;
 }
 .header_img-hero .hero-image6 {
   position: absolute;
-  top: 410px;
-  right: 320px;
+  top: 26rem;
+  right: 17rem;
 }
 
 .hero {
@@ -268,29 +267,29 @@ input, select {
 }
 .hero .txt {
   position: absolute;
-  top: 250px;
-  right: 200px;
-  font-size: 15px;
+  top: 13.625rem;
+  right: 9.5rem;
+  font-size: 1rem;
   font-weight: 900;
   letter-spacing: 0.1em;
 }
 .hero .hero--recruitment {
   position: absolute;
   font-weight: 100;
-  font-size: 35px;
+  font-size: 2.1875rem;
   letter-spacing: 0.1em;
-  top: 280px;
-  right: 190px;
+  top: 15.54rem;
+  right: 9.625rem;
 }
 
 .copyright {
   writing-mode: vertical-rl;
   position: fixed;
   color: #fff;
-  font-size: 15px;
+  font-size: 1rem;
   flex-direction: column;
-  top: 500px;
-  left: 20px;
+  top: 31.25rem;
+  left: 1.25rem;
   z-index: 10;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -299,37 +298,37 @@ input, select {
 .wrapper-news {
   display: flex;
   position: absolute;
-  top: 980px;
-  left: 160px;
+  top: 59rem;
+  left: 10rem;
 }
 .wrapper-news .home_news {
-  height: 50px;
-  width: 130px;
+  height: 2.6rem;
+  width: 8.125rem;
   display: flex;
   justify-content: center;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 800;
   background-color: #d92b44;
   align-items: center;
-  border-radius: 200px;
+  border-radius: 12.5rem;
   letter-spacing: 0.2em;
   z-index: 10;
-  margin-right: -50px;
+  margin-right: -3.125rem;
 }
 .wrapper-news .news_list {
   display: flex;
-  height: 50px;
-  width: 600px;
+  height: 2.6rem;
+  width: 37.5rem;
   justify-content: center;
   color: #000;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 800;
   background-color: #ffedef;
   align-items: center;
-  border-radius: 200px;
+  border-radius: 12.5rem;
   letter-spacing: 0.3em;
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }
 
 .footer {
@@ -340,7 +339,7 @@ input, select {
   z-index: 9999;
   background: #fff;
   width: 100%;
-  height: 233px;
+  height: 14.5625rem;
   color: #000;
   border: 3px solid #000;
 }
@@ -348,7 +347,7 @@ input, select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 100px;
+  padding: 1.25rem 6.25em;
   width: 100%;
 }
 .footer .footer-info {
@@ -356,21 +355,21 @@ input, select {
   align-items: flex-start;
 }
 .footer .logo {
-  height: 24px;
-  width: 267px;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+  height: 1.5rem;
+  width: 16.69rem;
+  margin-top: 1.875rem;
+  margin-bottom: 2.5rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
 }
 .footer .address {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 300;
 }
 .footer-nav {
   position: absolute;
-  left: 530px;
-  right: 75px;
+  left: 33.125rem;
+  right: 4.69rem;
 }
 .footer-nav ul {
   display: flex;
@@ -382,13 +381,13 @@ input, select {
   padding: 0;
 }
 .footer-nav ul li {
-  font-size: 25px;
+  font-size: 1.5625rem;
   white-space: nowrap;
   text-align: center;
-  margin-right: 45px;
+  margin-right: 2.8125rem;
   list-style: none;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 .footer-nav ul li a {
   color: black;
@@ -397,10 +396,10 @@ input, select {
 .footer-page-top {
   background: black;
   color: #fff;
-  font-size: 40px;
-  left: 200px;
-  top: 60px;
-  width: 380px;
+  font-size: 2.5rem;
+  left: 12.5rem;
+  top: 3.75rem;
+  width: 23.75rem;
   margin-left: auto;
   align-items: center;
   display: flex;
@@ -436,7 +435,7 @@ body {
   top: 0;
   height: 3.125rem;
   left: 0;
-  right: 17px;
+  right: 1rem;
   overflow: hidden;
   background-color: #d92b44;
   z-index: 10;
@@ -450,7 +449,7 @@ body {
 .deco-frame ul li {
   color: #fff;
   list-style: none;
-  letter-spacing: 8.6px;
+  letter-spacing: 0.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   padding: 0 0.5rem;
@@ -480,11 +479,11 @@ body {
 }
 .wrapper .bg-clip {
   position: absolute;
-  top: 2570px;
+  top: 160rem;
 }
 .wrapper .eraser {
   position: absolute;
-  top: 2500px;
+  top: 156rem;
   right: 0;
 }
 
@@ -493,31 +492,31 @@ main {
 }
 main .main-overlay {
   position: relative;
-  margin-left: 55px;
-  margin-right: 55px;
-  height: 1550px;
+  margin-left: 3.42rem;
+  margin-right: 3.42rem;
+  height: 96.875rem;
   background-color: #fbf9f3;
 }
 main .main-overlay .main-copy {
   z-index: 2;
   text-align: left;
   transform: scale(1.2);
-  left: 70px;
-  height: 235px;
+  left: 4.375rem;
+  height: 14.7rem;
 }
 main .main-overlay .main-copy .main-copy__inner {
   padding: 0;
-  width: 530px;
+  width: 33.125rem;
   position: absolute;
-  top: 100px;
-  left: 300px;
+  top: 6.25rem;
+  left: 15.75rem;
   z-index: 100;
 }
 main .main-overlay .main-copy .main-copy__line {
   display: block;
-  width: 480px;
-  height: 90px;
-  line-height: 90px;
+  width: 30rem;
+  height: 5.625rem;
+  line-height: 5.625rem;
   padding-top: 0.2em;
   margin-bottom: 1.5em;
   padding: 0.1em 0.4em;
@@ -529,28 +528,28 @@ main .main-overlay .main-copy .main-copy__line {
   white-space: nowrap;
 }
 main .main-overlay .main-copy .chiiki_ugo_kinyuu {
-  font-size: 80px;
+  font-size: 5rem;
   letter-spacing: 0.1em;
 }
 main .main-overlay .main-copy .keizai_kasu {
-  font-size: 65px;
+  font-size: 4.1rem;
   letter-spacing: 0.1em;
 }
 main .main-overlay .main-copy .wo {
-  font-size: 35px;
+  font-size: 2.18rem;
 }
 main .main-overlay .main-copy .main-copy__catch {
   display: inline-block;
-  width: 700px;
-  height: 100px;
-  line-height: 100px;
+  width: 43.75rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
   padding-top: 0.2em;
   letter-spacing: 0.1em;
   font-weight: 600;
   padding: 0.1em;
   background-color: #fffefe;
   text-align: left;
-  font-size: 100px;
+  font-size: 6.25rem;
   color: #000;
   border-bottom: 3px solid #000;
   white-space: nowrap;
@@ -564,13 +563,13 @@ main .main-overlay .main-copy .main-message--en-v {
   gap: 0.3333333333em;
   font-weight: 600;
   position: absolute;
-  top: 85px;
-  left: 980px;
+  top: 5.31rem;
+  left: 61.25rem;
 }
 main .main-overlay .main-copy .bd-left {
   position: relative;
-  padding-left: 8px;
-  font-size: 19px;
+  padding-left: 0.5rem;
+  font-size: 1.1875rem;
   font-weight: 600;
   white-space: nowrap;
   letter-spacing: 0.1em;
@@ -581,7 +580,7 @@ main .main-overlay .main-copy .bd-left::before {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 0.8px;
+  width: 0.05rem;
   background-color: #d92b44;
 }
 main .main-overlay .txt-v {
@@ -589,24 +588,24 @@ main .main-overlay .txt-v {
 }
 main .main-overlay .main-img .img_pen {
   position: absolute;
-  top: 10px;
-  right: -40px;
+  top: 0.625rem;
+  right: -1rem;
 }
 main .main-overlay .main-img .img_akushu {
   position: absolute;
-  top: 650px;
-  left: 10px;
+  top: 40.6rem;
+  left: 0.625rem;
   z-index: 30;
 }
 main .main-overlay .main-img .akushu-bg {
   position: absolute;
-  top: 650px;
-  left: -2px;
+  top: 40.625rem;
+  left: -0.125rem;
 }
 main .main-overlay .circle {
   position: absolute;
-  top: 270px;
-  right: 130px;
+  top: 16.87rem;
+  right: 2rem;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -627,45 +626,45 @@ main .main-overlay .circle .circle-img {
 main .main-overlay .circle .home-message {
   position: absolute;
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   color: #000;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 550;
   z-index: 1;
-  width: 500px;
-  height: 500px;
-  top: 350px;
-  left: 160px;
+  width: 31.25rem;
+  height: 31.25rem;
+  top: 21.875rem;
+  left: 10rem;
 }
 main .main-overlay .circle .home-message .mg-img-wrap {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   align-items: center;
 }
 main .main-overlay .circle .home-message .mg-img {
   display: flex;
   align-items: center;
   position: absolute;
-  top: -100px;
-  left: -500px;
+  top: -6.25rem;
+  left: -31.25rem;
 }
 main .main-overlay .circle .home-message .horizontal-line {
-  width: 320px;
-  height: 1px;
+  width: 20rem;
+  height: 0.0625rem;
   background-color: #d92b44;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 main .main-overlay .circle .home-message .ratio {
   text-orientation: upright;
 }
 main .main-overlay .circle .home-message .paragraph {
-  top: 300px;
-  right: 500px;
-  font-size: 18px;
+  top: 18.75rem;
+  right: 1rem;
+  font-size: 1rem;
   writing-mode: vertical-rl;
   line-height: 2.2;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
 }
 main .main-overlay .circle .home-message .paragraph .message-main {
   color: #d92b44;
@@ -674,7 +673,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .home_people.bg-main.fit {
   width: 100%;
-  height: 980px;
+  height: 61.25rem;
   padding-bottom: 12rem;
 }
 
@@ -682,7 +681,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   background: #d92b44;
   position: relative;
   display: flex;
-  height: 250px;
+  height: 15.625rem;
   justify-content: center;
   align-items: center;
   padding-top: 3rem;
@@ -691,8 +690,8 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .home_people--heading .inner-lg {
   position: absolute;
-  top: 60px;
-  height: 180px;
+  top: 3.75rem;
+  height: 11.25rem;
   color: #fff;
   align-items: center;
   line-height: 1.5;
@@ -705,35 +704,35 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .home_people--heading .inner-lg .home_people--txt {
   position: relative;
-  top: 20px;
-  right: 10px;
+  top: 1.25rem;
+  right: 0.625rem;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 0.1em;
   font-weight: 300;
 }
 .home_people--heading .inner-lg .typesquare_option {
   position: relative;
-  top: 70px;
-  left: 100px;
+  top: 4.375rem;
+  left: 6.25rem;
 }
 .home_people--heading .inner-lg .typesquare_option .sub-message1 {
   display: block;
-  font-size: 45px;
+  font-size: 2.8125rem;
   letter-spacing: 0.1em;
-  left: 5px;
+  left: 0.3125rem;
 }
 .home_people--heading .inner-lg .typesquare_option .sub-message2 {
   display: block;
-  font-size: 45px;
+  font-size: 2.8rem;
   letter-spacing: 0.1em;
-  left: 5px;
+  left: 0.3125rem;
 }
 .home_people--heading .inner-lg .lg {
   position: relative;
-  top: 40px;
-  left: 30px;
-  font-size: 158px;
+  top: 2.5rem;
+  left: 1.875rem;
+  font-size: 9.875rem;
   white-space: nowrap;
   letter-spacing: 0.2em;
   font-family: "Noto Sans JP", sans-serif;
@@ -742,7 +741,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .home_people--slide {
   position: relative;
   display: flex;
-  height: 400px;
+  height: 25rem;
   justify-content: center;
   align-items: center;
   padding-top: 6rem;
@@ -752,7 +751,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .home_people--slide .slick-track {
   position: absolute;
-  height: 400px;
+  height: 25rem;
   width: 100%;
   align-items: center;
   line-height: 1.5;
@@ -761,46 +760,46 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .home_people--slide .merit-post1 {
   position: absolute;
-  left: 40px;
+  left: 2.5rem;
   display: block;
   margin: 0 3rem;
   width: 25rem;
-  height: 400px;
-  width: 350px;
+  height: 25rem;
+  width: 21.825rem;
 }
 .home_people--slide .number {
   display: block;
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   color: #fff;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
 }
 .home_people--slide .image-area {
   position: absolute;
-  left: 110px;
+  left: 6.875rem;
 }
 .home_people--slide .btn {
   position: absolute;
-  top: 350px;
-  left: 250px;
+  top: 21.825rem;
+  left: 15, 625rem;
 }
 .home_people--slide .merit-text {
   position: absolute;
-  top: 260px;
-  left: -90px;
+  top: 16.25rem;
+  left: -5.625rem;
 }
 .home_people--slide .merit-text .merit-list1-1 {
-  gap: 18px;
+  gap: 1.125rem;
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 350px;
-  height: 30px;
+  width: 21.825rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -810,12 +809,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .home_people--slide .merit-text .merit-list1-2 {
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 200px;
-  height: 30px;
+  width: 12.5rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -824,58 +823,58 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .home_people--slide .profile1 {
   position: relative;
-  top: 390px;
-  left: 20px;
+  top: 24.375rem;
+  left: 1.25rem;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 550;
   line-height: 1.4;
 }
 .home_people--slide .profile1 .initial {
   position: absolute;
-  top: -8px;
+  top: -0.5rem;
 }
 .home_people--slide .profile1 .typesquare_option {
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
 }
 .home_people--slide .merit-post2 {
   position: absolute;
-  left: 550px;
+  left: 34.375rem;
   display: block;
   margin: 0 3rem;
   width: 25rem;
-  height: 400px;
-  width: 350px;
+  height: 25rem;
+  width: 21.825rem;
 }
 .home_people--slide .number {
   display: block;
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   color: #fff;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
 }
 .home_people--slide .image-area {
   position: absolute;
-  left: 110px;
+  left: 6.875rem;
 }
 .home_people--slide .btn {
   position: absolute;
-  top: 350px;
-  left: 250px;
+  top: 21.825rem;
+  left: 15.625rem;
 }
 .home_people--slide .merit-list2-1 {
-  gap: 18px;
+  gap: 1.125rem;
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 150px;
-  height: 30px;
+  width: 9.375rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -885,12 +884,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .home_people--slide .merit-list2-2 {
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 350px;
-  height: 30px;
+  width: 21.825rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -900,38 +899,38 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .profile2 {
   position: relative;
-  top: 390px;
-  left: 20px;
+  top: 24.375rem;
+  left: 1.25rem;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 550;
   line-height: 1.4;
 }
 .profile2 .initial {
   position: absolute;
-  top: -8px;
+  top: -0.5rem;
 }
 .profile2 .typesquare_option {
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
 }
 
 .merit-post3 {
   position: absolute;
-  left: 1080px;
+  left: 67.5rem;
   display: block;
   margin: 0 3rem;
   width: 25rem;
-  height: 400px;
-  width: 350px;
+  height: 25rem;
+  width: 21.825rem;
 }
 
 .number {
   display: block;
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   color: #fff;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
@@ -939,18 +938,18 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .image-area {
   position: absolute;
-  left: 110px;
+  left: 6.875rem;
 }
 
 .merit-list3-1 {
-  gap: 18px;
+  gap: 1.125rem;
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 280px;
-  height: 30px;
+  width: 17.5rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -961,12 +960,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .merit-list3-2 {
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 230px;
-  height: 30px;
+  width: 14.375rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -976,38 +975,38 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .profile3 {
   position: relative;
-  top: 390px;
-  left: 20px;
+  top: 24.375rem;
+  left: 1.25rem;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.94rem;
   font-weight: 550;
   line-height: 1.4;
 }
 .profile3 .initial {
   position: absolute;
-  top: -8px;
+  top: -0.5rem;
 }
 .profile3 .typesquare_option {
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
 }
 
 .merit-post4 {
   position: absolute;
-  left: 1040px;
+  left: 65rem;
   display: block;
   margin: 0 3rem;
   width: 25rem;
-  height: 400px;
-  width: 350px;
+  height: 25rem;
+  width: 21.875rem;
 }
 
 .number {
   display: block;
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   color: #fff;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
@@ -1015,29 +1014,29 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .image-area {
   position: absolute;
-  left: 110px;
+  left: 6.875rem;
 }
 
 .btn {
   position: absolute;
-  top: 350px;
-  left: 250px;
+  top: 21.875rem;
+  left: 15.625rem;
 }
 
 .merit-text {
   position: absolute;
-  top: 260px;
-  left: -90px;
+  top: 16.25rem;
+  left: -5.625rem;
 }
 .merit-text .merit-list4-1 {
-  gap: 18px;
+  gap: 1.125rem;
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 150px;
-  height: 30px;
+  width: 9.375rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -1047,12 +1046,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .merit-text .merit-list4-2 {
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 330px;
-  height: 30px;
+  width: 20.625rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -1062,38 +1061,38 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .profile4 {
   position: relative;
-  top: 390px;
-  left: 20px;
+  top: 24.375rem;
+  left: 1.25rem;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 550;
   line-height: 1.4;
 }
 .profile4 .initial {
   position: absolute;
-  top: -8px;
+  top: -0.5rem;
 }
 .profile4 .typesquare_option {
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
 }
 
 .merit-post5 {
   position: absolute;
-  left: 1540px;
+  left: 96.25rem;
   display: block;
   margin: 0 3rem;
   width: 25rem;
-  height: 400px;
-  width: 350px;
+  height: 25rem;
+  width: 21.875rem;
 }
 
 .number {
   display: block;
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   color: #fff;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
@@ -1101,29 +1100,29 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .image-area {
   position: absolute;
-  left: 110px;
+  left: 6.875rem;
 }
 
 .btn {
   position: absolute;
-  top: 350px;
-  left: 250px;
+  top: 21.825rem;
+  left: 15.625rem;
 }
 
 .merit-text {
   position: absolute;
-  top: 260px;
-  left: -90px;
+  top: 16.25rem;
+  left: -5.625rem;
 }
 .merit-text .merit-list5-1 {
-  gap: 18px;
+  gap: 1.125rem;
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 250px;
-  height: 30px;
+  width: 15.625rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -1133,12 +1132,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .merit-text .merit-list5-2 {
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 350px;
-  height: 30px;
+  width: 21.825rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -1148,38 +1147,38 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .profile5 {
   position: relative;
-  top: 390px;
-  left: 20px;
+  top: 24.375rem;
+  left: 1.25rem;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.94rem;
   font-weight: 550;
   line-height: 1.4;
 }
 .profile5 .initial {
   position: absolute;
-  top: -8px;
+  top: -0.5rem;
 }
 .profile5 .typesquare_option {
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
 }
 
 .merit-post6 {
   position: absolute;
-  left: 1650px;
+  left: 103rem;
   display: block;
   margin: 0 3rem;
   width: 25rem;
-  height: 400px;
-  width: 350px;
+  height: 25rem;
+  width: 21.825rem;
 }
 
 .number {
   display: block;
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   color: #fff;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 100;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
@@ -1187,29 +1186,29 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .image-area {
   position: absolute;
-  left: 110px;
+  left: 6.875rem;
 }
 
 .btn {
   position: absolute;
-  top: 350px;
-  left: 250px;
+  top: 21.825rem;
+  left: 15.625rem;
 }
 
 .merit-text {
   position: absolute;
-  top: 260px;
-  left: -90px;
+  top: 16.25rem;
+  left: -5.625rem;
 }
 .merit-text .merit-list6-1 {
-  gap: 18px;
+  gap: 1.125rem;
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 330px;
-  height: 30px;
+  width: 20.625rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -1219,12 +1218,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .merit-text .merit-list6-2 {
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   background-color: #fff;
   border-bottom: 2px solid #000;
   display: block;
-  width: 230px;
-  height: 30px;
+  width: 14.375rem;
+  height: 1.875rem;
   font-weight: 600;
   padding: 0.2em 0;
   background-color: #fffefe;
@@ -1234,20 +1233,20 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 
 .profile6 {
   position: relative;
-  top: 390px;
-  left: 20px;
+  top: 24.375rem;
+  left: 1.25rem;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 550;
   line-height: 1.4;
 }
 .profile6 .initial {
   position: absolute;
-  top: -8px;
+  top: -0.5rem;
 }
 .profile6 .typesquare_option {
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
 }
 
 .btn-ctr {
@@ -1255,20 +1254,20 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   display: flex;
   justify-content: center;
   width: 100%;
-  top: 420px;
+  top: 26.25rem;
 }
 
 .btn-ctr a {
   display: flex;
   justify-content: center;
   color: #d92b44;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   border-color: #fff;
   letter-spacing: 0.05em;
   padding: 1.1em 1em;
-  width: 150px;
-  height: 18px;
+  width: 9.375rem;
+  height: 1.125rem;
   border-radius: 0.2rem;
   overflow: hidden;
   background-color: #fff;
@@ -1278,38 +1277,38 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .transparent-zone {
   position: relative;
   width: 100%;
-  height: 900px;
+  height: 56.25rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .transparent-zone .inner_t-logo {
   position: absolute;
-  top: 300px;
-  left: 420px;
+  top: 18.75rem;
+  left: 26.25rem;
 }
 .transparent-zone .isnow {
   position: absolute;
-  top: 450px;
-  right: 500px;
+  top: 28.125rem;
+  right: 31.25rem;
 }
 .transparent-zone .inner__transparency {
   position: relative;
-  top: 400px;
+  top: 25rem;
   display: flex;
-  height: 180px;
+  height: 11.25rem;
   width: auto;
   justify-content: center;
   align-items: center;
-  margin: 0 80px;
+  margin: 0 5rem;
 }
 .transparent-zone .inner__transparency .inner_t {
   position: relative;
-  height: 180px;
+  height: 11.25rem;
   width: 100%;
   color: #fff;
   align-items: center;
   line-height: 1.5;
   text-align: justify;
-  padding-left: 200px;
+  padding-left: 8rem;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline {
   color: #fff;
@@ -1321,32 +1320,32 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   vertical-align: middle;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .de {
-  font-size: 60px;
+  font-size: 3.85rem;
   vertical-align: middle;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .tiiki {
-  font-size: 90px;
+  font-size: 5.625rem;
   vertical-align: middle;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .no {
-  font-size: 50px;
+  font-size: 3.125rem;
   vertical-align: middle;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .mirai {
   color: #DB4D44;
-  font-size: 105px;
+  font-size: 6.56rem;
   vertical-align: middle;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .wo {
-  font-size: 50px;
+  font-size: 3.125rem;
   vertical-align: middle;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .ugo {
-  font-size: 90px;
+  font-size: 5.625rem;
   vertical-align: middle;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .kasou {
-  font-size: 75px;
+  font-size: 4.68rem;
   vertical-align: middle;
 }
 
@@ -1354,19 +1353,19 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   position: relative;
   background: #d92b44;
   height: auto;
-  font-size: 45px;
+  font-size: 2.81rem;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   width: 100%;
   max-width: 100%;
   z-index: 1;
 }
 .requirements-overlay {
   position: relative;
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 3.4375rem;
+  margin-right: 3.4375rem;
   background-color: #fbf9f3;
-  height: 1400px;
+  height: 87.5rem;
 }
 .requirements-overlay .inner_list {
   padding-top: 9rem;
@@ -1376,7 +1375,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   margin-left: auto;
   margin-right: auto;
   max-width: 90%;
-  height: 400px;
+  height: 25rem;
 }
 .requirements-overlay .inner_list .inner-lg2 .offering_essential_point {
   position: relative;

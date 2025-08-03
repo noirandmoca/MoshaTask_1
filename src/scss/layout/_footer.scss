@@ -7,7 +7,7 @@
   z-index: 9999;
   background: #fff;
   width: 100%;
-  height: 233px;
+  height: 14.5625rem;
   color: #000;
  border: 3px solid #000;
 
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 1.25rem 6.25em;
     width: 100%;
   }
 
@@ -25,23 +25,23 @@
   }
 
   .logo {
-    height: 24px;
-    width: 267px;
-    margin-top: 30px;
-    margin-bottom: 40px; // ロゴと住所の間に余白
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 1.5rem;
+    width: 16.69rem;
+    margin-top: 1.875rem;
+    margin-bottom: 2.5rem; // ロゴと住所の間に余白
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
   }
 
   .address {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 300;
   }
 
   &-nav {
     position: absolute;
-    left: 530px;
-    right: 75px;
+    left: 33.125rem;
+    right: 4.69rem;
 
     ul {
       display: flex;
@@ -53,13 +53,13 @@
       padding: 0;
 
       li {
-        font-size: 25px;
+        font-size: 1.5625rem;
         white-space: nowrap;
         text-align: center;
-        margin-right: 45px;
+        margin-right: 2.8125rem;
         list-style: none;
         font-weight: bold;
-        margin-top: 5px;
+        margin-top: 0.3125rem;
 
         a {
           color: black;
@@ -72,10 +72,10 @@
   &-page-top {
     background: black;
     color: #fff;
-    font-size: 40px;
-    left: 200px; // ← 200px 左に空けて固定配置
-    top: 60px;
-    width: 380px;
+    font-size: 2.5rem;
+    left: 12.5rem; 
+    top: 3.75rem;
+    width: 23.75rem;
     margin-left: auto;
     align-items: center;
     display: flex;

@@ -2,7 +2,6 @@
   position: relative;
   background: #d92b44;
   height: auto;
-  font-size: 45px;
   overflow: hidden;
   // padding-bottom: 200px;
   width: 100%;
@@ -11,10 +10,10 @@
 
   &-overlay {
     position: relative;
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 3.4375rem;
+    margin-right: 3.4375rem;
     background-color: #fbf9f3;
-    height: 1100px;
+    height: 68.75rem;
 
     
     .moji {
@@ -25,57 +24,57 @@
 
       span {
         position: absolute;
-        font-size: 200px;
+        font-size: 12.5rem;
         font-weight: 600;
       }
 
       .s1 {
-        font-size: 19.5rem;
+        font-size: 18.5rem;
         font-weight: 600;
         top: 10rem;
         left: 10rem;
       }
 
       .h1 {
-        font-size: 19rem;
+        font-size: 18rem;
         font-weight: 600;
         top: 18rem;
         left: 26rem;
       }
 
       .o {
-        font-size: 19rem;
+        font-size: 18rem;
         font-weight: 600;
         top: 10rem;
         left: 43rem;
       }
 
       .s2 {
-        font-size: 19.5rem;
+        font-size: 18.5rem;
         font-weight: 600;
-        top: 550px;
-        left: 840px;
+        top: 34.375rem;
+        left: 50rem;
       }
 
       .h2 {
-        font-size: 19.5rem;
+        font-size: 18rem;
         font-weight: 600;
-        top: 700px;
-        right: 620px;
+        top: 43.75rem;
+        right: 32.6rem;
       }
 
       .i {
-        font-size: 19.5rem;
+        font-size: 18.5rem;
         font-weight: 600;
-        top: 580px;
-        right: 470px;
+        top: 36.25rem;
+        right: 25rem;
       }
 
       .n {
-        font-size: 19.5rem;
+        font-size: 18rem;
         font-weight: 600;
-        top: 480px;
-        right: 95px;
+        top: 30rem;
+        right: 5.9375rem;
       }
     }
   }
@@ -83,10 +82,10 @@
 
 .header-logo {
   position: fixed;
-  top: -40px;
-  left: 100px;
+  top: -2.5rem;
+  left: 6.25rem;
   z-index: 10;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .future-bg {
@@ -107,18 +106,13 @@
 }
 
 .font-en {
-  // position: fixed;
-  // display: inline;
-  // left: 400px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 1000;
-  // color: #000;
   letter-spacing: 0.05em;
   white-space: nowrap;
-  // margin-top: 35px;
   position: fixed;
-  top: 100px;
-  left: 440px;
+  top: 6.25rem;
+  left: 27.5rem;
   z-index: 10;
 }
 
@@ -143,27 +137,27 @@
   .header_img {
     position: absolute;
     display: block;
-    top: 220px;
-    left: 290px;
+    top: 13.75rem;
+    left: 16rem;
   }
 
   .header_img_clip {
     position: absolute;
     display: block;
-    top: 920px;
-    right: 430px;
+    top: 57.5rem;
+    right: 22rem;
   }
 
   .hero-image1 {
     position: absolute;
-    top: 380px;
-    left: 110px;
+    top: 23.75rem;
+    left: 6rem;
   }
 
   .hero-image2 {
     position: absolute;
-    top: 580px;
-    left: 360px;
+    top: 36.25rem;
+    left: 22.5rem;
   }
 
   .hero-image3 {
@@ -174,20 +168,20 @@
 
   .hero-image4 {
     position: absolute;
-    top: 380px;
-    right: 730px;
+    top: 23.75rem;
+    right: 49rem;
   }
 
   .hero-image5 {
     position: absolute;
-    top: 170px;
-    right: 570px;
+    top: 10.625rem;
+    right: 28.9rem;
   }
 
   .hero-image6 {
     position: absolute;
-    top: 410px;
-    right: 320px;
+    top: 26rem;
+    right: 17rem;
   }
 }
 
@@ -198,9 +192,9 @@
 
   .txt {
     position: absolute;
-    top: 250px;
-    right: 200px;
-    font-size: 15px;
+    top: 13.625rem;
+    right: 9.5rem;
+    font-size: 1rem;
     font-weight: 900;
     letter-spacing: 0.1em;
   }
@@ -208,11 +202,10 @@
   .hero--recruitment {
     position: absolute;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 2.1875rem;
     letter-spacing: 0.1em;
-    top: 280px;
-    right: 190px;
-    // right: 150px;
+    top: 15.54rem;
+    right: 9.625rem;
   }
 }
 
@@ -220,10 +213,10 @@
   writing-mode: vertical-rl;
   position: fixed;
   color: #fff;
-  font-size: 15px;
+  font-size: 1rem;
   flex-direction: column;
-  top: 500px;
-  left: 20px;
+  top: 31.25rem;
+  left: 1.25rem;
   z-index: 10;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -232,37 +225,37 @@
 .wrapper-news {
   display: flex;
   position: absolute;
-  top: 980px;
-  left: 160px;
+  top: 59rem;
+  left: 10rem;
 
   .home_news {
-    height: 50px;
-    width: 130px;
+    height: 2.6rem;
+    width: 8.125rem;
     display: flex;
     justify-content: center;
     color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 800;
     background-color: #d92b44;
     align-items: center;
-    border-radius: 200px;
+    border-radius: 12.5rem;
     letter-spacing: 0.2em;
     z-index: 10;
-   margin-right: -50px;
+   margin-right: -3.125rem;
   }
 
   .news_list {
     display: flex;
-    height: 50px;
-    width: 600px;
+    height: 2.6rem;
+    width: 37.5rem;
     justify-content: center;
     color: #000;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 800;
     background-color: #ffedef;
     align-items: center;
-    border-radius: 200px;
+    border-radius: 12.5rem;
     letter-spacing: 0.3em;
-    padding-left: 30px;
+    padding-left: 1.875rem;
   }
 }

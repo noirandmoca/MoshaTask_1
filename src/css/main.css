@@ -129,43 +129,43 @@ input, select {
   font-weight: 600;
 }
 .header-overlay .moji .s1 {
-  font-size: 330px;
+  font-size: 19.5rem;
   font-weight: 600;
-  top: 150px;
-  left: 180px;
+  top: 10rem;
+  left: 10rem;
 }
 .header-overlay .moji .h1 {
-  font-size: 320px;
+  font-size: 19rem;
   font-weight: 600;
-  top: 280px;
-  left: 430px;
+  top: 18rem;
+  left: 26rem;
 }
 .header-overlay .moji .o {
-  font-size: 320px;
+  font-size: 19rem;
   font-weight: 600;
-  top: 170px;
-  left: 740px;
+  top: 10rem;
+  left: 43rem;
 }
 .header-overlay .moji .s2 {
-  font-size: 330px;
+  font-size: 19.5rem;
   font-weight: 600;
   top: 550px;
   left: 840px;
 }
 .header-overlay .moji .h2 {
-  font-size: 330px;
+  font-size: 19.5rem;
   font-weight: 600;
   top: 700px;
   right: 620px;
 }
 .header-overlay .moji .i {
-  font-size: 330px;
+  font-size: 19.5rem;
   font-weight: 600;
   top: 580px;
   right: 470px;
 }
 .header-overlay .moji .n {
-  font-size: 330px;
+  font-size: 19.5rem;
   font-weight: 600;
   top: 480px;
   right: 95px;
@@ -249,7 +249,7 @@ input, select {
 .header_img-hero .hero-image4 {
   position: absolute;
   top: 380px;
-  right: 950px;
+  right: 730px;
 }
 .header_img-hero .hero-image5 {
   position: absolute;
@@ -1366,7 +1366,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   margin-left: 55px;
   margin-right: 55px;
   background-color: #fbf9f3;
-  height: 1700px;
+  height: 1400px;
 }
 .requirements-overlay .inner_list {
   padding-top: 9rem;
@@ -1386,13 +1386,12 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 100px;
 }
 .requirements-overlay .inner_list .inner-lg2 .offering_essential_point::before, .requirements-overlay .inner_list .inner-lg2 .offering_essential_point::after {
   content: "";
   position: absolute;
-  width: 700px;
-  height: 1px;
+  width: 40rem;
+  height: 0.0625rem;
   background-color: #DD5B60;
 }
 .requirements-overlay .inner_list .inner-lg2 .offering_essential_point::before {
@@ -1409,30 +1408,49 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
 }
-.requirements-overlay .inner_list .requirements--list .requirements--list li {
+.requirements-overlay .inner_list .requirements--list .requirement-item {
+  list-style: none;
+}
+.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap {
   position: relative;
-  text-align: center;
-}
-.requirements-overlay .inner_list .requirements--list .title-wrap {
   display: inline-block;
+}
+.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .title-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+  font-weight: bold;
   text-align: center;
 }
-.requirements-overlay .inner_list .requirements--list .font_new-graduates,
-.requirements-overlay .inner_list .requirements--list .font_career {
+.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .font_new-graduates,
+.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .font_career {
   display: block;
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 600;
-  font-size: 65px;
+  font-size: 3rem;
   letter-spacing: 0.3em;
   width: fit-content;
   border-bottom: 4px solid #000;
   padding-bottom: 0.2em;
 }
-.requirements-overlay .inner_list .requirements--list .font-en_ng {
+.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .font-en_ng {
   font-family: "Montserrat", sans-serif;
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: 600;
-  padding-top: 0.2em;
+  padding-top: 0.1em;
+}
+
+.cta {
+  display: block;
+  height: 50rem;
 }
 
 /*# sourceMappingURL=main.css.map */

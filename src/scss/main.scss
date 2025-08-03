@@ -1116,7 +1116,7 @@ main {
     margin-left: 55px;
     margin-right: 55px;
     background-color: #fbf9f3;
-    height: 1700px;
+    height: 1400px;
 
     .inner_list {
       padding-top: 9rem;
@@ -1136,15 +1136,15 @@ main {
           justify-content: center;
           align-items: center;
           text-align: center;
-          padding-bottom: 100px;
+          // padding-bottom: 100px;
 
           &::before,
           &::after {
             content: "";
             position: absolute;
             // top: 50%;
-            width: 700px; // 線の長さ
-            height: 1px;
+            width: 40rem; // 線の長さ
+            height: 0.0625rem;
             background-color: #DD5B60; // 線の色
           }
 
@@ -1166,38 +1166,63 @@ main {
         grid-template-columns: repeat(2, 1fr);
         gap: 2.5rem;
 
-        .requirements--list li {
-          position: relative;
-          text-align: center;
-        }
+        // .requirements--list li {
+        //   position: relative;
+        //   text-align: center;
+        // }
 
-        .title-wrap {
-          display: inline-block; 
-           text-align: center;
-        }
+        .requirement-item {
+          list-style: none;
 
-      
-      .font_new-graduates,
-      .font_career {
-           display: block;
-          font-family: 'Zen Kaku Gothic New', sans-serif;
-          font-weight: 600;
-          font-size: 65px;
-          letter-spacing: 0.3em;
-          width: fit-content;
-          border-bottom: 4px solid #000;
-          padding-bottom: 0.2em;
-        }
+          .img-wrap {
+            position: relative;
+            display: inline-block;
 
+            img {
+              width: 100%;
+              height: auto;
+              display: block;
+            }
 
-        .font-en_ng {
-          font-family: 'Montserrat', sans-serif;
-          font-size: 28px;
-          font-weight: 600;
-          padding-top: 0.2em;
-          // width: 250px;
+            .title-wrap {
+              // display: inline-block;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%); // 中央寄せ
+              text-align: center;
+              color: #000;
+              font-weight: bold;
+              text-align: center;
+            }
+
+            .font_new-graduates,
+            .font_career {
+              display: block;
+              font-family: 'Zen Kaku Gothic New', sans-serif;
+              font-weight: 600;
+              font-size: 3rem;
+              letter-spacing: 0.3em;
+              width: fit-content;
+              border-bottom: 4px solid #000;
+              padding-bottom: 0.2em;
+            }
+
+            .font-en_ng {
+              font-family: 'Montserrat', sans-serif;
+              font-size: 1.5rem;
+              font-weight: 600;
+              padding-top: 0.1em;
+              // width: 250px;
+            }
+          }
         }
       }
     }
   }
+}
+
+.cta {
+  display: block;
+  height: 50rem;
 }

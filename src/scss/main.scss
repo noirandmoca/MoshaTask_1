@@ -16,7 +16,7 @@ body {
 }
 
 .fz-18 {
-  font-size: 1.125rem; 
+  font-size: 1.125rem;
 }
 
 .deco-frame {
@@ -437,7 +437,7 @@ main {
   .btn {
     position: absolute;
     top: 21.825rem;
-    left: 15,625rem;
+    left: 15, 625rem;
   }
 
   .merit-text {
@@ -1159,12 +1159,9 @@ main {
           .img-wrap {
             position: relative;
             display: inline-block;
-
-            img {
-              width: 100%;
-              height: auto;
-              display: block;
-            }
+            width: 100%;
+            height: auto;
+            display: block;
 
             .title-wrap {
               // display: inline-block;
@@ -1186,7 +1183,7 @@ main {
               font-size: 3rem;
               letter-spacing: 0.3em;
               width: fit-content;
-              border-bottom: 4px solid #000;
+              border-bottom: 4px solid;
               padding-bottom: 0.2em;
             }
 
@@ -1197,13 +1194,54 @@ main {
               padding-top: 0.1em;
             }
           }
+
+          &.new-graduate {
+            .img-wrap:hover {
+              background-image: url("img/bnr-requirements01.jpg"); // 差し替え画像
+
+              .title-wrap {
+                color: #fff;
+              }
+            }
+          }
         }
       }
     }
   }
 }
 
+
 .cta {
   display: block;
   height: 50rem;
+
+  .cta--loop {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    list-style: none;
+    font-size: 18.5rem;
+    color: #FCF9F4;
+    -webkit-text-stroke: 2px #DB4D44;
+    font-weight: 900;
+}
+  .triangle-down {
+    position: relative;
+    top: -9.1rem;
+    left: 50rem;
+    width: 0;
+    height: 0;
+    border-left: 2.2rem solid transparent;
+    border-right: 2.2rem solid transparent;
+    border-top: 3.805rem solid #DB4D44; // ← この色が三角形になる
+  }
+
+  .triangle-fill {
+    position: absolute;
+    top: -3.625rem; // ← 内側三角をぴったり重ねるための調整
+    left: -2rem;
+    width: 0;
+    height: 0;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 3.464rem solid #FCF9F4; // ← 塗りつぶし（内側）
+  }
 }

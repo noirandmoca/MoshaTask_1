@@ -1413,8 +1413,6 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap {
   position: relative;
   display: inline-block;
-}
-.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap img {
   width: 100%;
   height: auto;
   display: block;
@@ -1437,7 +1435,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   font-size: 3rem;
   letter-spacing: 0.3em;
   width: fit-content;
-  border-bottom: 4px solid #000;
+  border-bottom: 4px solid;
   padding-bottom: 0.2em;
 }
 .requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .font-en_ng {
@@ -1446,10 +1444,44 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   font-weight: 600;
   padding-top: 0.1em;
 }
+.requirements-overlay .inner_list .requirements--list .requirement-item.new-graduate .img-wrap:hover {
+  background-image: url("img/bnr-requirements01.jpg");
+}
+.requirements-overlay .inner_list .requirements--list .requirement-item.new-graduate .img-wrap:hover .title-wrap {
+  color: #fff;
+}
 
 .cta {
   display: block;
   height: 50rem;
+}
+.cta .cta--loop {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  list-style: none;
+  font-size: 18.5rem;
+  color: #FCF9F4;
+  -webkit-text-stroke: 2px #DB4D44;
+  font-weight: 900;
+}
+.cta .triangle-down {
+  position: relative;
+  top: -9.1rem;
+  left: 50rem;
+  width: 0;
+  height: 0;
+  border-left: 2.2rem solid transparent;
+  border-right: 2.2rem solid transparent;
+  border-top: 3.805rem solid #DB4D44;
+}
+.cta .triangle-fill {
+  position: absolute;
+  top: -3.625rem;
+  left: -2rem;
+  width: 0;
+  height: 0;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-top: 3.464rem solid #FCF9F4;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -114,7 +114,7 @@ input, select {
   position: relative;
   margin-left: 3.4375rem;
   margin-right: 3.4375rem;
-  background-color: #fbf9f3;
+  background-color: #000;
   height: 68.75rem;
 }
 .header-overlay .moji {
@@ -1482,6 +1482,57 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   border-left: 2rem solid transparent;
   border-right: 2rem solid transparent;
   border-top: 3.464rem solid #FCF9F4;
+}
+.cta .inner-lg2 {
+  position: relative;
+  display: flex;
+  height: 11.25rem;
+  width: auto;
+  justify-content: center;
+  margin: 0 5rem;
+}
+.cta .cta-ttl {
+  position: relative;
+  height: auto;
+  width: 100%;
+  text-align: justify;
+  padding-left: 16.5rem;
+}
+.cta .sp-none-cta {
+  color: #000;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.8rem;
+}
+.cta .sp-none-cta .span {
+  display: block;
+}
+.cta .sp-none-cta .cta_anata {
+  font-size: 3rem;
+}
+.cta .sp-none-cta .cte_no {
+  font-size: 2.6rem;
+}
+.cta .sp-none-cta .cta_egao {
+  color: #DB4D44;
+  font-size: 5.625rem;
+}
+.cta .sp-none-cta .cte_ha {
+  font-size: 2.6rem;
+}
+.cta .sp-none-cta .cta_saikou {
+  font-size: 4.8rem;
+}
+.cta .sp-none-cta .cte_no2 {
+  font-size: 2.6rem;
+}
+.cta .sp-none-cta .cta_sukiru {
+  font-size: 4.8rem;
+}
+.cta .sp-none-cta .cte_desu {
+  font-size: 2.6rem;
 }
 
 /*# sourceMappingURL=main.css.map */

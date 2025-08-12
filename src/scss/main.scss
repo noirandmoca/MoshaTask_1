@@ -998,7 +998,7 @@ main {
     margin: 0 5rem;
 
     .inner_t {
-      position: relative;  
+      position: relative;
       width: 100%;
       color: #fff;
       align-items: center;
@@ -1076,7 +1076,7 @@ main {
     margin-right: 3.4375rem;
     background-color: #fbf9f3;
     height: 100rem;
-    margin-bottom: 11rem;
+    margin-bottom: 10.5rem;
 
     .inner_list {
       padding-top: 9rem;
@@ -1119,71 +1119,86 @@ main {
           }
         }
       }
+    }
 
-      .requirements--list {
+    .requirements--list {
+      display: flex;
+
+      .requirement-item {
         list-style: none;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2.5rem;
+        position: relative;
 
-        // .requirements--list li {
-        //   position: relative;
-        //   text-align: center;
-        // }
+        .img-wrap1 {
+          background-size: cover;
+          background-position: center;
+          transition: background-image 0.3s ease;
 
-        .requirement-item {
-          list-style: none;
-
-          .img-wrap {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-            height: auto;
-            display: block;
-
-            .title-wrap {
-              // display: inline-block;
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%); // 中央寄せ
-              text-align: center;
-              color: #000;
-              font-weight: bold;
-              text-align: center;
-            }
-
-            .font_new-graduates,
-            .font_career {
-              display: block;
-              font-family: 'Zen Kaku Gothic New', sans-serif;
-              font-weight: 600;
-              font-size: 3rem;
-              letter-spacing: 0.3em;
-              width: fit-content;
-              border-bottom: 4px solid;
-              padding-bottom: 0.2em;
-            }
-
-            .font-en_ng {
-              font-family: 'Montserrat', sans-serif;
-              font-size: 1.5rem;
-              font-weight: 600;
-              padding-top: 0.1em;
-            }
+          &:hover {
+            background-image: url("../../img/bnr-requirements01.jpg"); // ホバー時
           }
 
-          &.new-graduate {
-            .img-wrap:hover {
-              background-image: url("img/bnr-requirements01.jpg"); // 差し替え画像
-
-              .title-wrap {
-                color: #fff;
-              }
+          .img1 {
+            &:hover {
+              opacity: 0.5;
             }
           }
         }
+
+        .img-wrap2 {
+          background-size: cover;
+          background-position: center;
+          transition: background-image 0.3s ease;
+
+          &:hover {
+            background-image: url("../../img/bnr-requirements02.jpg"); // ホバー時
+          }
+        }
+
+        .title-wrap {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); // 中央寄せ
+          text-align: center;
+          font-weight: bold;
+          text-align: center;
+          color: aquamarine;
+
+          // &:hover {
+          //   color: orange;
+          // }
+
+          // &:hover .font_new-graduates,
+          // &:hover .font_career,
+          &:hover .aaa1,
+          &:hover .aaa2,
+          &:hover .font-en_ng {
+            color: orange;
+          }
+        }
+
+        // .font_new-graduates,
+        // .font_career {
+        .aaa1,
+        .aaa2 {
+          display: block;
+          font-family: 'Zen Kaku Gothic New', sans-serif;
+          font-weight: 600;
+          font-size: 3rem;
+          letter-spacing: 0.3em;
+          width: fit-content;
+          border-bottom: 4px solid;
+          padding-bottom: 0.2em;
+        }
+
+        .font-en_ng {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.5rem;
+          font-weight: 600;
+          padding-top: 0.1em;
+        }
       }
+
     }
   }
 }
@@ -1298,21 +1313,62 @@ main {
   }
 
   .cta-list {
-        display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
 
     li {
       list-style: none;
+      position: relative;
     }
-    .cta-list-ttl {
 
+    .cta_ttl_li {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 5rem;
+      padding: 0.5em 1em;
+      // background-color: #DB4D44;
+      color: #fff;
     }
+
+    .shinnsotu_li {
+      background-color: #DB4D44;
+      height: 12rem;
+      width: 50rem;
+
+      .mynavi {
+        background-color: #fff;
+        height: 15rem;
+      }
+
+      .rikunavi {
+        background-color: #fff;
+        height: 15rem;
+      }
+    }
+
+    .tyuto_li {
+      background-color: #184DA4;
+      height: 6rem;
+      width: 50rem;
+
+      .h4 {
+        background-color: #fff;
+        height: 15rem;
+      }
+    }
+
   }
 
   .cta_bottom img {
-      display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

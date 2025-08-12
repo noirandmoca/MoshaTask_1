@@ -114,7 +114,7 @@ input, select {
   position: relative;
   margin-left: 3.4375rem;
   margin-right: 3.4375rem;
-  background-color: #000;
+  background-color: #DB4D44;
   height: 68.75rem;
 }
 .header-overlay .moji {
@@ -1365,7 +1365,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   margin-right: 3.4375rem;
   background-color: #fbf9f3;
   height: 100rem;
-  margin-bottom: 11rem;
+  margin-bottom: 10.5rem;
 }
 .requirements-overlay .inner_list {
   padding-top: 9rem;
@@ -1401,34 +1401,47 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   right: 0;
   transform: translate(0, 50%);
 }
-.requirements-overlay .inner_list .requirements--list {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
+.requirements-overlay .requirements--list {
+  display: flex;
 }
-.requirements-overlay .inner_list .requirements--list .requirement-item {
+.requirements-overlay .requirements--list .requirement-item {
   list-style: none;
-}
-.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap {
   position: relative;
-  display: inline-block;
-  width: 100%;
-  height: auto;
-  display: block;
 }
-.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .title-wrap {
+.requirements-overlay .requirements--list .requirement-item .img-wrap1 {
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease;
+}
+.requirements-overlay .requirements--list .requirement-item .img-wrap1:hover {
+  background-image: url("../../img/bnr-requirements01.jpg");
+}
+.requirements-overlay .requirements--list .requirement-item .img-wrap1 .img1:hover {
+  opacity: 0.5;
+}
+.requirements-overlay .requirements--list .requirement-item .img-wrap2 {
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease;
+}
+.requirements-overlay .requirements--list .requirement-item .img-wrap2:hover {
+  background-image: url("../../img/bnr-requirements02.jpg");
+}
+.requirements-overlay .requirements--list .requirement-item .title-wrap {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #000;
   font-weight: bold;
   text-align: center;
+  color: aquamarine;
 }
-.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .font_new-graduates,
-.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .font_career {
+.requirements-overlay .requirements--list .requirement-item .title-wrap:hover .aaa1, .requirements-overlay .requirements--list .requirement-item .title-wrap:hover .aaa2, .requirements-overlay .requirements--list .requirement-item .title-wrap:hover .font-en_ng {
+  color: orange;
+}
+.requirements-overlay .requirements--list .requirement-item .aaa1,
+.requirements-overlay .requirements--list .requirement-item .aaa2 {
   display: block;
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 600;
@@ -1438,17 +1451,11 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   border-bottom: 4px solid;
   padding-bottom: 0.2em;
 }
-.requirements-overlay .inner_list .requirements--list .requirement-item .img-wrap .font-en_ng {
+.requirements-overlay .requirements--list .requirement-item .font-en_ng {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   padding-top: 0.1em;
-}
-.requirements-overlay .inner_list .requirements--list .requirement-item.new-graduate .img-wrap:hover {
-  background-image: url("img/bnr-requirements01.jpg");
-}
-.requirements-overlay .inner_list .requirements--list .requirement-item.new-graduate .img-wrap:hover .title-wrap {
-  color: #fff;
 }
 
 .cta {
@@ -1535,12 +1542,46 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   font-size: 2.6rem;
 }
 .cta .cta-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   gap: 2.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
 }
 .cta .cta-list li {
   list-style: none;
+  position: relative;
+}
+.cta .cta-list .cta_ttl_li {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  padding: 0.5em 1em;
+  color: #fff;
+}
+.cta .cta-list .shinnsotu_li {
+  background-color: #DB4D44;
+  height: 12rem;
+  width: 50rem;
+}
+.cta .cta-list .shinnsotu_li .mynavi {
+  background-color: #fff;
+  height: 15rem;
+}
+.cta .cta-list .shinnsotu_li .rikunavi {
+  background-color: #fff;
+  height: 15rem;
+}
+.cta .cta-list .tyuto_li {
+  background-color: #184DA4;
+  height: 6rem;
+  width: 50rem;
+}
+.cta .cta-list .tyuto_li .h4 {
+  background-color: #fff;
+  height: 15rem;
 }
 .cta .cta_bottom img {
   display: block;

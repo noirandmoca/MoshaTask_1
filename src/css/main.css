@@ -114,7 +114,7 @@ input, select {
   position: relative;
   margin-left: 3.4375rem;
   margin-right: 3.4375rem;
-  background-color: #DB4D44;
+  background-color: rgba(219, 77, 68, 0.8039215686);
   height: 68.75rem;
 }
 .header-overlay .moji {
@@ -1435,7 +1435,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   text-align: center;
   font-weight: bold;
   text-align: center;
-  color: aquamarine;
+  color: #000;
 }
 .requirements-overlay .requirements--list .requirement-item .title-wrap:hover .aaa1, .requirements-overlay .requirements--list .requirement-item .title-wrap:hover .aaa2, .requirements-overlay .requirements--list .requirement-item .title-wrap:hover .font-en_ng {
   color: orange;

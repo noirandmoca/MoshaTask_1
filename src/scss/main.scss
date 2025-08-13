@@ -1162,7 +1162,7 @@ main {
           text-align: center;
           font-weight: bold;
           text-align: center;
-          color: aquamarine;
+          color: #000;
 
           // &:hover {
           //   color: orange;
@@ -1372,3 +1372,14 @@ main {
     margin-right: auto;
   }
 }
+
+//  display: flex;
+//   position: fixed;
+//   top: 0;
+//   height: 3.125rem;
+//   left: 0;
+//   right: 1rem;
+//   overflow: hidden; // 要素からはみ出した部分を隠す これが無いと最上部のヘッダーがスクロールバーの上に表示されてしまう
+//   background-color: #d92b44;
+//   z-index: 10;
+//   align-items: center;

@@ -1579,8 +1579,9 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   height: 6rem;
   width: 50rem;
 }
-.cta .cta-list .tyuto_li .h4 {
+.cta .cta-list .tyuto_li-s {
   background-color: #fff;
+  color: #000;
   height: 15rem;
 }
 .cta .cta_bottom img {

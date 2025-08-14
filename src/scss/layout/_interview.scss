@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  margin-left: 3.42rem;
+  margin-right: 3.42rem;
+  height: 96.875rem;
+  background-color: #fbf9f3;
+}
+
+.header--logo {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 3.125rem;
+  width: 25rem;
+  height: 7.5rem;
+  border-radius: 0 0 1.25rem 1.25rem;
+  z-index: 999;
+
+  .header--logo_img {
+    position: relative;
+    top: -6rem;
+    left: 3.5rem;
+  }
+    .font-en {
+      position: relative;
+      top: -13rem;
+      left: 6.25rem;
+      // text-align: center;
+    }
+  
+}
+
+.page_ttl {
+  position: relative;
+  background-color: #DB4D43;
+  color: #fff;
+  height: 12rem;
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-a-end {
+    align-items: flex-end;
+  }
+
+  .breadcrumbs {
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    padding: 0.875rem 0;
+    margin: 0.375rem 0;
+    color: #fff;
+    white-space: nowrap;
+
+    .typesquare_option_ttl {
+      color: inherit;
+    }
+  }
+
+  .page_ttl-en {
+    position: absolute;
+    right: 5rem;
+    top: 3.5rem;
+    font-size: 10rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+}
+
+.interview_main {
+  background: #DB4D43;
+}

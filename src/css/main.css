@@ -482,6 +482,27 @@ input, select {
   background: #DB4D43;
 }
 
+.container {
+  position: relative;
+  background-color: #fbf9f3;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.page_slide_wrap {
+  width: 42.75rem;
+  position: relative;
+  opacity: 1;
+}
+
+.interview_inner {
+  max-width: 60rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  flex: 1;
+}
+
 html,
 body {
   height: 100%;

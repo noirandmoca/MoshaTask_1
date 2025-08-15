@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <title>募集要項</title>
 </head>
+
 <body id="top">
-  <div class="wrapper">
-  
+  <header>
+    <!-- <div class="wrapper"> -->
+
     <div class="deco-frame loop font-en fz-18"><!-- jsで -->
       <ul>
         <li class="txt"><span>SHOSHIN</span> RECRUITING SITE</li>
@@ -23,11 +28,43 @@
         <li class="txt"><span>SHOSHIN</span> RECRUITING SITE</li>
       </ul>
     </div>
-    <img class="header-logo" src="img/logo.svg" width="300" height="300" alt="ヘッダーロゴ">
-    <span class="font-en">RECRUITING SITE</span>
-    <img class="future-bg" src="img/future-bg.jpg" width="auto" height="auto" alt="背景写真">
-  </div><!-- wrapper -->
+    <h2 class="header--logo">
+      <img class="header--logo_img" src="img/logo.svg" width="280" height="280" alt="ヘッダーロゴ">
+      <span class="font-en">RECRUITING SITE</span>
+    </h2>
+    <!-- </div>wrapper -->
 
+    <div class="page_ttl flex flex-a-end">
+      <!-- start breadcrumbs -パンくず -->
+      <div class="breadcrumbs">
+        <span class="typesquare_option_ttl">
+          <a href="" class="typesquare_option_ttl">ホーム</a>
+        </span>
+        <span class="">募集要項</span>
+      </div><!-- breadcrumbs -->
+      <h1 class="page_ttl-en">Requirements</h1>
+    </div><!-- page_ttl flex flex-a-end -->
+    <!-- end breadcrumbs -パンくず -->
+  </header>
+
+  <div class="container">
+    <div class="page_slide_wrap">
+      <img src="img/230818_250_1-2048x1365.jpg" width="850" height="900" alt="">
+    </div><!-- 左のスライド写真 -->
+    <main>
+      <div class="interview_inner"><!-- 右側の詳細 -->
+        <div class="posts posts-interview">
+          <article class="post"></article>
+          <article class="post"></article>
+          <article class="post"></article>
+          <article class="post"></article>
+          <article class="post"></article>
+          <article class="post"></article>
+        </div><!-- posts posts-interview -->
+      </div><!-- inner inner-md section_pdg -->
+    </main>
+
+  </div><!-- container -->
   <section class="requirements">
     <div class="requirements-overlay">
       <section class="inner_list">
@@ -45,7 +82,7 @@
                   <span class="aaa2">新卒採用</span>
                   <span class="font-en_ng">NEW GRADUATE</span>
                 </div><!-- /title-wrap -->
-                <img src="img/新卒採用背景.png" width="800" height="500" alt="">
+                <img src="img/shinnsotu.png" width="800" height="300" alt="">
                 <!-- </span> -->
               </div><!-- /img-wrap -->
             </li>
@@ -57,7 +94,7 @@
                   <span class="aaa1">中途採用</span>
                   <span class="font-en_ng">MID-CAREER</span>
                 </div><!-- /title-wrap -->
-                <img src="img/中途採用背景.png" width="800" height="500" alt="">
+                <img src="img/2.png" width="800" height="300" alt="">
               </div><!-- /img-wrap -->
             </li>
           </ul><!-- /requirements--list -->
@@ -140,4 +177,5 @@
     </div>
   </footer>
 </body>
+
 </html>

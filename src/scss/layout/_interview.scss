@@ -71,3 +71,28 @@
 .interview_main {
   background: #DB4D43;
 }
+
+.container {
+  position: relative;
+  // margin-left: 3.42rem;
+  // margin-right: 3.42rem;
+  // height: 96.875rem;
+  background-color: #fbf9f3;
+
+  display: flex;           
+  align-items: flex-start; 
+  gap: 2rem;               
+}
+
+.page_slide_wrap {
+  width: 42.75rem;
+  position: relative;
+  opacity: 1;
+}
+
+.interview_inner {
+  max-width: 60rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
+flex: 1;
+}

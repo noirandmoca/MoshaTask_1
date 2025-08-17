@@ -1451,7 +1451,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   margin-left: 3.4375rem;
   margin-right: 3.4375rem;
   background-color: #fbf9f3;
-  height: 100rem;
+  height: 110rem;
   margin-bottom: 10.5rem;
 }
 .requirements-overlay .inner_list {
@@ -1556,6 +1556,15 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   color: #fcf9f4;
   -webkit-text-stroke: 2px #db4d44;
   font-weight: 900;
+  animation: marquee-left 64s linear infinite;
+}
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
 }
 .cta .triangle-down {
   position: relative;
@@ -1628,52 +1637,65 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 .cta .sp-none-cta .cte_desu {
   font-size: 2.6rem;
 }
-.cta .cta-list {
+.cta .inner-lg3 {
   display: flex;
   gap: 2.5rem;
   font-size: 2.5rem;
   letter-spacing: 0.5rem;
-}
-.cta .cta-list .cta_ttl_li {
+  width: auto;
   grid-column: 1/3;
   grid-row: 1/2;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 21rem;
   padding: 0.5em 1em;
   color: #fff;
+  text-align: center;
 }
-.cta .cta-list .cta_ttl_li ul {
+.cta .inner-lg3 ul {
   display: flex;
+  gap: 3rem;
 }
-.cta .cta-list .cta_ttl_li ul li {
+.cta .inner-lg3 ul li {
   list-style: none;
   position: relative;
 }
-.cta .cta-list .shinnsotu_li {
+.cta .inner-lg3 ul li .shinnsotu_li {
   background-color: #db4d44;
-  height: 12rem;
+  height: 6rem;
   width: 50rem;
 }
-.cta .cta-list .shinnsotu_li .mynavi {
+.cta .inner-lg3 ul li .mynavi_rikunavi {
+  display: flex;
+}
+.cta .inner-lg3 ul li .mynavi_rikunavi .mynavi {
   background-color: #fff;
   height: 15rem;
+  width: 25rem;
 }
-.cta .cta-list .shinnsotu_li .rikunavi {
+.cta .inner-lg3 ul li .mynavi_rikunavi .rikunavi {
   background-color: #fff;
   height: 15rem;
+  width: 25rem;
 }
-.cta .cta-list .tyuto_li {
+.cta .inner-lg3 ul .tyuto_li .tyuto_h3 {
   background-color: #184da4;
   height: 6rem;
   width: 50rem;
 }
-.cta .cta-list .tyuto_li-s {
+.cta .inner-lg3 ul .tyuto_li .aaa {
+  display: flex;
+}
+.cta .inner-lg3 ul .tyuto_li .aaa .tyuto_li-s {
   background-color: #fff;
+  font-size: 1rem;
   color: #000;
   height: 15rem;
+  width: 25rem;
 }
 .cta .cta_bottom img {
+  position: relative;
+  top: -5rem;
   display: block;
   margin-left: auto;
   margin-right: auto;

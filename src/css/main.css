@@ -1418,7 +1418,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   vertical-align: middle;
 }
 .transparent-zone .inner__transparency .inner_t .sp-none-inline .mirai {
-  color: #DB4D44;
+  color: #db4d44;
   font-size: 6.56rem;
   vertical-align: middle;
 }
@@ -1478,7 +1478,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   position: absolute;
   width: 40rem;
   height: 0.0625rem;
-  background-color: #DD5B60;
+  background-color: #dd5b60;
 }
 .requirements-overlay .inner_list .inner-lg2 .offering_essential_point::before {
   left: 0;
@@ -1553,8 +1553,8 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   font-family: "Zen Kaku Gothic New", sans-serif;
   list-style: none;
   font-size: 18.5rem;
-  color: #FCF9F4;
-  -webkit-text-stroke: 2px #DB4D44;
+  color: #fcf9f4;
+  -webkit-text-stroke: 2px #db4d44;
   font-weight: 900;
 }
 .cta .triangle-down {
@@ -1565,7 +1565,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   height: 0;
   border-left: 2.2rem solid transparent;
   border-right: 2.2rem solid transparent;
-  border-top: 3.805rem solid #DB4D44;
+  border-top: 3.805rem solid #db4d44;
 }
 .cta .triangle-fill {
   position: absolute;
@@ -1575,7 +1575,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   height: 0;
   border-left: 2rem solid transparent;
   border-right: 2rem solid transparent;
-  border-top: 3.464rem solid #FCF9F4;
+  border-top: 3.464rem solid #fcf9f4;
 }
 .cta .inner-lg2 {
   position: relative;
@@ -1610,7 +1610,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   font-size: 2.6rem;
 }
 .cta .sp-none-cta .cta_egao {
-  color: #DB4D44;
+  color: #db4d44;
   font-size: 5.625rem;
 }
 .cta .sp-none-cta .cte_ha {
@@ -1634,22 +1634,24 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   font-size: 2.5rem;
   letter-spacing: 0.5rem;
 }
-.cta .cta-list li {
-  list-style: none;
-  position: relative;
-}
 .cta .cta-list .cta_ttl_li {
   grid-column: 1/3;
   grid-row: 1/2;
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem;
   padding: 0.5em 1em;
   color: #fff;
 }
+.cta .cta-list .cta_ttl_li ul {
+  display: flex;
+}
+.cta .cta-list .cta_ttl_li ul li {
+  list-style: none;
+  position: relative;
+}
 .cta .cta-list .shinnsotu_li {
-  background-color: #DB4D44;
+  background-color: #db4d44;
   height: 12rem;
   width: 50rem;
 }
@@ -1662,7 +1664,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   height: 15rem;
 }
 .cta .cta-list .tyuto_li {
-  background-color: #184DA4;
+  background-color: #184da4;
   height: 6rem;
   width: 50rem;
 }

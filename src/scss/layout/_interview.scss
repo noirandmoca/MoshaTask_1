@@ -21,13 +21,14 @@
     top: -6rem;
     left: 3.5rem;
   }
-    .font-en {
-      position: relative;
-      top: -13rem;
-      left: 6.25rem;
-      // text-align: center;
-    }
-  
+
+  .font-en {
+    position: relative;
+    top: -13rem;
+    left: 6.25rem;
+    // text-align: center;
+  }
+
 }
 
 .page_ttl {
@@ -78,10 +79,9 @@
   // margin-right: 3.42rem;
   // height: 96.875rem;
   background-color: #fbf9f3;
-
-  display: flex;           
-  align-items: flex-start; 
-  gap: 2rem;               
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
 .page_slide_wrap {
@@ -92,7 +92,7 @@
 
 .interview_inner {
   max-width: 60rem;
-padding-top: 3rem;
-padding-bottom: 3rem;
-flex: 1;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  flex: 1;
 }

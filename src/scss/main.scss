@@ -106,14 +106,16 @@ main {
       // position: relative;
       left: 4.375rem;
       height: 14.7rem;
+      z-index: 500;
+      position: relative;
 
       .main-copy__inner {
         padding: 0;
         width: 33.125rem;
         position: absolute;
         top: 6.25rem;
-        left: 15.75rem;
-        z-index: 100;
+        left: 13rem;
+        z-index: 300;
       }
 
       .main-copy__line {
@@ -202,27 +204,29 @@ main {
     }
 
     .main-img {
-      // position: relative;
-
-      .img_pen {
-        position: absolute;
-        top: 0.625rem;
-        right: -1rem;
-      }
-
-      .img_akushu {
-        position: absolute;
-        top: 40.6rem;
-        left: 0.625rem;
-        z-index: 30;
-      }
-
-      .akushu-bg {
-        position: absolute;
-        top: 40.625rem;
-        left: -0.125rem;
-      }
+      position: relative;
     }
+
+    .img_pen {
+      position: absolute;
+      top: -7.5rem;
+      left: 88rem;
+      z-index: 500;
+    }
+
+    .img_akushu {
+      position: absolute;
+      top: 26rem;
+      left: 0.625rem;
+      z-index: 30;
+    }
+
+    .akushu-bg {
+      position: absolute;
+      top: 40.625rem;
+      left: -0.125rem;
+    }
+
 
     .circle {
       position: absolute;
@@ -279,7 +283,7 @@ main {
         }
 
         .horizontal-line {
-          width: 20rem;
+          width: 15rem;
           height: 0.0625rem;
           background-color: #d92b44;
           margin-left: 0.625rem;
@@ -1075,7 +1079,7 @@ main {
     margin-left: 3.4375rem;
     margin-right: 3.4375rem;
     background-color: #fbf9f3;
-    height: 93rem;
+    height: 95rem;
     margin-bottom: 10.5rem;
 
     .inner_list {
@@ -1379,11 +1383,10 @@ main {
     grid-row: 1 / 2;
     justify-content: center;
     align-items: center;
-    height: 21rem;
-    // padding: 0.5em 1em;
+    height: 5rem;
     color: #fff;
     text-align: center;
-    margin-top: -10rem;
+    margin-top: -2rem;
 
     ul {
       display: flex;
@@ -1413,7 +1416,7 @@ main {
 
           .mynavi {
             background-color: #fff;
-            height: 15rem;
+            height: 13rem;
             width: 25rem;
             border: 1px solid #db4d44;
             display: flex;
@@ -1428,7 +1431,7 @@ main {
 
           .rikunavi {
             background-color: #fff;
-            height: 15rem;
+            height: 13rem;
             width: 25rem;
             border: 1px solid #db4d44;
             display: flex;
@@ -1468,20 +1471,44 @@ main {
             background-color: #fff;
             font-size: 1rem;
             color: #000;
-            height: 15rem;
+            height: 13rem;
             width: 25rem;
             border: 1px solid #184da4;
             letter-spacing: 0.3;
             display: flex;
-          justify-content: center;
-          align-items: center;
+            justify-content: center;
+            align-items: center;
 
-            h4 {
-            color: #fff;
-            font-size: 1.8rem;
-            margin: 0;
+            .mail {
+              letter-spacing: 0.3em;
+            }
+
+            svg {
+              margin-right: 1rem;
+            }
+
+            .contact-info {
+              display: flex;
+              flex-direction: column; // ←縦に並べる
+              align-items: flex-start; // ←左寄せ（中央にしたいなら center）
+
+              // h4 {
+              //   color: #fff;
+              //   font-size: 1.8rem;
+              //   margin: 0;
+              .tell {
+                font-size: 20px;
+                letter-spacing: 0.3em;
+              }
+
+              .hours {
+                margin-top: 0.5rem;
+                font-size: 15px;
+              }
+            }
+
           }
-          }
+
         }
       }
     }
@@ -1489,7 +1516,7 @@ main {
 
   .cta_bottom img {
     position: relative;
-    top: -5rem;
+    top: 5rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1506,3 +1533,49 @@ main {
 //   background-color: #d92b44;
 //   z-index: 10;
 //   align-items: center;
+
+.gnav {
+  position: relative;
+  right: -1
+  flex-direction: column;
+  // width: fit-content;
+  width: 8.6rem;
+  bottom: 17rem;
+  background-color: #000;
+height: 18rem;
+align-items: center;
+
+  .gnav--menu {
+    position: absolute;
+    top: 3rem;
+    width: 8rem;
+    height: 13rem;
+    background-color: #fff;
+    
+
+    .gnav_deco {
+      position: relative;
+
+      .gnav_txt {
+        transform: rotate(-5deg);
+      }
+    }
+
+    .gnav--menu_li {
+      flex-direction: column;
+      padding: 1.5rem 0;
+      color: #000;
+
+      a {
+        text-decoration: underline;
+        color: #000;
+
+        .gnav--menu_li a:hover {
+          color: #db4d44; // 赤色に変化
+          text-decoration: underline; 
+        }
+      }
+
+    }
+  }
+}

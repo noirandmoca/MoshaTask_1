@@ -35,7 +35,7 @@
 
   .address {
     font-size: 0.9375rem;
-    font-weight: 300;
+    font-weight: 600;
   }
 
   &-nav {
@@ -44,19 +44,19 @@
     right: 4.69rem;
 
     ul {
+      position: relative;
+      left: 5rem;
       display: flex;
       align-items: center;
       height: auto;
       width: 100%;
       justify-content: flex-start;
-      margin: 0;
-      padding: 0;
-
+    
       li {
         font-size: 1.5625rem;
         white-space: nowrap;
         text-align: center;
-        margin-right: 2.8125rem;
+        margin-right: 4rem;
         list-style: none;
         font-weight: bold;
         margin-top: 0.3125rem;

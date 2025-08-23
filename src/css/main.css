@@ -416,11 +416,16 @@ input, select {
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
+.body {
+  background-color: #d92b44;
+}
+
 .container {
   position: relative;
-  margin-left: 3.42rem;
-  margin-right: 3.42rem;
-  height: 96.875rem;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 68.875rem;
   background-color: #fbf9f3;
 }
 
@@ -478,29 +483,52 @@ input, select {
   font-weight: 600;
 }
 
-.interview_main {
-  background: #DB4D43;
-}
-
 .container {
+  background: #DB4D43;
   position: relative;
-  background-color: #fbf9f3;
   display: flex;
-  align-items: flex-start;
-  gap: 2rem;
 }
 
-.page_slide_wrap {
+.interview-main {
+  background-color: #fbf9f3;
+  height: 95rem;
+  width: 140rem;
+  margin-left: 3.42rem;
+  margin-right: 3.42rem;
+}
+.interview-main .page_slide_wrap {
   width: 42.75rem;
   position: relative;
   opacity: 1;
 }
-
-.interview_inner {
+.interview-main .interview_inner {
   max-width: 60rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   flex: 1;
+}
+.interview-main .posts-interview {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  gap: 3.125rem;
+  position: relative;
+  right: -8rem;
+  height: 90rem;
+  z-index: 9999;
+}
+.interview-main .posts-interview .post {
+  background: #fff;
+  border-radius: 0.625rem;
+  padding: 1.9rem 3rem 2rem;
+  overflow: hidden;
+  width: 20rem;
+  height: 30rem;
+}
+.interview-main .posts-interview .post .post_img {
+  width: 100%;
+  height: auto;
+  display: block;
+  align-items: center;
 }
 
 html,

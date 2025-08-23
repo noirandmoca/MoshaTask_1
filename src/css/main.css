@@ -1811,35 +1811,49 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   background-color: #000;
   height: 18rem;
   align-items: center;
+  z-index: 9999;
 }
 .gnav .gnav--menu {
   position: absolute;
   top: 0.3rem;
-  right: 0.4rem;
+  right: 0.2rem;
   width: 8rem;
   height: 13rem;
   background-color: #fff;
 }
 .gnav .gnav--menu .gnav_deco {
   position: absolute;
-  top: -7rem;
+  top: -4rem;
   left: -3rem;
 }
-.gnav .gnav--menu .gnav_deco .gnav_txt {
+.gnav .gnav--menu .gnav_txt {
+  position: absolute;
   transform: rotate(-5deg);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
+  top: 2rem;
+  left: 1.7rem;
 }
 .gnav .gnav--menu .gnav--menu_li {
+  font-family: "Noto Sans JP", sans-serif;
   flex-direction: column;
   padding: 1.5rem 0;
   color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}
+.gnav .gnav--menu .gnav--menu_li .gnav--menu_li_h {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
 }
 .gnav .gnav--menu .gnav--menu_li a {
   text-decoration: underline;
   color: #000;
+  transition: color 0.2s;
 }
-.gnav .gnav--menu .gnav--menu_li a .gnav--menu_li a:hover {
+.gnav .gnav--menu .gnav--menu_li:hover > a,
+.gnav .gnav--menu .gnav--menu_li a:hover {
   color: #db4d44;
   text-decoration: underline;
 }
@@ -1853,9 +1867,11 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   position: relative;
   text-decoration: underline;
   color: #fff;
-  top: 6rem;
+  font-family: "Montserrat", sans-serif;
+  top: -0.9rem;
   font-size: 20px;
   display: inline-block;
+  letter-spacing: 0.1em;
 }
 
 /*# sourceMappingURL=main.css.map */

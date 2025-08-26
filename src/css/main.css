@@ -420,15 +420,6 @@ input, select {
   background-color: #d92b44;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  height: 68.875rem;
-  background-color: #fbf9f3;
-}
-
 .header--logo {
   position: fixed;
   background-color: #fff;
@@ -484,20 +475,26 @@ input, select {
   letter-spacing: 0.1em;
 }
 
-.container {
+.r_container {
+  position: relative;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 68.875rem;
   background: #DB4D43;
+  display: flex;
 }
-.container img {
+.r_container img {
   margin-left: 3.42rem;
 }
-.container .recruit-main {
+.r_container .recruit-main {
   display: block;
   height: 115rem;
   background-color: #fbf9f3;
   margin-right: 3.42rem;
   max-width: 65rem;
 }
-.container .recruit-main .inner_main {
+.r_container .recruit-main .inner_main {
   width: 88%;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -505,7 +502,7 @@ input, select {
   margin-left: auto;
   margin-right: auto;
 }
-.container .recruit-main .inner_main .post {
+.r_container .recruit-main .inner_main .post {
   display: flex;
   position: relative;
   border-radius: 0.625rem;
@@ -513,25 +510,25 @@ input, select {
   width: auto;
   gap: 3rem;
 }
-.container .recruit-main .inner_main .post .recruit-sns,
-.container .recruit-main .inner_main .post .recruit-tut {
+.r_container .recruit-main .inner_main .post .recruit-sns,
+.r_container .recruit-main .inner_main .post .recruit-tut {
   background: #fff;
   width: 24.8rem;
   height: 27rem;
   list-style: none;
 }
-.container .recruit-main .inner_main .post .img {
+.r_container .recruit-main .inner_main .post .img {
   position: relative;
   left: -3.5rem;
   border-radius: 0.625rem 0.625rem 0 0;
 }
-.container .recruit-main .inner_main .post .post-txtarea {
+.r_container .recruit-main .inner_main .post .post-txtarea {
   padding: 1.5rem 1.975rem;
 }
-.container .recruit-main .inner_main .post .post-txtarea .post_info {
+.r_container .recruit-main .inner_main .post .post-txtarea .post_info {
   margin-bottom: 1rem;
 }
-.container .recruit-main .inner_main .post .post-txtarea .post_info .post_li {
+.r_container .recruit-main .inner_main .post .post-txtarea .post_info .post_li {
   position: relative;
   left: -1rem;
   overflow: hidden;
@@ -539,7 +536,7 @@ input, select {
   height: 4rem;
   text-align: center;
 }
-.container .recruit-main .inner_main .post .post-txtarea .post_info .post_li a {
+.r_container .recruit-main .inner_main .post .post-txtarea .post_info .post_li a {
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -555,32 +552,23 @@ input, select {
   text-decoration: none;
   transform: scale(1.2);
 }
-.container .recruit-main .inner_main .post .post-txtarea .post_li-ttl {
+.r_container .recruit-main .inner_main .post .post-txtarea .post_li-ttl {
   font-size: 1.5rem;
   letter-spacing: 0.1em;
 }
-.container .recruit-main .inner_main .post .post-txtarea .post_li-ttl a {
+.r_container .recruit-main .inner_main .post .post-txtarea .post_li-ttl a {
   color: #000;
   text-decoration: underline;
   text-decoration: none;
 }
-.container .recruit-main .inner_main .post .recruit-sns:hover,
-.container .recruit-main .inner_main .post .recruit-tut:hover {
+.r_container .recruit-main .inner_main .post .recruit-sns:hover,
+.r_container .recruit-main .inner_main .post .recruit-tut:hover {
   background: rgba(219, 77, 120, 0.05);
   transition: background 0.2s;
 }
 
 .body {
   background-color: #d92b44;
-}
-
-.container {
-  position: relative;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  height: 68.875rem;
-  background-color: #fbf9f3;
 }
 
 .header--logo {
@@ -637,9 +625,13 @@ input, select {
   font-weight: 600;
 }
 
-.container {
-  background: #DB4D43;
+.i_container {
   position: relative;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 68.875rem;
+  background: #DB4D43;
   display: flex;
 }
 

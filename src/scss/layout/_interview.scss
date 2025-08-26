@@ -1,15 +1,14 @@
 .body {
   background-color: #d92b44;
 }
-
-.container {
-  position: relative;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  height: 68.875rem;
-  background-color: #fbf9f3;
-}
+// .container {
+//   position: relative;
+//   width: 100%;
+//   margin-left: 0;
+//   margin-right: 0;
+//   height: 68.875rem;
+//   background-color: #fbf9f3;
+// }
 
 .header--logo {
   position: fixed;
@@ -74,14 +73,14 @@
   }
 }
 
-.container {
+.i_container {
+position: relative;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 68.875rem;
   background: #DB4D43;
-  position: relative;
-  // margin-left: 3.42rem;
-  // margin-right: 3.42rem;
-  // height: 96.875rem;
   display: flex;
-  // align-items: flex-start;
 }
 
 .interview-main {

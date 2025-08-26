@@ -66,7 +66,7 @@
 
   .page_ttl-en {
     position: absolute;
-    right: 5rem;
+    right: 2rem;
     top: 3.5rem;
     font-size: 10rem;
     font-family: "Montserrat", sans-serif;
@@ -85,25 +85,17 @@
 }
 
 .interview-main {
-  display: flex;
   background-color: #fbf9f3;
-  height: 75rem;
+  height: 70rem;
   width: 140rem;
   margin-left: 3.42rem;
   margin-right: 3.42rem;
 
   .page_slide_wrap {
-    width: 42.75rem;
+    width: 51rem;
     position: relative;
     opacity: 1;
     flex-shrink: 0;
-  }
-
-  .interview_inner {
-    max-width: 60rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    flex: 1;
   }
 
   .posts-interview {
@@ -148,7 +140,7 @@
       }
 
       .post-info {
-        
+
       }
     }
   }

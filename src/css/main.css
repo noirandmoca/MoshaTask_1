@@ -481,6 +481,157 @@ input, select {
   font-size: 10rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.container {
+  background: #DB4D43;
+}
+.container img {
+  margin-left: 3.42rem;
+}
+.container .recruit-main {
+  display: block;
+  height: 120rem;
+  background-color: #fbf9f3;
+  margin-right: 3.42rem;
+  max-width: 60rem;
+}
+.container .recruit-main .inner_main {
+  width: 88%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-width: 83rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .recruit-main .inner_main .post {
+  display: flex;
+  position: relative;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  width: auto;
+  gap: 3rem;
+}
+.container .recruit-main .inner_main .post .recruit-sns {
+  background: #fff;
+  width: 24.8rem;
+  height: 27rem;
+}
+.container .recruit-main .inner_main .post .recruit-tut {
+  background: #fff;
+  width: 25rem;
+}
+.container .recruit-main .inner_main .post .img {
+  position: relative;
+  left: -3.5rem;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+.container .recruit-main .inner_main .post .post-txtarea {
+  padding: 1.5rem 1.975rem;
+}
+.container .recruit-main .inner_main .post .post-txtarea .post_info {
+  margin-bottom: 1rem;
+}
+.container .recruit-main .inner_main .post .post-txtarea .post_info .post_li {
+  position: relative;
+  left: -1rem;
+  overflow: hidden;
+  width: 9rem;
+  height: 4rem;
+  text-align: center;
+}
+.container .recruit-main .inner_main .post .post-txtarea .post_info .post_li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  background-color: #DB4D43;
+  color: #fff;
+  padding: 0.25rem 1rem;
+  white-space: nowrap;
+  margin: 0.125rem;
+  z-index: 1;
+  border-radius: 9999px;
+  text-align: center;
+  text-decoration: none;
+  transform: scale(1.2);
+}
+.container .recruit-main .inner_main .post .post-txtarea .post_li-ttl {
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+}
+.container .recruit-main .inner_main .post .post-txtarea .post_li-ttl a {
+  color: #000;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.body {
+  background-color: #d92b44;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 68.875rem;
+  background-color: #fbf9f3;
+}
+
+.header--logo {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 3.125rem;
+  width: 25rem;
+  height: 7.5rem;
+  border-radius: 0 0 1.25rem 1.25rem;
+  z-index: 999;
+}
+.header--logo .header--logo_img {
+  position: relative;
+  top: -6rem;
+  left: 3.5rem;
+}
+.header--logo .font-en {
+  position: relative;
+  top: -13rem;
+  left: 6.25rem;
+}
+
+.page_ttl {
+  position: relative;
+  background-color: #DB4D43;
+  color: #fff;
+  height: 12rem;
+}
+.page_ttl .flex {
+  display: flex;
+}
+.page_ttl .flex-a-end {
+  align-items: flex-end;
+}
+.page_ttl .breadcrumbs {
+  position: absolute;
+  top: 8rem;
+  left: 5rem;
+  padding: 0.875rem 0;
+  margin: 0.375rem 0;
+  color: #fff;
+  white-space: nowrap;
+}
+.page_ttl .breadcrumbs .typesquare_option_ttl {
+  color: inherit;
+}
+.page_ttl .page_ttl-en {
+  position: absolute;
+  right: 2rem;
+  top: 3.5rem;
+  font-size: 10rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .container {
@@ -490,24 +641,17 @@ input, select {
 }
 
 .interview-main {
-  display: flex;
   background-color: #fbf9f3;
-  height: 75rem;
+  height: 70rem;
   width: 140rem;
   margin-left: 3.42rem;
   margin-right: 3.42rem;
 }
 .interview-main .page_slide_wrap {
-  width: 42.75rem;
+  width: 51rem;
   position: relative;
   opacity: 1;
   flex-shrink: 0;
-}
-.interview-main .interview_inner {
-  max-width: 60rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  flex: 1;
 }
 .interview-main .posts-interview {
   grid-template-columns: repeat(2, 1fr);

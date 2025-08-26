@@ -84,10 +84,10 @@
 
   .recruit-main {
     display: block;
-    height: 120rem;
+    height: 115rem;
     background-color: #fbf9f3;
     margin-right: 3.42rem;
-    max-width: 60rem;
+    max-width: 65rem;
 
     .inner_main {
       width: 88%;
@@ -105,15 +105,12 @@
         width: auto;
         gap: 3rem;
 
-        .recruit-sns {
+        .recruit-sns,
+        .recruit-tut {
           background: #fff;
           width: 24.8rem;
           height: 27rem;
-        }
-
-        .recruit-tut {
-          background: #fff;
-          width: 25rem;
+          list-style: none;
         }
 
         .img {
@@ -123,7 +120,7 @@
         }
 
         .post-txtarea {
-          padding: 1.5rem 1.975rem ;
+          padding: 1.5rem 1.975rem;
 
           .post_info {
             margin-bottom: 1rem;
@@ -162,9 +159,16 @@
               text-decoration: underline;
               text-decoration: none;
             }
+
             font-size: 1.5rem;
             letter-spacing: 0.1em;
           }
+        }
+
+        .recruit-sns:hover,
+        .recruit-tut:hover {
+          background: rgba(219, 77, 120, 0.05); // #DB4D43の薄いピンク
+          transition: background 0.2s;
         }
       }
     }

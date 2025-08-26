@@ -492,10 +492,10 @@ input, select {
 }
 .container .recruit-main {
   display: block;
-  height: 120rem;
+  height: 115rem;
   background-color: #fbf9f3;
   margin-right: 3.42rem;
-  max-width: 60rem;
+  max-width: 65rem;
 }
 .container .recruit-main .inner_main {
   width: 88%;
@@ -513,14 +513,12 @@ input, select {
   width: auto;
   gap: 3rem;
 }
-.container .recruit-main .inner_main .post .recruit-sns {
+.container .recruit-main .inner_main .post .recruit-sns,
+.container .recruit-main .inner_main .post .recruit-tut {
   background: #fff;
   width: 24.8rem;
   height: 27rem;
-}
-.container .recruit-main .inner_main .post .recruit-tut {
-  background: #fff;
-  width: 25rem;
+  list-style: none;
 }
 .container .recruit-main .inner_main .post .img {
   position: relative;
@@ -565,6 +563,11 @@ input, select {
   color: #000;
   text-decoration: underline;
   text-decoration: none;
+}
+.container .recruit-main .inner_main .post .recruit-sns:hover,
+.container .recruit-main .inner_main .post .recruit-tut:hover {
+  background: rgba(219, 77, 120, 0.05);
+  transition: background 0.2s;
 }
 
 .body {

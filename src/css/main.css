@@ -630,12 +630,16 @@ input, select {
   width: 100%;
   margin-left: 0;
   margin-right: 0;
-  height: 68.875rem;
+  height: 108rem;
   background: #DB4D43;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
-.i_container img {
+.i_container .img {
   margin-left: 3.42rem;
+  position: sticky;
+  top: 3.5rem;
+  align-self: start;
 }
 .i_container .Interview_main {
   display: block;
@@ -663,6 +667,7 @@ input, select {
 }
 .i_container .Interview_main .inner_main .post .Interview_li,
 .i_container .Interview_main .inner_main .post .Interview_li2 {
+  position: relative;
   background: #fff;
   width: 24.8rem;
   height: 32rem;
@@ -684,36 +689,46 @@ input, select {
   position: absolute;
   top: 20rem;
   left: 1.5rem;
-  overflow: hidden;
   width: 9rem;
   height: 4rem;
   text-align: center;
 }
 .i_container .Interview_main .inner_main .post .post-txtarea .post_info .post_li_in a {
   position: relative;
-  bottom: 0;
-  left: 0;
-  padding: 0.6rem 1rem;
-  border-radius: 0.625rem;
+  top: 3.6em;
+  left: -0.5rem;
   background-color: #DB4D43;
   pointer-events: none;
+  border-radius: 0.625rem;
   vertical-align: middle;
+  font-size: 0.8rem;
   color: #fff;
-  width: 26rem;
+  padding: 0.35rem 1rem;
+  height: 3rem;
+  width: 8rem;
+  padding: 0.5rem;
   white-space: nowrap;
   z-index: 1;
-  border-radius: 9px;
   text-align: center;
   text-decoration: none;
+  line-height: 3rem;
 }
-.i_container .Interview_main .inner_main .post .post-txtarea .post_li-ttl {
-  font-size: 1.5rem;
-  letter-spacing: 0.1em;
-}
-.i_container .Interview_main .inner_main .post .post-txtarea .post_li-ttl a {
+.i_container .Interview_main .inner_main .post .post-txtarea .post_li-t p {
   color: #000;
   text-decoration: underline;
   text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 0.625rem;
+  letter-spacing: 0.2em;
+}
+.i_container .Interview_main .inner_main .post .post-txtarea .i-initial,
+.i_container .Interview_main .inner_main .post .post-txtarea .i-initial2 {
+  font-size: 2.5rem;
+  color: #000;
+  position: absolute;
+  left: 17rem;
+  top: 26.5rem;
+  letter-spacing: 0.2em;
 }
 .i_container .Interview_main .inner_main .post .recruit-sns:hover,
 .i_container .Interview_main .inner_main .post .recruit-tut:hover {
@@ -727,7 +742,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .fz-18 {

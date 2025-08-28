@@ -74,17 +74,22 @@
   }
 }
 
+
 .i_container {
   position: relative;
   width: 100%;
   margin-left: 0;
   margin-right: 0;
-  height: 68.875rem;
+  height: 108rem;
   background: #DB4D43;
-  display: flex;
-
-  img {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  
+  .img {
     margin-left: 3.42rem;
+    position: sticky;
+    top: 3.5rem;
+    align-self: start;
   }
 
   .Interview_main {
@@ -113,6 +118,7 @@
 
         .Interview_li,
         .Interview_li2 {
+          position: relative;
           background: #fff;
           width: 24.8rem;
           height: 32rem;
@@ -123,7 +129,6 @@
           margin-top: 2rem;
           margin-left: 1.8rem;
           margin-right: 2rem;
-
           border-radius: 0.625rem 0.625rem 0 0;
         }
 
@@ -137,47 +142,56 @@
               position: absolute;
               top: 20rem;
               left: 1.5rem;
-              overflow: hidden;
+              // overflow: hidden;
               width: 9rem;
               height: 4rem;
               text-align: center;
 
               a {
                 position: relative;
-                bottom: 0;
-                left: 0;
-                padding: 0.6rem 1rem;
-                border-radius: 0.625rem;
+                top: 3.6em;
+                left: -0.5rem;
                 background-color: #DB4D43;
                 pointer-events: none;
-                // display: inline-block;
+                border-radius: 0.625rem;
                 vertical-align: middle;
-                // font-size: 12px;
+                font-size: 0.8rem;
                 color: #fff;
-                // padding: 0.35rem 1rem;
-                // height: 1.5rem;
-                width: 26rem;
+                padding: 0.35rem 1rem;
+                height: 3rem;
+                width: 8rem;
+                padding: 0.5rem;
                 white-space: nowrap;
                 // margin: 0.125rem;
                 z-index: 1;
-                border-radius: 9px;
                 text-align: center;
                 text-decoration: none;
+                line-height: 3rem;
                 // transform: scale(1.2);
               }
             }
           }
 
-          .post_li-ttl {
+          .post_li-t {
 
-            a {
+            p {
               color: #000;
               text-decoration: underline;
               text-decoration: none;
+              font-size: 0.9rem;
+              margin-bottom: 0.625rem;
+               letter-spacing: 0.2em;
             }
+          }
 
-            font-size: 1.5rem;
-            letter-spacing: 0.1em;
+          .i-initial,
+          .i-initial2 {
+            font-size: 2.5rem;
+            color: #000;
+            position: absolute;
+            left: 17rem;
+            top: 26.5rem;
+            letter-spacing: 0.2em;
           }
         }
 

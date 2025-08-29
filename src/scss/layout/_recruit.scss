@@ -53,6 +53,14 @@
     .typesquare_option_ttl {
       color: inherit;
     }
+
+    span+span::before {
+      content: "▶";
+      margin: 0 5em;
+      color: #fff;
+      font-size: 0.1em;
+      /* 大きさ調整 */
+    }
   }
 
   .page_ttl-en {
@@ -64,14 +72,6 @@
     font-weight: 600;
     letter-spacing: 0.1em;
   }
-
-  span+span::before {
-    content: "▶";
-    margin: 0 5em;
-    color: #fff;
-    font-size: 0.1em;
-    /* 大きさ調整 */
-  }
 }
 
 .r_container {
@@ -79,17 +79,46 @@
   width: 100%;
   margin-left: 0;
   margin-right: 0;
-  height: 68.875rem;
+  height: 50rem;
   background: #DB4D43;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
 
-  img {
+  .side-img {
     margin-left: 3.42rem;
+    top: 3.5rem;
+    align-self: start;
+    height: auto;
+
+    .fade {
+      position: relative;
+      width: 50rem;
+      height: 60rem; // 固定にするならここで決める
+      // aspect-ratio: 16 / 9;   // ← 固定高さの代わりに比率を使うならこっち
+      isolation: isolate; // z-indexの積み重なりを安定させる
+    }
+
+    .fade img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 1s ease;
+      pointer-events: none;
+    }
+
+    .fade img.is-active {
+      opacity: 1;
+      z-index: 1;
+    }
   }
 
   .recruit-main {
     display: block;
-    height: 115rem;
+    height: 60rem;
     background-color: #fbf9f3;
     margin-right: 3.42rem;
     max-width: 65rem;
@@ -109,6 +138,7 @@
         overflow: hidden;
         width: auto;
         gap: 3rem;
+margin-left: 1rem;
 
         .recruit-sns,
         .recruit-tut {
@@ -118,9 +148,15 @@
           list-style: none;
         }
 
-        .img {
+        .post-img {
           position: relative;
-          left: -3.5rem;
+          // left: 0;
+          // width: 24.8rem;
+           width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
           border-radius: 0.625rem 0.625rem 0 0;
         }
 

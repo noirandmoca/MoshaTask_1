@@ -1757,6 +1757,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   background-color: #fbf9f3;
   height: 95rem;
   margin-bottom: 10.5rem;
+  /* 画像の上に重ねるオーバーレイ（初期は透明） */
 }
 .requirements-overlay .inner_list {
   padding-top: 9rem;
@@ -1795,31 +1796,31 @@ main .main-overlay .circle .home-message .paragraph .message-main {
 }
 .requirements-overlay .requirements--list {
   display: flex;
-  gap: 2.5rem;
-  margin-top: 6rem;
+  gap: 3rem;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 40vh;
 }
 .requirements-overlay .requirements--list .requirement-item {
-  list-style: none;
   position: relative;
+  list-style: none;
 }
-.requirements-overlay .requirements--list .requirement-item .img-wrap1 {
-  background-size: cover;
-  background-position: center;
-  transition: background-image 0.3s ease;
-}
-.requirements-overlay .requirements--list .requirement-item .img-wrap1:hover {
-  background-image: url("../../img/bnr-requirements01.jpg");
-}
-.requirements-overlay .requirements--list .requirement-item .img-wrap1 .img1:hover {
-  opacity: 0.5;
-}
+.requirements-overlay .requirements--list .requirement-item .img-wrap1,
 .requirements-overlay .requirements--list .requirement-item .img-wrap2 {
+  position: relative;
+  display: block;
+  width: clamp(420px, 46vw, 720px);
+  aspect-ratio: 780/300;
   background-size: cover;
   background-position: center;
-  transition: background-image 0.3s ease;
 }
-.requirements-overlay .requirements--list .requirement-item .img-wrap2:hover {
-  background-image: url("../../img/bnr-requirements02.jpg");
+.requirements-overlay .requirements--list .requirement-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .requirements-overlay .requirements--list .requirement-item .title-wrap {
   position: absolute;
@@ -1830,12 +1831,58 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   font-weight: bold;
   text-align: center;
   color: #000;
+  z-index: 2;
+  transition: color 0.2s ease;
+  pointer-events: none;
 }
-.requirements-overlay .requirements--list .requirement-item .title-wrap:hover .aaa1, .requirements-overlay .requirements--list .requirement-item .title-wrap:hover .aaa2, .requirements-overlay .requirements--list .requirement-item .title-wrap:hover .font-en_ng {
+.requirements-overlay .requirements--list .img-wrap1:hover img {
+  opacity: 0;
+}
+.requirements-overlay .requirements--list .img-wrap1:hover .title-wrap {
   color: #fff;
 }
-.requirements-overlay .requirements--list .requirement-item .aaa1,
-.requirements-overlay .requirements--list .requirement-item .aaa2 {
+.requirements-overlay .requirements--list .img-wrap2:hover img {
+  opacity: 0;
+}
+.requirements-overlay .requirements--list .img-wrap2:hover .title-wrap {
+  color: #fff;
+}
+.requirements-overlay .img-wrap1,
+.requirements-overlay .img-wrap2 {
+  position: relative;
+  overflow: hidden;
+  /* はみ出し防止 */
+}
+.requirements-overlay .img-wrap1::after,
+.requirements-overlay .img-wrap2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  /* 透明から */
+  transition: opacity 0.5s ease;
+  /* ← ほわん時間 */
+  z-index: 1;
+  /* 画像の上、テキストの下 */
+}
+.requirements-overlay .img-wrap1::after {
+  background-image: url("../../img/haikei_s.png");
+}
+.requirements-overlay .img-wrap2::after {
+  background-image: url("../../img/haikei_t.png");
+}
+.requirements-overlay .img-wrap1:hover::after,
+.requirements-overlay .img-wrap2:hover::after {
+  opacity: 1;
+}
+.requirements-overlay img {
+  transition: opacity 0.5s ease;
+}
+
+.aaa1,
+.aaa2 {
   display: block;
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 600;
@@ -1845,7 +1892,8 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   border-bottom: 4px solid;
   padding-bottom: 0.2em;
 }
-.requirements-overlay .requirements--list .requirement-item .font-en_ng {
+
+.font-en_ng {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;

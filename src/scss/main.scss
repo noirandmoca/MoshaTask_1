@@ -1127,37 +1127,33 @@ main {
 
     .requirements--list {
       display: flex;
-      gap: 2.5rem;
-      margin-top: 6rem;
+      gap: 3rem;
+      margin-top: 3rem;
+      justify-content: center; // 横中央
+      align-items: center; // 縦位置も揃える（高さを付ける場合に効く）
+      flex-wrap: wrap; // 画面が狭いときは折り返し
+      min-height: 40vh;
 
       .requirement-item {
-        list-style: none;
         position: relative;
+        list-style: none;
 
-        .img-wrap1 {
+        .img-wrap1,
+        .img-wrap2 {
+          position: relative;
+          display: block;
+          width: clamp(420px, 46vw, 720px); // ← サイズアップ（可変）
+          aspect-ratio: 780 / 300; // 元画像比率を維持
           background-size: cover;
           background-position: center;
-          transition: background-image 0.3s ease;
-
-          &:hover {
-            background-image: url("../../img/bnr-requirements01.jpg"); // ホバー時
-          }
-
-          .img1 {
-            &:hover {
-              opacity: 0.5;
-            }
-          }
         }
 
-        .img-wrap2 {
-          background-size: cover;
-          background-position: center;
-          transition: background-image 0.3s ease;
-
-          &:hover {
-            background-image: url("../../img/bnr-requirements02.jpg"); // ホバー時
-          }
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          // transition: opacity .35s ease;
         }
 
         .title-wrap {
@@ -1169,43 +1165,90 @@ main {
           font-weight: bold;
           text-align: center;
           color: #000;
-
-          // &:hover {
-          //   color: orange;
-          // }
-
-          // &:hover .font_new-graduates,
-          // &:hover .font_career,
-          &:hover .aaa1,
-          &:hover .aaa2,
-          &:hover .font-en_ng {
-            color: #fff;
-          }
-        }
-
-        // .font_new-graduates,
-        // .font_career {
-        .aaa1,
-        .aaa2 {
-          display: block;
-          font-family: "Zen Kaku Gothic New", sans-serif;
-          font-weight: 600;
-          font-size: 3rem;
-          letter-spacing: 0.3em;
-          width: fit-content;
-          border-bottom: 4px solid;
-          padding-bottom: 0.2em;
-        }
-
-        .font-en_ng {
-          font-family: "Montserrat", sans-serif;
-          font-size: 1.5rem;
-          font-weight: 600;
-          padding-top: 0.1em;
+          z-index: 2;
+          transition: color .2s ease;
+          pointer-events: none;
         }
       }
+
+      .img-wrap1:hover img {
+        opacity: 0;
+      }
+
+      .img-wrap1:hover .title-wrap {
+        color: #fff;
+      }
+
+      .img-wrap2:hover img {
+        opacity: 0;
+      }
+
+      .img-wrap2:hover .title-wrap {
+        color: #fff;
+      }
+    }
+
+    /* 画像の上に重ねるオーバーレイ（初期は透明） */
+    .img-wrap1,
+    .img-wrap2 {
+      position: relative;
+      overflow: hidden;
+      /* はみ出し防止 */
+    }
+
+    .img-wrap1::after,
+    .img-wrap2::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      /* 透明から */
+      transition: opacity .5s ease;
+      /* ← ほわん時間 */
+      z-index: 1;
+      /* 画像の上、テキストの下 */
+    }
+
+    .img-wrap1::after {
+      background-image: url("../../img/haikei_s.png");
+    }
+
+    .img-wrap2::after {
+      background-image: url("../../img/haikei_t.png");
+    }
+
+    .img-wrap1:hover::after,
+    .img-wrap2:hover::after {
+      opacity: 1;
+    }
+
+    img {
+      transition: opacity .5s ease;
     }
   }
+}
+
+// .font_new-graduates,
+// .font_career {
+.aaa1,
+.aaa2 {
+  display: block;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0.3em;
+  width: fit-content;
+  border-bottom: 4px solid;
+  padding-bottom: 0.2em;
+}
+
+.font-en_ng {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 0.1em;
 }
 
 .cta {
@@ -1589,21 +1632,21 @@ main {
     }
   }
 
-.gnav--entry {
-  position: relative;
-  flex-direction: column;
-  padding: 1.5rem 0;
-  text-align: center;
-
-  a {
+  .gnav--entry {
     position: relative;
-    text-decoration: underline;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    top: -0.9rem;
-    font-size: 20px;
-    display: inline-block;
-    letter-spacing: 0.1em;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    text-align: center;
+
+    a {
+      position: relative;
+      text-decoration: underline;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      top: -0.9rem;
+      font-size: 20px;
+      display: inline-block;
+      letter-spacing: 0.1em;
+    }
   }
-}
 }

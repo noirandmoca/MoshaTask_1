@@ -2075,10 +2075,15 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.2s;
 }
 .cta .inner-lg3 ul li .mynavi_rikunavi .mynavi img {
   max-width: 100%;
   max-height: 100%;
+}
+.cta .inner-lg3 ul li .mynavi_rikunavi .mynavi:hover {
+  background: rgba(219, 77, 150, 0.05);
+  transition: background 0.2s;
 }
 .cta .inner-lg3 ul li .mynavi_rikunavi .rikunavi {
   background-color: #fff;
@@ -2088,10 +2093,16 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.2s;
 }
 .cta .inner-lg3 ul li .mynavi_rikunavi .rikunavi img {
   max-width: 100%;
   max-height: 100%;
+  object-fit: contain;
+}
+.cta .inner-lg3 ul li .mynavi_rikunavi .rikunavi:hover {
+  background: rgba(219, 77, 150, 0.05);
+  transition: background 0.2s;
 }
 .cta .inner-lg3 ul .tyuto_li .tyuto_h3 {
   background-color: #184da4;

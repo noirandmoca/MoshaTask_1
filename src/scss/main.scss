@@ -1465,188 +1465,201 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: background-color 0.2s;
 
             img {
               max-width: 100%;
               max-height: 100%;
             }
-          }
 
-          .rikunavi {
-            background-color: #fff;
-            height: 13rem;
-            width: 25rem;
-            border: 1px solid #db4d44;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            img {
-              max-width: 100%;
-              max-height: 100%;
+            &:hover {
+              background: rgba(219, 77, 150, 0.05); // #DB4D43の薄いピンク
+              transition: background 0.2s;
             }
           }
-        }
-      }
 
-      .tyuto_li {
-        // margin-left: auto;
-
-        .tyuto_h3 {
-          background-color: #184da4;
-          height: 6rem;
-          width: 50.25rem;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          h3 {
-            color: #fff;
-            font-size: 1.8rem;
-            margin: 0;
-          }
-        }
-
-        .aaa {
-          display: flex;
-
-          .tyuto_li-s {
-            background-color: #fff;
-            font-size: 1rem;
-            color: #000;
-            height: 13rem;
-            width: 25rem;
-            border: 1px solid #184da4;
-            letter-spacing: 0.3;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .mail {
-              letter-spacing: 0.3em;
-            }
-
-            svg {
-              margin-right: 1rem;
-            }
-
-            .contact-info {
+            .rikunavi {
+              background-color: #fff;
+              height: 13rem;
+              width: 25rem;
+              border: 1px solid #db4d44;
               display: flex;
-              flex-direction: column; // ←縦に並べる
-              align-items: flex-start; // ←左寄せ（中央にしたいなら center）
+              justify-content: center;
+              align-items: center;
+               transition: background-color 0.2s;
 
-              // h4 {
-              //   color: #fff;
-              //   font-size: 1.8rem;
-              //   margin: 0;
-              .tell {
-                font-size: 20px;
+              img {
+                max-width: 100%;
+                max-height: 100%;
+                   object-fit: contain;
+              }
+
+              &:hover {
+              background: rgba(219, 77, 150, 0.05); // #DB4D43の薄いピンク
+              transition: background 0.2s;
+            }
+            }
+          }
+        }
+
+        .tyuto_li {
+          // margin-left: auto;
+
+          .tyuto_h3 {
+            background-color: #184da4;
+            height: 6rem;
+            width: 50.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+              color: #fff;
+              font-size: 1.8rem;
+              margin: 0;
+            }
+          }
+
+          .aaa {
+            display: flex;
+
+            .tyuto_li-s {
+              background-color: #fff;
+              font-size: 1rem;
+              color: #000;
+              height: 13rem;
+              width: 25rem;
+              border: 1px solid #184da4;
+              letter-spacing: 0.3;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              .mail {
                 letter-spacing: 0.3em;
               }
 
-              .hours {
-                margin-top: 0.5rem;
-                font-size: 15px;
+              svg {
+                margin-right: 1rem;
               }
+
+              .contact-info {
+                display: flex;
+                flex-direction: column; // ←縦に並べる
+                align-items: flex-start; // ←左寄せ（中央にしたいなら center）
+
+                // h4 {
+                //   color: #fff;
+                //   font-size: 1.8rem;
+                //   margin: 0;
+                .tell {
+                  font-size: 20px;
+                  letter-spacing: 0.3em;
+                }
+
+                .hours {
+                  margin-top: 0.5rem;
+                  font-size: 15px;
+                }
+              }
+
             }
 
           }
-
         }
       }
     }
+
+    .cta_bottom img {
+      position: relative;
+      top: 5rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
-  .cta_bottom img {
-    position: relative;
-    top: 5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+  .gnav {
+    position: fixed;
+    // position: relative;
+    // left: 5rem;
+    right: 0;
+    flex-direction: column;
+    // width: fit-content;
+    width: 8.6rem;
+    bottom: 17rem;
+    background-color: #000;
+    height: 18rem;
+    align-items: center;
+    z-index: 9999;
 
-.gnav {
-  position: fixed;
-  // position: relative;
-  // left: 5rem;
-  right: 0;
-  flex-direction: column;
-  // width: fit-content;
-  width: 8.6rem;
-  bottom: 17rem;
-  background-color: #000;
-  height: 18rem;
-  align-items: center;
-  z-index: 9999;
-
-  .gnav--menu {
-    position: absolute;
-    top: 0.3rem;
-    right: 0.2rem;
-    width: 8rem;
-    height: 13rem;
-    background-color: #fff;
-
-    .gnav_deco {
+    .gnav--menu {
       position: absolute;
-      top: -4rem;
-      left: -3rem;
+      top: 0.3rem;
+      right: 0.2rem;
+      width: 8rem;
+      height: 13rem;
+      background-color: #fff;
+
+      .gnav_deco {
+        position: absolute;
+        top: -4rem;
+        left: -3rem;
+      }
+
+      .gnav_txt {
+        position: absolute;
+        transform: rotate(-5deg);
+        font-size: 16px;
+        font-weight: 600;
+        top: 2rem;
+        left: 1.7rem;
+      }
+
+      .gnav--menu_li {
+        font-family: 'Noto Sans JP', sans-serif;
+        flex-direction: column;
+        padding: 1.5rem 0;
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+        //  margin-bottom: 2rem;
+
+        .gnav--menu_li_h {
+          text-align: center;
+          margin-bottom: 1.5rem;
+          margin-top: 0.5rem;
+        }
+
+        a {
+          text-decoration: underline;
+          color: #000;
+          transition: color 0.2s;
+        }
+
+        &:hover>a,
+        a:hover {
+          color: #db4d44;
+          text-decoration: underline;
+        }
+      }
     }
 
-    .gnav_txt {
-      position: absolute;
-      transform: rotate(-5deg);
-      font-size: 16px;
-      font-weight: 600;
-      top: 2rem;
-      left: 1.7rem;
-    }
-
-    .gnav--menu_li {
-      font-family: 'Noto Sans JP', sans-serif;
+    .gnav--entry {
+      position: relative;
       flex-direction: column;
       padding: 1.5rem 0;
-      color: #000;
-      font-weight: 500;
-      font-size: 14px;
-      //  margin-bottom: 2rem;
-
-      .gnav--menu_li_h {
-        text-align: center;
-        margin-bottom: 1.5rem;
-        margin-top: 0.5rem;
-      }
+      text-align: center;
 
       a {
+        position: relative;
         text-decoration: underline;
-        color: #000;
-        transition: color 0.2s;
-      }
-
-      &:hover>a,
-      a:hover {
-        color: #db4d44;
-        text-decoration: underline;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        top: -0.9rem;
+        font-size: 20px;
+        display: inline-block;
+        letter-spacing: 0.1em;
       }
     }
   }
-
-  .gnav--entry {
-    position: relative;
-    flex-direction: column;
-    padding: 1.5rem 0;
-    text-align: center;
-
-    a {
-      position: relative;
-      text-decoration: underline;
-      color: #fff;
-      font-family: 'Montserrat', sans-serif;
-      top: -0.9rem;
-      font-size: 20px;
-      display: inline-block;
-      letter-spacing: 0.1em;
-    }
-  }
-}

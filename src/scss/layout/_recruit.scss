@@ -64,6 +64,14 @@
     font-weight: 600;
     letter-spacing: 0.1em;
   }
+
+  span+span::before {
+    content: "▶";
+    margin: 0 5em;
+    color: #fff;
+    font-size: 0.1em;
+    /* 大きさ調整 */
+  }
 }
 
 .r_container {

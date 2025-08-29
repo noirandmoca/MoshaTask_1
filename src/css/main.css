@@ -474,6 +474,13 @@ input, select {
   font-weight: 600;
   letter-spacing: 0.1em;
 }
+.page_ttl span + span::before {
+  content: "▶";
+  margin: 0 5em;
+  color: #fff;
+  font-size: 0.1em;
+  /* 大きさ調整 */
+}
 
 .r_container {
   position: relative;
@@ -616,6 +623,13 @@ input, select {
 .page_ttl .breadcrumbs .typesquare_option_ttl {
   color: inherit;
 }
+.page_ttl .breadcrumbs span + span::before {
+  content: "▶";
+  margin: 0 5em;
+  color: #fff;
+  font-size: 0.1em;
+  /* 大きさ調整 */
+}
 .page_ttl .page_ttl-en {
   position: absolute;
   right: 2rem;
@@ -640,6 +654,29 @@ input, select {
   position: sticky;
   top: 3.5rem;
   align-self: start;
+  position: sticky;
+  height: auto;
+}
+.i_container .img .fade {
+  position: relative;
+  width: 50rem;
+  height: 60rem;
+  isolation: isolate;
+}
+.i_container .img .fade img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease;
+  pointer-events: none;
+}
+.i_container .img .fade img.is-active {
+  opacity: 1;
+  z-index: 1;
 }
 .i_container .Interview_main {
   display: block;

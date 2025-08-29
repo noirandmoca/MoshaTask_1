@@ -2,14 +2,6 @@
   background-color: #d92b44;
 }
 
-// .container {
-//   position: relative;
-//   width: 100%;
-//   margin-left: 0;
-//   margin-right: 0;
-//   height: 68.875rem;
-//   background-color: #fbf9f3;
-// }
 
 .header--logo {
   position: fixed;
@@ -62,6 +54,14 @@
     .typesquare_option_ttl {
       color: inherit;
     }
+
+    span+span::before {
+      content: "▶";
+      margin: 0 5em;
+      color: #fff;
+      font-size: 0.1em;
+      /* 大きさ調整 */
+    }
   }
 
   .page_ttl-en {
@@ -84,12 +84,39 @@
   background: #DB4D43;
   display: grid;
   grid-template-columns: auto 1fr;
-  
+
   .img {
     margin-left: 3.42rem;
     position: sticky;
     top: 3.5rem;
     align-self: start;
+    position: sticky;
+height: auto; 
+
+    .fade {
+      position: relative;
+      width: 50rem;
+      height: 60rem; // 固定にするならここで決める
+      // aspect-ratio: 16 / 9;   // ← 固定高さの代わりに比率を使うならこっち
+      isolation: isolate; // z-indexの積み重なりを安定させる
+    }
+
+    .fade img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 1s ease;
+      pointer-events: none;
+    }
+
+    .fade img.is-active {
+      opacity: 1;
+      z-index: 1;
+    }
   }
 
   .Interview_main {
@@ -180,7 +207,7 @@
               text-decoration: none;
               font-size: 0.9rem;
               margin-bottom: 0.625rem;
-               letter-spacing: 0.2em;
+              letter-spacing: 0.2em;
             }
           }
 

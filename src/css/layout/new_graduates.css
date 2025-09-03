@@ -7,10 +7,10 @@
   height: 400rem;
   background: #DB4D43;
   display: grid;
-  grid-template-columns: minmax(50rem, 50rem) 1fr;
+  grid-template-columns: 53.42rem 1fr;
 }
 .r_container_new-g .side-img {
-  margin-left: 3.42rem;
+  margin-left: 0;
   top: 3.5rem;
   align-self: start;
   position: sticky;
@@ -18,9 +18,11 @@
 }
 .r_container_new-g .side-img .fade {
   position: relative;
-  width: 50rem;
+  width: 100%;
+  max-width: 50rem;
   height: 60rem;
   isolation: isolate;
+  margin-left: 3.42rem;
 }
 .r_container_new-g .side-img .fade img {
   position: absolute;
@@ -39,10 +41,10 @@
 }
 .r_container_new-g .recruit-main_s {
   display: block;
-  height: 400rem;
+  height: 250rem;
   background-color: #fbf9f3;
   margin-right: 3.42rem;
-  max-width: 65rem;
+  max-width: 60rem;
 }
 .r_container_new-g .recruit-main_s .recruit-main_newgraduate {
   padding: 3.2rem 6rem;
@@ -260,6 +262,126 @@
   font-size: 0.8rem;
   color: #666666;
   font-weight: 100;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 {
+  margin-top: 4rem;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .entry_link {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: 1rem;
+  min-width: 90%;
+  gap: 2rem;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-mynabi,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-rikunabi {
+  /* 枠内の余白に置く */
+  /* アイコン大きさ調整（任意） */
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-mynabi a,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-rikunabi a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  /* テキストとアイコンの間 */
+  min-width: 15rem;
+  /* 横長に（必要なら数値調整） */
+  padding: 1.2rem 2.2rem;
+  /* 薄くする ※左右はドット用に広め */
+  border: 1px solid #DB4D44;
+  border-radius: 0.5rem;
+  background: #fff;
+  /* 文字 */
+  color: #DB4D44;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.15;
+  text-decoration: none;
+  /* 下線なし */
+  white-space: nowrap;
+  /* 改行させない */
+  /* 左右の赤い点 */
+  position: relative;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-mynabi a::before,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-mynabi a::after,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-rikunabi a::before,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-rikunabi a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.4rem;
+  /* 点の大きさ */
+  height: 0.4rem;
+  background: #DB4D44;
+  border-radius: 50%;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-mynabi a::before,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-rikunabi a::before {
+  left: 0.9rem;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-mynabi a::after,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-rikunabi a::after {
+  right: 0.9rem;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-mynabi .icon-svg,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-rikunabi .icon-svg {
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 auto;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-mynabi a:hover,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .ng_inner .blc3 .link_txt-rikunabi a:hover {
+  background: #FCEDEF;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .page_nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .page_nav .page_nav-bg {
+  position: relative;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #D92B44;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  border-radius: 0.3125rem;
+  gap: 1rem;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .page_nav .bg {
+  position: relative;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #D92B44;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  border-radius: 0.3125rem;
+  gap: 1rem;
+  margin-left: 0.3rem;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .page_nav .bg .bg::before,
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .page_nav .bg .bg::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 2.5px);
+  right: 0;
+  width: 45px;
+  height: 5px;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  transform-origin: calc(100% - 2.5px) 50%;
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .page_nav .bg .bg::before {
+  transform: rotate(45deg);
+}
+.r_container_new-g .recruit-main_s .recruit-main_newgraduate .page_nav .bg .bg::after {
+  transform: rotate(-45deg);
 }
 
 /*# sourceMappingURL=new_graduates.css.map */

@@ -6,10 +6,10 @@
   height: 400rem;
   background: #DB4D43;
   display: grid;
-  grid-template-columns: minmax(50rem, 50rem) 1fr;
+  grid-template-columns: calc(50rem + 3.42rem) 1fr;
 
   .side-img {
-    margin-left: 3.42rem;
+    margin-left: 0;
     top: 3.5rem;
     align-self: start;
     position: sticky;
@@ -17,10 +17,12 @@
 
     .fade {
       position: relative;
-      width: 50rem;
+      width: 100%;
+      max-width: 50rem;
       height: 60rem; // 固定にするならここで決める
       // aspect-ratio: 16 / 9;   // ← 固定高さの代わりに比率を使うならこっち
       isolation: isolate; // z-indexの積み重なりを安定させる
+      margin-left: 3.42rem;
     }
 
     .fade img {
@@ -43,10 +45,10 @@
 
   .recruit-main_s {
     display: block;
-    height: 400rem;
+    height: 250rem;
     background-color: #fbf9f3;
     margin-right: 3.42rem;
-    max-width: 65rem;
+    max-width: 60rem;
 
     .recruit-main_newgraduate {
       padding: 3.2rem 6rem;
@@ -291,6 +293,145 @@
                 }
               }
             }
+          }
+        }
+
+        .blc3 {
+          margin-top: 4rem;
+
+          .entry_link {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+            height: 1rem;
+            min-width: min(90%);
+            gap: 2rem;
+          }
+
+          .link_txt-mynabi,
+          .link_txt-rikunabi {
+            // margin-left: auto;
+
+            a {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: .4rem;
+              /* テキストとアイコンの間 */
+              min-width: 15rem;
+              /* 横長に（必要なら数値調整） */
+              padding: 1.2rem 2.2rem;
+              /* 薄くする ※左右はドット用に広め */
+              border: 1px solid #DB4D44;
+              border-radius: .5rem;
+              background: #fff;
+
+              /* 文字 */
+              color: #DB4D44;
+              font-weight: 600;
+              letter-spacing: .05em;
+              line-height: 1.15;
+              text-decoration: none;
+              /* 下線なし */
+              white-space: nowrap;
+              /* 改行させない */
+
+              /* 左右の赤い点 */
+              position: relative;
+            }
+
+            a::before,
+            a::after {
+              content: "";
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              width: .4rem;
+              /* 点の大きさ */
+              height: .4rem;
+              background: #DB4D44;
+              border-radius: 50%;
+            }
+
+            a::before {
+              left: .9rem;
+            }
+
+            /* 枠内の余白に置く */
+            a::after {
+              right: .9rem;
+            }
+
+            /* アイコン大きさ調整（任意） */
+            .icon-svg {
+              width: 1rem;
+              height: 1rem;
+              flex: 0 0 auto;
+            }
+
+            a:hover {
+              background: #FCEDEF;
+            }
+          }
+        }
+      }
+
+      .page_nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5rem;
+
+        .page_nav-bg {
+          position: relative;
+          padding: 0.5rem 1rem;
+          color: #fff;
+          background-color: #D92B44;
+          text-decoration: none;
+          text-overflow: ellipsis;
+          border-radius: 0.3125rem;
+          gap: 1rem;
+        }
+
+        .bg {
+
+          position: relative;
+          padding: 0.5rem 1rem;
+          color: #fff;
+          background-color: #D92B44;
+          text-decoration: none;
+          text-overflow: ellipsis;
+          border-radius: 0.3125rem;
+          gap: 1rem;
+          margin-left: 0.3rem;
+
+          // .bg {
+          //   position: relative;
+          //   display: inline-block;
+          //   width: 33px;
+          //   height: 62px;
+          // }
+
+          .bg::before,
+          .bg::after {
+            content: "";
+            position: absolute;
+            top: calc(50% - 2.5px);
+            right: 0;
+            width: 45px;
+            height: 5px;
+            border-radius: 9999px;
+            background-color: #ffffff;
+            transform-origin: calc(100% - 2.5px) 50%;
+          }
+
+          .bg::before {
+            transform: rotate(45deg);
+          }
+
+          .bg::after {
+            transform: rotate(-45deg);
           }
         }
 

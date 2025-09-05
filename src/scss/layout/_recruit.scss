@@ -74,6 +74,63 @@
   }
 }
 
+.gnav_menu_slim {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  right: 10.375rem;
+  height: 3.125rem;
+  white-space: nowrap;
+  background-color: #fff;
+  border: 0.25rem solid #000;
+
+  .menu_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999px;
+    font-size: 12px;
+  }
+
+  .gnav_deco-s {
+    position: absolute;
+    top: -4rem;
+    left: 6rem;
+
+    .gnav_txt {
+      position: absolute;
+      top: 1.8rem;
+      left: 1.4rem;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  .gnav_ul {
+    position: absolute;
+    top: -0.09rem;
+    left: 5rem;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.6875rem 1.75rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    white-space: nowrap;
+
+    .gnav-menu_li_s {
+      margin-left: 2rem;
+    }
+     a {
+          color: black;
+          text-decoration: underline;
+        }
+  }
+}
+
 .r_container {
   position: relative;
   width: 100%;
@@ -140,10 +197,12 @@
         gap: 3rem;
         margin-left: 1rem;
 
-.recruit-link {
-  text-decoration: none;   /* ← 下線を消す */
-  color: inherit;          /* ← 親要素の文字色を引き継ぐ */
-}
+        .recruit-link {
+          text-decoration: none;
+          /* ← 下線を消す */
+          color: inherit;
+          /* ← 親要素の文字色を引き継ぐ */
+        }
 
         .recruit-sns,
         .recruit-tut {
@@ -199,8 +258,8 @@
           }
 
           .post_li-ttl {
-              color: #000;
-              text-decoration: none;
+            color: #000;
+            text-decoration: none;
             font-size: 1.5rem;
             letter-spacing: 0.1em;
           }

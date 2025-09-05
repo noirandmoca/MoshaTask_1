@@ -543,6 +543,10 @@ input, select {
   gap: 3rem;
   margin-left: 1rem;
 }
+.r_container .recruit-main .inner_main .post .recruit-link {
+  text-decoration: none; /* ← 下線を消す */
+  color: inherit; /* ← 親要素の文字色を引き継ぐ */
+}
 .r_container .recruit-main .inner_main .post .recruit-sns,
 .r_container .recruit-main .inner_main .post .recruit-tut {
   background: #fff;
@@ -573,7 +577,7 @@ input, select {
   height: 4rem;
   text-align: center;
 }
-.r_container .recruit-main .inner_main .post .post-txtarea .post_info .post_li a {
+.r_container .recruit-main .inner_main .post .post-txtarea .post_info .post_li .post_li_2 {
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -590,13 +594,10 @@ input, select {
   transform: scale(1.2);
 }
 .r_container .recruit-main .inner_main .post .post-txtarea .post_li-ttl {
+  color: #000;
+  text-decoration: none;
   font-size: 1.5rem;
   letter-spacing: 0.1em;
-}
-.r_container .recruit-main .inner_main .post .post-txtarea .post_li-ttl a {
-  color: #000;
-  text-decoration: underline;
-  text-decoration: none;
 }
 .r_container .recruit-main .inner_main .post .recruit-sns:hover,
 .r_container .recruit-main .inner_main .post .recruit-tut:hover {
@@ -2196,6 +2197,11 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   position: relative;
   list-style: none;
 }
+.requirements-overlay .requirements--list .requirement-item .img-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
 .requirements-overlay .requirements--list .requirement-item .img-wrap1,
 .requirements-overlay .requirements--list .requirement-item .img-wrap2 {
   position: relative;
@@ -2204,6 +2210,7 @@ main .main-overlay .circle .home-message .paragraph .message-main {
   aspect-ratio: 780/300;
   background-size: cover;
   background-position: center;
+  cursor: pointer;
 }
 .requirements-overlay .requirements--list .requirement-item img {
   display: block;

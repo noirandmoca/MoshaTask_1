@@ -138,7 +138,12 @@
         overflow: hidden;
         width: auto;
         gap: 3rem;
-margin-left: 1rem;
+        margin-left: 1rem;
+
+.recruit-link {
+  text-decoration: none;   /* ← 下線を消す */
+  color: inherit;          /* ← 親要素の文字色を引き継ぐ */
+}
 
         .recruit-sns,
         .recruit-tut {
@@ -152,11 +157,11 @@ margin-left: 1rem;
           position: relative;
           // left: 0;
           // width: 24.8rem;
-           width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
           border-radius: 0.625rem 0.625rem 0 0;
         }
 
@@ -174,7 +179,7 @@ margin-left: 1rem;
               height: 4rem;
               text-align: center;
 
-              a {
+              .post_li_2 {
                 position: relative;
                 display: inline-block;
                 vertical-align: middle;
@@ -194,13 +199,8 @@ margin-left: 1rem;
           }
 
           .post_li-ttl {
-
-            a {
               color: #000;
-              text-decoration: underline;
               text-decoration: none;
-            }
-
             font-size: 1.5rem;
             letter-spacing: 0.1em;
           }

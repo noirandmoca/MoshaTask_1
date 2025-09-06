@@ -483,14 +483,16 @@ input, select {
 }
 
 .gnav_menu_slim {
+  transform: translateX(-50%);
   position: relative;
   bottom: 0;
   left: 50%;
   right: 10.375rem;
   height: 3.125rem;
+  width: 50rem;
   white-space: nowrap;
   background-color: #fff;
-  border: 0.25rem solid #000;
+  border: 0.2rem solid #000;
 }
 .gnav_menu_slim .menu_li {
   display: flex;
@@ -498,6 +500,7 @@ input, select {
   align-items: center;
   z-index: 9999px;
   font-size: 12px;
+  align-items: flex-end;
 }
 .gnav_menu_slim .gnav_deco-s {
   position: absolute;
@@ -512,27 +515,36 @@ input, select {
   font-weight: 600;
 }
 .gnav_menu_slim .gnav_ul {
-  position: absolute;
   top: -0.09rem;
-  left: 5rem;
+  left: 8rem;
   display: flex;
-  text-decoration: none;
   color: #000;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 0.6875rem 1.75rem;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1.3rem 1.75rem;
   text-align: center;
   align-items: center;
   justify-content: center;
   list-style: none;
-  white-space: nowrap;
 }
 .gnav_menu_slim .gnav_ul .gnav-menu_li_s {
-  margin-left: 2rem;
+  margin-left: 2.2rem;
 }
 .gnav_menu_slim .gnav_ul a {
   color: black;
   text-decoration: underline;
+}
+.gnav_menu_slim .gnav-entry {
+  margin-left: auto;
+  background-color: #000;
+  height: 6.125rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .r_container {
